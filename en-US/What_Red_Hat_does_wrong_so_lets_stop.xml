@@ -3,23 +3,171 @@
 ]>
 
 <chapter id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>What Red Hat does wrong, so let's stop</title>
+  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Burns_projects_and_losses_momentum_in_technology_leadership_by_ignoring_community_fundamentals">
+    <title>Burns projects and losses momentum in technology leadership
+    by ignoring community fundamentals</title>
+    <!-- Principle -->
+    <para>Ironically, Red Hat is not always the best at what it does.
+    Sometimes we break every rule in <citetitle>The Open Source Way</citetitle>.
+    </para>
+    <!-- Implementation -->
+    <para>
+      <replaceable>Implementation needed</replaceable>
+    </para>
+    <!-- Example -->
+    <para>
+      <replaceable>Example needed</replaceable>
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Breaks_fundamental_rules_of_community">
+    <title>Breaks fundamental rules of community</title>
+    <!-- Principle -->
+    <para>
+      In fact, every rule is being broken right now, somewhere inside
+      of Red Hat.
+    </para>
+    <!-- Implementation -->
+    <para>
+      Somewhere project team members are designing in the hallway
+      instead of on a mailing list.
+    </para>
+    <!-- Example -->
+    <para>
+      For example, there is a long practice of having two mailing
+      lists for open projects.  One is an internal list that too often
+      gets used for development discussions before bringing them in
+      to the open.  The other is the public discussion and
+      development list.
+    </para>
+    <para>
+      The problem is, community members either know or can feel there
+      is work happening before conversations get to the public list.
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Fails_to_learn_from_mistakes">
+    <title>Fails to learn from mistakes</title>
+    <!-- Principle -->
+    <para>
+      Our ability to institutionally learn from past mistakes is hobbled.
+    </para>
+    <para>
+      <citetitle>The Open Source Way</citetitle> is one part of fixing
+      this.
+    </para>
+    <para>
+      As with many of these "does it right, does it wrong" items,
+      there is an irony at work here.  In many ways, Red Hat has
+      learned serious lessons from past mistakes.  Yet still, we see
+      many of the same ones repeated continuously.
+    </para>
+    <!-- Implementation -->
+    <para>
+      <replaceable>Implementation needed</replaceable>
+    </para>
+    <!-- Example -->
+    <para>
+      <replaceable>Example needed</replaceable>
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Misses_the_opportunity_to_adopt_and_grow_key_or_future_open_source_technology_for_our_own_IT">
+      <title>Misses the opportunity to adopt and grow key or future open source technology for our own IT</title>
+      <!-- Principle -->
+      <para>
+	Red Hat history is riddled with decisions to use a piece of
+	proprietary technology for internal or external purposes.  In
+	some cases there was no open source choice to adopt and the
+	cost of starting from the beginning was prohibitive.
+      </para>
+<!-- Implementation-->
+      <para>
+	There are, however, as many cases where the open source
+	software could have been adopted and fixed up to the needed
+	enterprise standard by ''using the open source methodology.''
+      </para>
+      <!-- Example -->
+      <para>
+	<replaceable>Example needed</replaceable>
+      </para>
+  </section>      
+  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Does_not_include_community_strategy_in_all_new_projects">
+    <title>Does not include community strategy in all new projects</title>
+    <!-- Principle -->
+    <para>
+      Even a project that is only for internal focus and consumption
+      can benefit from considering and including its community.
+    </para>
+    <!-- Implementation -->
+    <para>
+      In other words, we can adopt open source methodologies for
+      everything from our internal communication to brand marketing.
+    </para>
+    <!-- Example -->
+    <para>
+      At the Google headquarters, there are brief articles posted on
+      the bathroom walls, along with encouraging signs.  The articles
+      are short and technical, detailing how to use and test a
+      particular piece of Google technology.  The other signs and
+      branding encourage Googlers to beta test their own software.
+      This is sometimes called <firstterm><ulink
+      url="http://en.wikipedia.org/wiki/Eat_one%27s_own_dog_food">eating
+      your own dog food</ulink></firstterm>, that is, using the
+      products and methods yourself that you sell and encourage your
+      customer communities to use.
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Separates_community_from_business">
+    <title>Separates community from business</title>
+    <!-- Principle -->
+    <para>
+      Unlike many other companies, Red Hat currently distinguishes
+      clearly between the worlds of "development" (.org: as in JBoss
+      and Fedora) where we support and work with communities, and
+      "business", where we prefer hierarchical controlled structures.
+    </para>
+    <!-- Implementation -->
+    <para>
+      The separation becomes clear from our web pages, where <ulink
+      url="http://www.redhat.com/"/> shows an unexplained link to
+      "Fedora". Or on <ulink url="http://www.jboss.com/"/>, where the
+      separation is emphasized by a <ulink
+      url="http://www.jboss.com/products/community-enterprise/">transition
+      page</ulink>.
+    </para>
+    <para>
+      From Red Hat's historical evolution, this separation is
+      comprehensible.
+    </para>
+    <para>
+      Unfortunately, we can't always explain this history so it makes
+      sense in the modern context where open community organizations
+      act in a more integrated manner.
+    </para>
+    <para>
+      A key community growth initiative that will benefit the Red Hat
+      bottom line is to make growing various types of communities
+      (customers, sales, partners, etc.) a top-level strategic goal.
+      Agree that we need to include community interaction as part of
+      the feedback loop that improves our business and processes.
+    </para>
+    <!-- Example -->
+    <para>
+      There are examples out there, where companies successfully
+      integrate community principles into their business and gain
+      benefits from customer and partner contributions as Red Hat does
+      from development.
+    </para>
+    <para>
+      A good exercise is the comparison of community integration on
+      the web sites between <ulink url="http://www.redhat.com"/> and
+      <ulink url="http://www.jboss.com JBoss"/> on one hand and <ulink
+      url="http://www.oracle.com Oracle"/>, <ulink
+      url="http://www.sap.com SAP"/>, <ulink
+      url="http://www.novell.com Novell"/>, and <ulink
+      url="http://www.ibm.com IBM"/> on the other hand.  A similar
+      exercise can be done with smaller pure and mixed open source
+      ISVs.  The community is forefront and listening to/interacting
+      with users is a key to their growth.
+    </para>
+  </section>
 </chapter>
-

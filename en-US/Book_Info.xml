@@ -5,12 +5,18 @@
 <bookinfo id="The_Open_Source_Way-Community_Architecture">
 	<title>The Open Source Way</title>
 	<subtitle>short descriptor</subtitle>
-	<productname>Community_Architecture</productname>
+	<productname>The_Open_Source_Way</productname>
 	<productnumber>0.2</productnumber>
-	<edition>0</edition>
+	<edition>1</edition>
 	<pubsnumber>0</pubsnumber>
 	<abstract>
-		<para>A short overview and summary of the book's subject and purpose, traditionally no more than one paragraph long. Note: the abstract will appear in the front matter of your book and will also be placed in the #description field of the book's RPM spec file.</para>
+	  <para>
+	    This guide is for helping people to understand how to and
+	    how not to engage with community over projects such as
+	    software, content, marketing, art, infrastructure,
+	    standards, and so forth. It contains knowledge distilled
+	    from years of Red Hat experience.
+	  </para>
 	</abstract>
 	<corpauthor>
 		<inlinemediaobject>

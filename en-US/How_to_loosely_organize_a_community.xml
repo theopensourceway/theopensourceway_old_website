@@ -292,10 +292,10 @@
 	    going to do them anyway, and they can be added back later
 	    if still viable.
 	  </para>
-	  <para>
-	    <replaceable>Example needed</replaceable>
-	  </para>
 	</note>
+	<para>
+	  <replaceable>Example needed</replaceable>
+	</para>
       </section>
     </section>
   </section>
@@ -374,12 +374,15 @@
 	You may not pull the trigger right away, but you need to be
 	prepared to.
       </para>
-      <blockquote>
+      <note>
+	<title>
+	  The sign of a true open source leader ...
+	</title>
 	<para>
 	  The sign of a true open source leader is they know when to
 	  call it quits.
 	</para>
-      </blockquote>
+      </note>
       <para>
 	At the <ulink
 	url="http://www.moosewoodrestaurant.com/aboutus.html">Moosewood
@@ -405,12 +408,15 @@
 	There is no job in the world that a fresh mind and perspective
 	cannot gain from.
       </para>
-      <blockquote>
+      <note>
+	<title>
+	  Most of us are not Linus Torvalds ...
+	</title>
 	<para>
 	  Most of us are not Linus Torvalds.  Don't be afraid to find
 	  a leader to replace you.
 	</para>
-      </blockquote>
+      </note>
     </section>
     <section id="The_Open_Source_Way-How_to_loosely_organize_a_community-Improve_your_infrastructure_to_improve_your_project">
       <title>Improve your infrastructure to improve your

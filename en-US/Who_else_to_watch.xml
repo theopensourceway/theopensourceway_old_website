@@ -3,23 +3,35 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Who_else_to_watch">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-Who_else_to_watch-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-Who_else_to_watch-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>Who else to watch</title>
+  <para>
+    This section generally lists individuals and organizations
+    external to Red Hat that are useful to watch their approach to
+    community.
+  </para>
+  <para>
+    A sustainable community underpinning is continuous improvement.
+    To improve, we learn from each other.
+  </para>
+  <para>
+    For that reason, this book needs ''your'' help.  Add to these
+    lists.
+  </para>
+  <para>
+    We could list names and organizations endlessly.  Try to pick the
+    ones that matter.
+  </para>
+  <section id="The_Open_Source_Way-Who_else_to_watch-People">
+    <title>People</title>
+    <itemizedlist>
+      <listitem><para>Endless list?</para></listitem>
+    </itemizedlist>
+  </section>
+  <section id="The_Open_Source_Way-Who_else_to_watch-Groups">
+    <title>Groups</title>
+    <itemizedlist>
+      <listitem><para>Not quite such an endless list
+      ...</para></listitem>
+    </itemizedlist>
+  </section>
 </chapter>
-

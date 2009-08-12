@@ -3,23 +3,84 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Books_you_should_read">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-Books_you_should_read-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-Books_you_should_read-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>Test</title>
+  <section id="The_Open_Source_Way-Books_you_should_read-">
+    <title>Producing OSS</title>
+    <para>
+      by Karl Fogel
+    </para>
+    <para>
+      <ulink url="http://www.amazon.com/Producing-Open-Source-Software-Successful/dp/0596007590"/>
+    </para>
+    <para>
+      <ulink url="http://producingoss.com/"/>
+    </para>
+    <para>
+      ISBN-10: 0596007590
+    </para>
+    <para>
+      ISBN-13: 978-0596007591
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-Books_you_should_read-">
+    <title>The Starfish and the Spider</title>
+    <para>
+      by Ori Brafman and Rod A. Beckstrom
+    </para>
+    <para>
+      <ulink url="http://www.starfishandspider.com/"/>
+    </para>
+    <para>
+      <ulink url="http://www.amazon.com/Starfish-Spider-Unstoppable-Leaderless-Organizations/dp/1591841437"/>
+    </para>
+    <para>
+      ISBN-10: 1591841836
+    </para>
+    <para>
+      ISBN-13: 978-1591841838
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-Books_you_should_read-">
+    <title>Groundswell</title>
+    <para>
+      by Josh Bernoff and Charlene Li
+    </para>
+    <para>
+      <ulink url="http://www.forrester.com/Groundswell"/>
+    </para>
+    <para>
+      ISBN-10: 1422125009
+    </para>
+    <para>
+      ISBN-13: 978-1422125007
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-Books_you_should_read-">
+    <title>Wikinomics</title>
+    <para>
+      by Don Tapscott and Anthony D. Williams
+    </para>
+    <para>
+      <ulink url="http://www.wikinomics.com/book"/>
+    </para>
+    <para>
+      ISBN-10: 184354637X
+    </para>
+    <para>
+      ISBN-13: 978-1843546375
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-Books_you_should_read-">
+    <title>Cultivating Communities of Practice</title>
+    <para>
+      by Etienne Wenger, Richard A. McDermott, William M. Snyder
+    </para>
+    <para>
+      <ulink url="http://www.amazon.com/Cultivating-Communities-Practice-Managing-Knowledge/dp/B000SEOINI/ref=dp_kinw_strp_1"/>
+    </para>
+    <para>
+      ASIN: B000SEOINI
+    </para>
+  </section>
 </chapter>
 

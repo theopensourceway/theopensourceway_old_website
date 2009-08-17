@@ -3,8 +3,11 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Books_you_should_read">
-  <title>Test</title>
-  <section id="The_Open_Source_Way-Books_you_should_read-">
+  <title>Books you should read</title>
+  <para>
+    Suggested books of various community experts.
+  </para>
+  <section id="The_Open_Source_Way-Books_you_should_read-Producing_OSS">
     <title>Producing OSS</title>
     <para>
       by Karl Fogel
@@ -22,7 +25,7 @@
       ISBN-13: 978-0596007591
     </para>
   </section>
-  <section id="The_Open_Source_Way-Books_you_should_read-">
+  <section id="The_Open_Source_Way-Books_you_should_read-The_Starfish_and_the_Spider">
     <title>The Starfish and the Spider</title>
     <para>
       by Ori Brafman and Rod A. Beckstrom
@@ -40,7 +43,7 @@
       ISBN-13: 978-1591841838
     </para>
   </section>
-  <section id="The_Open_Source_Way-Books_you_should_read-">
+  <section id="The_Open_Source_Way-Books_you_should_read-Groundswell">
     <title>Groundswell</title>
     <para>
       by Josh Bernoff and Charlene Li
@@ -55,7 +58,7 @@
       ISBN-13: 978-1422125007
     </para>
   </section>
-  <section id="The_Open_Source_Way-Books_you_should_read-">
+  <section id="The_Open_Source_Way-Books_you_should_read-Wikinomics">
     <title>Wikinomics</title>
     <para>
       by Don Tapscott and Anthony D. Williams
@@ -70,7 +73,7 @@
       ISBN-13: 978-1843546375
     </para>
   </section>
-  <section id="The_Open_Source_Way-Books_you_should_read-">
+  <section id="The_Open_Source_Way-Books_you_should_read-Cultivating_Communities_of_Practice">
     <title>Cultivating Communities of Practice</title>
     <para>
       by Etienne Wenger, Richard A. McDermott, William M. Snyder
@@ -83,4 +86,3 @@
     </para>
   </section>
 </chapter>
-

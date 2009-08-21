@@ -46,14 +46,14 @@
   </para>
   <section id="The_Open_Source_Way-Introduction-What_this_book_is">
     <title>What this book is</title>
-    <itemizedlist>
+    <orderedlist>
       <listitem><para>A book that:</para>
-      <itemizedlist>
+      <orderedlist>
 	<listitem><para>... describes a principle</para></listitem>
 	<listitem><para>... explains how to implement
 	it</para></listitem>
 	<listitem><para>... and gives real world examples.</para></listitem>
-      </itemizedlist>
+      </orderedlist>
       </listitem>
       <listitem><para>A thin reference guide to richer, thicker
       works that explain Big Principles in Lots of Fancy
@@ -65,26 +65,43 @@
       <listitem><para>Useful for much more than just code --
       art/design, documentation, marketing, translation, IT, and
       so on</para></listitem>
-    </itemizedlist>
+    </orderedlist>
   </section>
   <section id="The_Open_Source_Way-Introduction-What_it_is_not">
     <title>What it is not</title>
-    <itemizedlist>
-      <listitem><para>Comprehensive</para></listitem>
+    <orderedlist>
+      <listitem><para>Comprehensive for the sake of inclusion.</para>
+      <itemizedlist>
+	<listitem><para>We are focused on slim and useful.</para></listitem>
+      </itemizedlist>
+      </listitem>
       <listitem><para>Overly repetitive of content already said and
-      available elsewhere as free and open</para></listitem>
-      <listitem><para>Boring</para></listitem>
-    </itemizedlist>
+      available elsewhere as free and open.</para>
+      <itemizedlist>
+	<listitem><para>Build on the work of others via the power of
+	reference.</para></listitem>
+      </itemizedlist>
+      </listitem>
+      <listitem><para>Boring.</para></listitem>
+    </orderedlist>
   </section>
-  <section id="The_Open_Source_Way-Introduction-What_it_wishes_it_was">
-    <title>What it wishes it was</title>
+  <section id="The_Open_Source_Way-Introduction-What_it_is_influenced_by">
+    <title>What it is influenced by</title>
     <para>
-      As comprehensive and thorough and useful as <citetitle><ulink
+      There are some very comprehensive, thorough, and useful works, such as:
+    </para>
+    <itemizedlist>
+      <listitem><para><citetitle><ulink
       url="http://producingoss.com/en/index.html">Producing Open
-      Source Software</ulink></citetitle> or <citetitle><ulink
+      Source Software</ulink></citetitle></para></listitem>
+      <listitem><para><citetitle><ulink
       url="http://www.ewenger.com/pub/pubcultivatingbook.htm">
-      Cultivating Communities of Practice</ulink></citetitle>.  This
-      book is but a humble shadow.  Yet, even a shadow can be useful.
+      Cultivating Communities of Practice</ulink></citetitle>.</para></listitem>
+    </itemizedlist>
+    <para>
+      More influencers and good reads are found in <xref
+      linkend="The_Open_Source_Way-Books_you_should_read"/> and <xref
+      linkend="The_Open_Source_Way-Data_and_references"/>.
     </para>
   </section>
   <section id="The_Open_Source_Way-Introduction-Essential_terminology_or_Read_this_even_if_you_think_you_know_what_it_means">
@@ -106,26 +123,28 @@
       </para>
       <itemizedlist>
 	<listitem><para>People who <emphasis
-	role="italics">use</emphasis> a technology</para></listitem>
+	role="italics">use</emphasis> something</para></listitem>
 	<listitem><para>People who <emphasis
-	role="italics">like</emphasis> a technology</para></listitem>
+	role="italics">like</emphasis> something</para></listitem>
 	<listitem><para>People who <emphasis
 	role="italics">advocate</emphasis> for a
 	technology</para></listitem>
 	<listitem><para>People who <emphasis role="italics">enable
-	others</emphasis> to use a technology</para></listitem>
+	others</emphasis> to use something</para></listitem>
 	<listitem><para>People who <emphasis role="italics">contribute
-	to improve</emphasis> a technology</para></listitem>
+	to improve</emphasis> something</para></listitem>
 	<listitem><para>... and so on.</para></listitem>
       </itemizedlist>
       <para>
 	When we talk about community in the <citetitle>The Open Source
 	Way</citetitle>, we mean the community of contributors who are
-	a superset to all other communities.
+	a superset to all other communities.  The ones who, by getting
+	things done, make it possible for many, many more to get much,
+	much more done.
       </para>
       <para>
 	This is the group of people who form intentionally and
-	spontaneously around a project important to them.  It includes
+	spontaneously around something important to them.  It includes
 	the people who use or benefit from the project, those who
 	participate and share the project to wider audiences, and the
 	contributors who are essential to growth and survival.
@@ -135,10 +154,10 @@
 	and dies.
       </para>
       <important>
-	<title>The community that contributes to improve the
-	technology ...</title>
+	<title>The community that contributes to improve something
+	...</title>
 	<para>
-	  The community that contributes to improve the technology is
+	  The community that contributes to improve something is
 	  the one that defines the technology and the next generation
 	  of users, advocates, and enablers.
 	</para>
@@ -152,9 +171,10 @@
 	and secure a hill.
       </para>
       <para>
-	Tactics are the ideas, plans, methods, and means used to
-	accomplish a goal.  That is, tactics are the maneuvers used to
-	achieve an objective that is set by strategy.
+	<firstterm>Tactics</firstterm> are the ideas, plans, methods,
+	and means used to accomplish a goal.  That is, tactics are the
+	maneuvers used to achieve an objective that is set by
+	strategy.
       </para>
       <para>
 	In Fedora, the strict yet clever <ulink
@@ -167,8 +187,9 @@
     <section id="The_Open_Source_Way-Introduction-Strategy">
       <title>Strategy</title>
       <para>
-	Strategy focuses on everything from which hill to secure, to
-	deciding which miltary campaigns to engage in.
+	<firstterm>Strategy</firstterm> focuses on everything from
+	which hill to secure, to deciding which miltary campaigns to
+	engage in.
       </para>
       <para>
 	A term from military science, strategy is the focus of the
@@ -181,7 +202,8 @@
       </para>
       <para>
 	The Fedora strategy of creating and supporting only FLOSS is
-	derived from the culture of the community.
+	derived from the culture of the community combined with a
+	pragmatic view of the legal and business landscape.
       </para>
     </section>
     <section id="The_Open_Source_Way-Introduction-Planets_and_blogs">
@@ -193,12 +215,12 @@
       </para>
       <para>
 	The idea of a <firstterm>blog planet</firstterm> is to show
-	the width and depth of personalities in a project, and what
+	the width and depth of personalities in a community, and what
 	they are doing.
       </para>
       <para>
 	It intentionally allows for personal expression.  In other
-	words, the content is not all project specific.  It is
+	words, the content is not all community specific.  It is
 	sometimes wildly off topic.
       </para>
       <para>
@@ -249,9 +271,9 @@
 	can sleep soundly at night.
       </para>
       <para>
-	A version control system (VCS) keeps track of the differences
-	in versions of content.  Properly implemented, it is nearly
-	disaster proof.
+	A <firstterm>version control system (VCS)</firstterm> keeps
+	track of the differences in versions of content.  Properly
+	implemented, it is nearly disaster proof.
       </para>
       <para>
 	When a document is saved in to a VCS, the difference between
@@ -262,6 +284,12 @@
 	point and start a new pathway of saves from there.  In code
 	this is called <firstterm>branching</firstterm>, with the
 	original code in the central <firstterm>trunk</firstterm>.
+      </para>
+      <para>
+	When you work with a web-based tool to write, edit, and
+	display a document, you are using version control.  All
+	content management systems and wikis use a form of version
+	control to capture and display the differences between edits.
       </para>
       <para>
 	Version control provides noisy reporting.  Anyone who is
@@ -326,6 +354,7 @@
 	  <listitem><para>All mailing list
 	  traffic</para></listitem>
 	  <listitem><para>All IRC logs</para></listitem>
+	  <listitem><para>All voice sessions logged and available</para></listitem>
 	  <listitem><para>100% totally accountable
 	  discussions</para></listitem>
 	  <listitem><para>Radically transparent</para></listitem>
@@ -365,5 +394,39 @@
 	</para>
       </section>
     </section>
+    <section id="The_Open_Source_Way-Introduction-Science">
+      <title>Science</title>
+      <para>
+	We may all be social artists in our communities, but in the end, our understanding of this is all driven by science.
+      </para>
+      <para>
+	There is an active feedback loop happening right now:
+      </para>
+      <orderedlist>
+	<listitem><para>Scientific method wildly successful and
+	bringing forth new, life altering ideas and innovations
+	...</para></listitem>
+	<listitem><para>Scientific method is a direct parent of the
+	open source methodology ...</para></listitem>
+	<listitem><para>Open source way practiced in business/private
+	sector ...</para></listitem>
+	<listitem><para>Influences academia ...</para></listitem>
+	<listitem><para>Influences public/government
+	...</para></listitem>
+	<listitem><para>Funds science and supports innovation
+	...</para></listitem>
+	<listitem><para>Iterating through more ideas for the Great
+	Ones ...</para></listitem>
+	<listitem><para>(Back to top)</para></listitem>
+      </orderedlist>
+      <para>
+	The open source way is breaking through to help make new ideas
+	happen ... in organizations that brought us the ideas of free
+	government and free, public education ... ideas that were
+	revolutionary and evolutionary in the 19th century ... that
+	fueled a century of innovation ... and are now getting
+	refueled by new ways of openly collaborating on
+	infrastructures of freedom.
+      </para>
   </section>
 </chapter>

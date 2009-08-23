@@ -3,23 +3,45 @@
 ]>
 
 <chapter id="The_Open_Source_Way-RHU_classes">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-RHU_classes-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-RHU_classes-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>RHU classes</title>
+  <para>
+    If you know of any good Red Hat University classes that are useful
+    in teaching similar principles to those covered in <citetitle>The
+    Open Source Way</citetitle>, add them here. Optionally, add them
+    to the <ulink
+    url="http://commarch.usersys.redhat.com/wiki/Talk:RHU_classes">page</ulink>,
+    where content for this page is discussed.
+  </para>
+  <section id="The_Open_Source_Way-RHU_classes-TCL_001_-_The_Free_Software_Movement_and_the_GNU-Linux_Operating_System">
+    <title>TCL 001 - The Free Software Movement and the GNU/Linux
+    Operating System</title>
+    <para>
+      Description: GNU founder and free software icon explains the
+      origins and successes of the Free Software Foundation and
+      GNU/Linux. Delivered via RealMedia video
+    </para>
+    <para>
+      Abstract: A lecture by Richard Stallman, provided by ArsDigita
+      University (ADU) at http://www.aduni.org and released under the
+      Creative Commons (http://creativecommons.org) Open Content
+      License.
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-RHU_classes-TCL100_-_The_Fedora_Message">
+    <title>TCL100 - The Fedora Message</title>
+    <para>
+      Description: Warren Togami discusses the Fedora Project, how it
+      came to be, and how you can become involved in the project's
+      future.
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-RHU_classes-The_Open_Source_Way_course ">
+    <title>The Open Source Way course</title>
+    <para>
+      The Community Architecture team is working on a course based on
+      <citetitle>The Open Source Way</citetitle>, probably offered as
+      a virtual learning and an optional instructor-led training.
+    </para>
+  </section>
 </chapter>
 

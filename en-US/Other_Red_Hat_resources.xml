@@ -3,23 +3,46 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Other_Red_Hat_resources">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-Other_Red_Hat_resources-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-Other_Red_Hat_resources-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>Other Red Hat resources</title>
+  <para>
+    If you are or know of a resource at Red Hat who can speak, mentor,
+    or otherwise be a resource about community interaction, add them
+    here.
+  </para>
+  <para>
+    If that person's style and opinions are widely different from
+    those held in this book, they are not a good fit.
+  </para>
+  <section id="The_Open_Source_Way-Other_Red_Hat_resources-Community_Architecture_team">
+    <title>Community Architecture team</title>
+    <itemizedlist>
+      <listitem><para>Max Spevack &lt;<ulink
+      url="mailto:mspevack@redhat.com"/>&gt;</para></listitem>
+      <listitem><para>Greg Dekoenigsberg &lt;<ulink
+      url="mailto:gdk@redhat.com"/>&gt;</para></listitem>
+      <listitem><para>Karsten Wade
+      &lt;<ulink url="mailto:kwade@redhat.com"/>&gt;</para></listitem>
+    </itemizedlist>
+  </section>
+  <section id="The_Open_Source_Way-Other_Red_Hat_resources-VP_of_Open_Source_Affairs">
+    <title>VP of Open Source Affairs</title>
+    <para>
+      Michael Tiemann &lt;<ulink url="mailto:tiemann@redhat.com"/>&gt;
+      is a great resource for talking with C-level and any other level
+      of customer or partner. He is interested in government and large
+      enterprise discussions.
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-Other_Red_Hat_resources-Fedora_Project_Leader">
+    <title>Fedora Project Leader</title>
+    <para>
+      Paul Frields &lt;<ulink url="mailto:pfrields@redhat.com"/>&gt;
+    </para>
+  </section>
+  <section id="The_Open_Source_Way-Other_Red_Hat_resources-Fedora_Engineering_Manager">
+    <title>Fedora Engineering Manager</title>
+    <para>
+      Tom 'spot' Callaway &lt;<ulink url="mailto:spot@redhat.com"/>&gt; 
+    </para>
+  </section>
 </chapter>
-

@@ -3,23 +3,23 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Community_Architecture_dashboard">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-Community_Architecture_dashboard-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-Community_Architecture_dashboard-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>Community Architecture dashboard</title>
+  <para>
+    Red Hat's Community Architecture team supports our executive
+    leadership team by providing a dashboard-view of community health
+    information. The communities on the dashboard list vary depending
+    on interest and need. For example, we are not actively watching
+    the health of our Linux kernel or GCC contributions. This is
+    because those communities are self-sustaining and extremely
+    healthy. Instead, the dashboard watches important, struggling, and
+    nascent community efforts that either the team or the corporate
+    leadership team are interested in tracking.  
+  </para> 
+  <para>
+    Current aspects of the dashboard:
+  </para>
+  <itemizedlist>
+    <listitem><para>Data gathered through <ulink
+    url="https://fedorahosted.org/ekg">EKG</ulink></para></listitem>
+  </itemizedlist>
 </chapter>
-

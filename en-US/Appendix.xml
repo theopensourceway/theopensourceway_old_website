@@ -3,23 +3,12 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Appendix">
-	<title>Test</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="The_Open_Source_Way-Appendix-Section_1_Test">
-		<title>Section 1 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-	
-	<section id="The_Open_Source_Way-Appendix-Section_2_Test">
-		<title>Section 2 Test</title>
-		<para>
-			Test of a section
-		</para>
-	</section>
-
+  <title>Appendix</title>
+  <para>
+    Content in this section is supportive materials that does not
+    belong in another section or chapter.
+  </para>
+  <para>
+    <replaceable>Example needed.</replaceable>
+  </para>
 </chapter>
-

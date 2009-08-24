@@ -7,6 +7,7 @@
 	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Introduction.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Communities_of_practice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="How_to_loosely_organize_a_community.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Stuff_everyone_knows_and_forgets_anyway.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="What_Red_Hat_does_correctly_that_we_want_to_keep_on_doing.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

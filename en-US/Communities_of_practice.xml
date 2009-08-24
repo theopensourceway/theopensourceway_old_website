@@ -3,7 +3,7 @@
 ]>
 
 <chapter id="The_Open_Source_Way-Communities_of_Practice">
-  <title></title>
+  <title>Communities of practice</title>
   <section id="The_Open_Source_Way-Communities_of_Practice-Introduction">
     <title>Introduction</title>
     <blockquote><attribution>Tom Peters, about Etienne Wenger's book <citetitle>Communities of Practice</citetitle></attribution>
@@ -60,20 +60,19 @@
       the area of knowledge that interests the community.  In free
       software, the domain is usually a particular technical problem
       that needs to be solved.</para></listitem>
-      <listitem><para><firstterm>Community.></firstterm> The community
+      <listitem><para><firstterm>Community.</firstterm> The community
       is the set of people who care enough about the domain to give
       their own time to participate.  In free software, even though
       domain may be very specific, interested community members can
       come from anywhere that's connected to the Internet -- which is
       one of the factors that makes the community software development
-      model so powerful.</para>
+      model so powerful.</para></listitem>
       <listitem><para><firstterm>Practice.</firstterm> The practice is
       the way that work is done, by the community, to further their
       goals in regard to the domain.  All frameworks, tools, ideas,
       stories, documents, legal entities, code, and so forth, are all
       part of the practice.  It's the work, and all the tools used to
       get the work done.</para></listitem>
-      </listitem>
     </itemizedlist>
   </section>
   <section id="The_Open_Source_Way-Communities_of_Practice-Principles_for_Cultivating_Communities_of_Practice">
@@ -159,7 +158,7 @@
 	url="http://lwn.net/Articles/83360/">this</ulink>.
       </para>
    </section>
-   <section id="The_Open_Source_Way-Communities_of_Practice-">
+   <section id="The_Open_Source_Way-Communities_of_Practice-Invite_different_levels_of_participation">
      <title>Invite different levels of participation</title>
      <!-- Principle -->
      <para>
@@ -236,7 +235,7 @@
        resolved in private, and there will be more in the future.
      </para>
    </section>
-   <section id="The_Open_Source_Way-Communities_of_Practice-">
+   <section id="The_Open_Source_Way-Communities_of_Practice-Focus_on_value">
      <title>Focus on value</title>
      <!-- Principle -->
      <para>
@@ -268,7 +267,7 @@
        problem.
      </para>
    </section>
-   <section id="The_Open_Source_Way-Communities_of_Practice-">
+   <section id="The_Open_Source_Way-Communities_of_Practice-Combine_familiarity_and_excitement">
      <title>Combine familiarity and excitement</title>
      <!-- Principle -->
      <para>
@@ -289,7 +288,7 @@
        <replaceable>Example needed.</replaceable>
      </para>
    </section>
-   <section id="The_Open_Source_Way-Communities_of_Practice-">
+   <section id="The_Open_Source_Way-Communities_of_Practice-Create_a_rhythm_for_the_community">
      <title>Create a rhythm for the community</title>
      <!-- Principle -->
      <para>
@@ -314,7 +313,7 @@
      </para>
    </section>
  </section>
- <section id="The_Open_Source_Way-Communities_of_Practice-">
+ <section id="The_Open_Source_Way-Communities_of_Practice-Learn_more">
    <title>Learn more</title>
    <para>
      To learn more about how to cultivate communities of practice,

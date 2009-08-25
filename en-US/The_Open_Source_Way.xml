@@ -10,8 +10,8 @@
 	<xi:include href="Communities_of_practice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="How_to_loosely_organize_a_community.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Stuff_everyone_knows_and_forgets_anyway.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<xi:include href="What_Red_Hat_does_correctly_that_we_want_to_keep_on_doing.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<xi:include href="What_Red_Hat_does_wrong_so_lets_stop.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="What_your_open_source_business_does_correctly_that_you_want_to_keep_doing.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="What_your_open_source_business_does_wrong.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Who_else_to_watch.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Books_you_should_read.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Other_Red_Hat_resources.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

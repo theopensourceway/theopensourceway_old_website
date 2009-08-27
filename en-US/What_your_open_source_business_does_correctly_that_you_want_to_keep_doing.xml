@@ -6,7 +6,7 @@
   <title>What Red Hat does correctly that we want to keep on doing</title>
   <!-- Principle -->
   <para>
-    This chapter is the pat on the back for what we do correctly at Red Hat.
+    This chapter is a pat on the back for what you do correctly at Red Hat.
   </para>
   <!-- Implementation-->
   <para>
@@ -19,28 +19,28 @@
   </para>
   <!-- Example-->
   <para>
-    The course of the Fedora Project as a source for a Linux
-    distribution demonstrates the spirit of continuous improvement in
-    the open.  Simply converting the community Linux distro to a
-    non-commercial project was not enough.  It took six releases of
-    Fedora to get over the hump of enabling the wider community to
-    contribute without inhibition or barriers.
+    For example, the course of the Fedora Project as a source for a
+    Linux distribution demonstrates the spirit of continuous
+    improvement in the open.  Simply converting the community Linux
+    distro to a non-commercial project was not enough.  It took six
+    releases of Fedora to get over the hump of enabling the wider
+    community to contribute without inhibition or barriers.
   </para>
   <section id="The_Open_Source_Way-What_Red_Hat_does_correctly_that_we_want_to_keep_on_doing-Identifies_and_focuses_on_key_future_technology">
     <title>Identifies and focuses on key future technology</title>
     <!-- Principle -->
     <para>
-      The technology we defined two years ago, perfected a year ago,
+      The technology you defined two years ago, perfected a year ago,
       and are making money on today, is going to be a commodity a year
-      from now.  This is one constant we can rely upon.
+      or two from now.  This is one constant we can rely upon.
     </para>
     <!-- Implementation-->
     <para>
-      Open source communities force the Red Hat organization to keep
+      Open source communities force your organization to keep
       moving, to never get comfortable in one spot for too long.  This
       is an effect of the rapid way open source software can advance,
-      and it works to Red Hat's advantage to always have little
-      brothers and sisters nipping at our heels.
+      and it works to your advantage to always have little
+      brothers and sisters nipping at your heels.
     </para>
     <!-- Example-->
     <para>
@@ -64,16 +64,16 @@
       started by Red Hat engineers and maintain strongly influenced by
       Red Hat needs, while Yum was made successful by being the better
       and open dependency resolver that the RHN tool 'up2date' was
-      not.  It took us a few years longer in this case, but we are
-      getting there by focusing on the key technology.
+      not.  It took a few years longer in this case, but Red Hat is
+      getting to the next level by re-focusing on the key technology.
     </para>
   </section>
   <section id="The_Open_Source_Way-What_Red_Hat_does_correctly_that_we_want_to_keep_on_doing-Funds_key_open_source_development">
     <title>Funds key open source development</title>
     <!-- Principle -->
     <para>
-      Red Hat has the power of the pocket book.  By applying funding
-      intelligently, we have been instrumental in the initiation and
+      You may have the power of the pocket book.  By applying funding
+      intelligently, you can be instrumental in the initiation and
       growth of important open source projects.
     </para>
     <!-- Implementation-->
@@ -81,18 +81,18 @@
       The best implementations of this idea are when an initial high
       investment is followed by a low and ongoing investment that
       remains relatively level or linear in progression.  As the
-      project grows, Red Hat's relative investment grows at a fraction
+      project grows, your relative investment grows at a fraction
       of the rate of the overall project; this is where the
       low-investment, high-return of open source contribution occurs.
     </para>
     <para>
-      Another interesting implementation is when we direct ''other''
-      organization's funds at open source.
+      Another interesting implementation is when you can direct
+      ''other'' organization's funds at open source.
     </para>
     <para>
-      By learning from when our investment does not pay off, such as
-      ongoing high-investment with not enough return, Red Hat gains
-      value from mistakes made.
+      By learning from when your investment does not pay off, such as
+      ongoing high-investment with not enough return, you gain value
+      from mistakes made.
     </para>
     <!-- Example-->
     <para>
@@ -101,16 +101,15 @@
       Red Hat bake SELinux in to a commercial off-the-shelf (COTS)
       package that US Government agencies could procur.  While Red Hat
       was making a technology bet that included hiring key and unique
-      developers from the communities, the existing and future
-      relationship with the NSA provided money to Red Hat that
-      Engineering could point to in balancing hiring expenses.
+      developers from the communities, it was also helping the NSA to
+      direct their efforts in the open community.
     </para>
     <para>
-      Back to the idea of spending Red Hat's own money, there are a
-      number of key technologies and projects that stand-alone now,
-      but owe some initial lifeblood to Red Hat market interests:
-      GNOME; XEN virtualization and the advancement of virt under
-      Linux (libvirt, oVirt, etc.); RPM.
+      Back to the idea of spending your own money, there are a number
+      of key technologies and projects that stand-alone now, but owe
+      some initial lifeblood to market interests.  At Red Hat, these
+      include: GNOME; XEN virtualization and the advancement of virt
+      under Linux (libvirt, oVirt, etc.); RPM.
     </para>
     <para>
       For a more comprehensive list, refer to
@@ -147,7 +146,7 @@
       <replaceable>Example needed</replaceable>
     </para>
     <para>
-      From Design Thinking to IT's Genome project, the open
+      From design thinking to IT's Genome project, the open
       collaboration methodologies are used throughout Red Hat to set
       strategy and achieve goals.
     </para>
@@ -182,12 +181,13 @@
       <replaceable>Example needed</replaceable>
     </para>
     <para>
-      The growth in discussion around open source in the new hire
-      orientation is an example of this.
+      Including discussion around open source in new hire
+      training is an example of this.
     </para>
     <para>
-      The daring approach of combining teams with Brand (Marketing
-      traditionally) and People (HR traditionally) is another example.
+      Rethinking how departments are structured and combined, and how
+      they collaborate, is another way of teaching and permeating a
+      culture of open source.
     </para>
   </section>
   <section id="The_Open_Source_Way-What_Red_Hat_does_correctly_that_we_want_to_keep_on_doing-Has_a_strong_brand_and_steers_that_consistently_through_community_interactions_at_all_levels">
@@ -209,7 +209,8 @@
       relationships, there is a remarkable consistency to the Red Hat
       brand.  This is due to more than a strong campaign by the Brand
       team.  It also requires the brand message to live inside of Red
-      Hat associates.
+      Hat associates.  It comes from people associating the open
+      source way with the way Red Hat does business.
     </para>
   </section>
 </chapter>

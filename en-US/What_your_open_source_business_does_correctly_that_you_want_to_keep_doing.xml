@@ -6,7 +6,7 @@
   <title>What Red Hat does correctly that we want to keep on doing</title>
   <!-- Principle -->
   <para>
-    This chapter is a pat on the back for what you do correctly at Red Hat.
+    This chapter is a pat on the back for what you do correctly.
   </para>
   <!-- Implementation-->
   <para>
@@ -59,8 +59,8 @@
       RHN capabilities where it matters the most to customers.
     </para>
     <para>
-      The irony is that the technologies in the best position to
-      replace RHN include Cobbler, Func, and Yum -- the first two were
+      The technologies in the best position to replace RHN include
+      Nagios, Puppet, Cobbler, Func, and Yum -- the first two were
       started by Red Hat engineers and maintain strongly influenced by
       Red Hat needs, while Yum was made successful by being the better
       and open dependency resolver that the RHN tool 'up2date' was

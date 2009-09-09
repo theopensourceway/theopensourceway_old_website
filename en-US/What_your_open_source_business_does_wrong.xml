@@ -2,8 +2,8 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
 ]>
 
-<chapter id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop">
-  <title>What Red Hat does wrong, so let's stop</title>
+<chapter id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way">
+  <title>What your business does wrong when practicing the open source way</title>
   <para>
     If you belong to an organization, such as a business, you may
     apply the open source way to how you do business.  How you plan
@@ -21,7 +21,7 @@
     shares some examples, do you have any others from your team or
     other organizations that apply?
   </para>
-  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Burns_projects_and_losses_momentum_in_technology_leadership_by_ignoring_community_fundamentals">
+  <section id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way-Burns_projects_and_losses_momentum_in_technology_leadership_by_ignoring_community_fundamentals">
     <title>Burns projects and losses momentum in technology leadership
     by ignoring community fundamentals</title>
     <!-- Principle -->
@@ -49,7 +49,7 @@
       <replaceable>Example needed</replaceable>
     </para>
   </section>
-  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Breaks_fundamental_rules_of_community">
+  <section id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way-Breaks_fundamental_rules_of_community">
     <title>Breaks fundamental rules of community</title>
     <!-- Principle -->
     <para>
@@ -87,7 +87,7 @@
       is work happening before conversations get to the public list.
     </para>
   </section>
-  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Fails_to_learn_from_mistakes">
+  <section id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way-Fails_to_learn_from_mistakes">
     <title>Fails to learn from mistakes</title>
     <!-- Principle -->
     <para>
@@ -123,7 +123,7 @@
       more than engaging with an open solution from the start.
     </para>
   </section>
-  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Misses_the_opportunity_to_adopt_and_grow_key_or_future_open_source_technology_for_your_own_IT">
+  <section id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way-Misses_the_opportunity_to_adopt_and_grow_key_or_future_open_source_technology_for_your_own_IT">
       <title>Misses the opportunity to adopt and grow key or future open source technology for your own IT</title>
       <!-- Principle -->
       <para>
@@ -144,7 +144,7 @@
 	<replaceable>Example needed</replaceable>
       </para>
   </section>      
-  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Does_not_include_community_strategy_in_all_new_projects">
+  <section id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way-Does_not_include_community_strategy_in_all_new_projects">
     <title>Does not include community strategy in all new projects</title>
     <!-- Principle -->
     <para>
@@ -170,7 +170,7 @@
       customer communities to use.
     </para>
   </section>
-  <section id="The_Open_Source_Way-What_Red_Hat_does_wrong_so_lets_stop-Separates_community_from_business">
+  <section id="The_Open_Source_Way-What_your_business_does_wrong_when_practicing_the_open_source_way-Separates_community_from_business">
     <title>Separates community from business</title>
     <!-- Principle -->
     <para>

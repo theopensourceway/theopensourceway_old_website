@@ -15,8 +15,8 @@
 	<xi:include href="Business_the_open_source_way.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Who_else_to_watch.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Books_you_should_read.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<xi:include href="Other_Red_Hat_resources.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<xi:include href="RHU_classes.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<!--	<xi:include href="Other_Red_Hat_resources.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
+<!--	<xi:include href="RHU_classes.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
 	<xi:include href="Community_Architecture_dashboard.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Data_and_references.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="How_to_tell_if_a_FLOSS_project_is_doomed_to_FAIL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

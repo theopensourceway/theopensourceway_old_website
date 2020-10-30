@@ -437,7 +437,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="book toc2 toc-right">
+<body class="book toc2 toc-left">
 <div id="header">
 <h1>T H E   O P E N   S O U R C E   W A Y   2 . 0</h1>
 <div class="details">
@@ -453,7 +453,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_the_shape_of_things_i_e_assumptions_we_are_making">1.1. The shape of things, i.e., assumptions we are making</a></li>
 <li><a href="#_structure_of_this_guide">1.2. Structure of this guide</a></li>
-<li><a href="#_a_community_of_practice_always_rebuilding_itself">1.3. A community of practice always rebuilding itself</a></li>
+<li><a href="#_a_community_of_practice_always_rebuilidng_itself">1.3. A community of practice always rebuilidng itself</a></li>
 </ul>
 </li>
 <li><a href="#_why_do_people_participate_in_open_source_communities">2. Why do people participate in open source communities?</a>
@@ -465,7 +465,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_conclusion">2.5. Conclusion</a></li>
 </ul>
 </li>
-<li><a href="#_communication_norms_in_open_source_software_projects">3. Communication norms in open source software projects</a>
+<li><a href="#_communication_norms_in_open_source_software_projects">3. Communication Norms in Open Source Software Projects</a>
 <ul class="sectlevel2">
 <li><a href="#_introduction_2">3.1. Introduction</a></li>
 <li><a href="#_the_evolution_of_communication_platforms_in_free_and_opensource_software_projects">3.2. The evolution of communication platforms in free and opensource software projects</a></li>
@@ -490,6 +490,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_governing_sustained_evolution">4.7. Governing sustained evolution</a></li>
 <li><a href="#_examples_of_open_source_project_governance_models">4.8. Examples of open source project governance models</a></li>
 <li><a href="#_conducting_basic_governance">4.9. Conducting basic governance</a></li>
+<li><a href="#_setting_policies_and_procedures">4.10. Setting policies and procedures</a></li>
+<li><a href="#_holding_community_elections">4.11. Holding community elections</a></li>
 </ul>
 </li>
 <li><a href="#_creating_diverse_and_inclusive_communities">5. Creating diverse and inclusive communities</a>
@@ -506,7 +508,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_the_importance_of_self_care">6.3. The importance of self-care</a></li>
 <li><a href="#_types_of_self_care">6.4. Types of self-care</a></li>
 <li><a href="#_burnout">6.5. Burnout</a></li>
-<li><a href="#_work_life_balance">6.6. Work Life Balance</a></li>
+<li><a href="#_work_life_balance">6.6. Work-Life Balance</a></li>
 <li><a href="#_self_reflection">6.7. Self-Reflection</a></li>
 <li><a href="#_resources">6.8. Resources</a></li>
 </ul>
@@ -518,8 +520,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>PREVIEW RELEASE
-TEST BUILD</p>
+<p><em>*PREVIEW RELEASE&#8201;&#8212;&#8201;TEST BUILD*</em></p>
 </div>
 </div>
 </div>
@@ -705,7 +706,7 @@ Stories not interspersed into chapters will be collected at the end (for your en
 </div>
 </div>
 <div class="sect2">
-<h3 id="_a_community_of_practice_always_rebuilding_itself">1.3. A community of practice always rebuilding itself</h3>
+<h3 id="_a_community_of_practice_always_rebuilidng_itself">1.3. A community of practice always rebuilidng itself</h3>
 <div class="paragraph">
 <p>What you are reading here is just one facet of the growing body of principles, implementations, and examples that this community is gathering, cultivating, and maintaining.</p>
 </div>
@@ -814,8 +815,12 @@ Is it learning for learning&#8217;s sake? Is it learning for specific skills nee
 </div>
 </div>
 <div class="sect1">
-<h2 id="_communication_norms_in_open_source_software_projects">3. Communication norms in open source software projects</h2>
+<h2 id="_communication_norms_in_open_source_software_projects">3. Communication Norms in Open Source Software Projects</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>Authors: Leslie Hawthorn &lt;<a href="mailto:lhawthor@redhat.com">lhawthor@redhat.com</a>&gt;
+Updated: 2020-10-29</p>
+</div>
 <div class="sect2">
 <h3 id="_introduction_2">3.1. Introduction</h3>
 <div class="paragraph">
@@ -830,40 +835,49 @@ And we will conclude with some observations on the ways ever-changing tooling an
 <div class="paragraph">
 <p>As the number of free and open source software projects has increased over time, the communication tools projects use—both to connect with their users and to coordinate their developers and contributors—have evolved.
 Internet Relay Chat (IRC) was once the default choice for real-time project chat.
-Many large projects conducted development discussions solely via their electronic mailing lists, <a href="https://en.wikipedia.org/wiki/Freecode">Freshmeat</a> was the place to hear about new project releases or updates to existing projects, and discussions about feature design and project improvements occurred via email and were included in a project&#8217;s mailing list archives.
-PD&#8212;&#8203;The sentence in line 14 is quite long. Consider breaking into two sentences (most likely between "projects" and "discussion").</p>
+Many large projects conducted development discussions solely via their electronic mailing lists, <a href="https://en.wikipedia.org/wiki/Freecode">Freshmeat</a> was the place to hear about new project releases or updates to existing projects. Discussions about feature design and project improvements occurred via email and were included in a project&#8217;s mailing list archives.</p>
 </div>
 <div class="paragraph">
-<p>Today, the landscape has shifted:
-PD&#8212;&#8203;The bullets that follow are quite long. Consider either paring them down so they are the length of one to two relatively simple sentences or reformat into paragraphs.</p>
+<p>Today, the landscape has shifted in multiple ways.</p>
+</div>
+<div class="paragraph">
+<p>While real-time chat is perhaps less common today, projects have not forgone it entirely.
+Many projects have simply adopted services that are considered more user-friendly or accessible, for example, Gitter, Slack, RocketChat, and others.
+A project may even use a tool to bridge back to older chat systems such as IRC in order to help a community evolve to include newer services.</p>
+</div>
+<div class="paragraph">
+<p>While some communities still employ email for asynchronous communications, others have found they can achieve better results by offering their users the opportunity to collaborate in online forums, a format more familiar to many developers who began coding at the same time they were sharing news and perspectives on then-new and popular forum sites like Reddit and Imgur.
+Forum advocates find the visual layout more appealing, and forum administrators often prefer the medium&#8217;s fine grained access controls easier to use for moderation.
+(For example, being able to stop all posts in a particular thread during a heated discussion is relatively easy via most forum software—not so with mailing lists.)</p>
+</div>
+<div class="paragraph">
+<p>While Freshmeat remains active (now renamed to Freecode), free and open source software projects have also made extensive use of social media services like Twitter and Facebook to interact with their user and developer communities.
+Social media serves as an excellent vehicle for project marketing and keeping audiences abreast of major project developments.</p>
+</div>
+<div class="paragraph">
+<p>Social media also provides a vehicle for:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>While real-time chat is perhaps less common today, projects have not forgone it entirely.
-Many projects have simply adopted services that are considered more user-friendly or accessible to those who may not know how to attach to a screen session in Irssi in order to have a persistent connection to their chat system (for example, Gitter, Slack, RocketChat, and others).
-PD&#8212;&#8203;Admittedly, I&#8217;m not the most tech-savvy person you&#8217;ll find, but I had a hard time following the sentence above. Can it be simplified?</p>
+<p>Advertising upcoming events</p>
 </li>
 <li>
-<p>While some communities still employ email for asynchronous communications, others have found they can achieve better results by offering their users the opportunity to collaborate in online forums, a format more familiar to many developers who began coding at the same time they were sharing news and perspectives on then-new and popular forum sites like Reddit and Imgur.
-Advocates of the use of forums find the visual layout more appealing, and forum administrators often prefer the medium&#8217;s fine grained access controls easier to use for moderation. (For example, being able to stop all posts in a particular thread during a heated discussion is relatively easy via most forum software—not so with mailing lists.)
-PD&#8212;&#8203;How would you feel about "Forum advocates" instead of "Advocates of the use of forums"? It&#8217;s a little tighter. It is also parallel with "forum advocates" later in the sentence.</p>
+<p>Live streaming of content or talks</p>
 </li>
 <li>
-<p>While Freshmeat remains active (now renamed to Freecode), free and open source software projects have also made extensive use of social media services like Twitter and Facebook to interact with their user and developer communities.
-Obviously, social media serves as an excellent vehicle for project marketing and keeping audiences abreast of major project developments.
-PD&#8212;&#8203;Consider deleting "Obviously" as not everyone in the audience might have that feeling.</p>
+<p>Generating interest in a project</p>
+</li>
+<li>
+<p>Other forms of marketing and outreach that broadcast further than a project&#8217;s newsletter, website, or blog.</p>
+</li>
+<li>
+<p>And many users now expect to receive basic technical support via these platforms.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Social media also provides a vehicle for advertising upcoming events, live streaming of content or talks, generating interest in a project, and other forms of marketing and outreach that broadcast further than a project&#8217;s newsletter, website, or blog.
-PD&#8212;&#8203;This sentence would be a good candidate for a bulleted list. Doing so would better ensure social media&#8217;s capabilities aren&#8217;t lost within the body of the paragraph. However, it would be better if you didn&#8217;t have a list within a list, which gets back to the original comment about the bullets in this list being rather long.</p>
-</div>
-<div class="paragraph">
-<p>And many users now expect to receive basic technical support via these platforms.
-* While mailing list archives may no longer serve as a definitive record of project discussions, <a href="http://github.com/">GitHub</a>'s popularity as an online development and collaboration platform, has meant many projects now manage their development discussions via GitHub issues, using GitHub&#8217;s "tags" feature to differentiate, for instance, between discussions addressing implementation of a new feature and those reporting that the software does not work as intended.
-PD&#8212;&#8203;Would it be possible to break this sentence up into more manageable chunks for the reader?</p>
+<p>While mailing list archives may no longer serve as a definitive record of project discussions, <a href="http://github.com/">GitHub</a>'s popularity as an online development and collaboration platform, has meant many projects now manage their development discussions via GitHub issues. GitHub&#8217;s issues can have <em>tags</em> to differentiate, for instance, between discussions addressing implementation of a new feature and those reporting that the software does not work as intended.</p>
 </div>
 <div class="paragraph">
 <p>And yet while the tools free and open source projects use to achieve communication are rapidly evolving, the human needs for both information and a sense of connection have not changed.</p>
@@ -875,8 +889,7 @@ PD&#8212;&#8203;Would it be possible to break this sentence up into more managea
 <h4 id="_what_great_communication_accomplishes">3.3.1. What great communication accomplishes</h4>
 <div class="paragraph">
 <p>People must understand the "who," "what," "where," "when," "why," and "how" of working with an open source software community.
-Thoughtfully established and well-maintained communication channels serve the following functions for an open source project and its participants:
-PD&#8212;&#8203;Consider making the teaser into the list more active by switching verbs to something along the lines of "empower," "enable," or even "allow."</p>
+Thoughtfully established and well-maintained communication channels enable open source project and its participants to:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -893,8 +906,7 @@ PD&#8212;&#8203;Consider making the teaser into the list more active by switchin
 <p>Preserve knowledge about the project&#8217;s decision-making norms and practices.</p>
 </li>
 <li>
-<p>Allow users to report an error with the software and to submit fixes for errors they or others uncover.
-PD&#8212;&#8203;Just want to confirm you mean people are using the software to report and fix errors and not simply reporting errors in the software.</p>
+<p>Allow users to report an error with the open source project&#8217;s software itself and to submit fixes for errors they or others uncover.</p>
 </li>
 <li>
 <p>Build a sense of common interest and purpose amongst participants, and provide an outlet for people in the project to socialize or "hang out" together online.</p>
@@ -917,11 +929,8 @@ Someone interested in <em>using</em> the software will be interested in things l
 Developers will also be interested in such details, but will need <em>additional</em> detail if they are going to contribute effectively to the project.</p>
 </div>
 <div class="paragraph">
-<p>For example, if your project observes certain coding conventions, be sure to include those conventions in the developer documentation.
-PD&#8212;&#8203;You&#8217;ve got two paragraphs that both begin with "For example." Consider omitting one instance or using a synonym for variety&#8217;s sake.</p>
-</div>
-<div class="paragraph">
-<p>Having a patch rejected by a maintainer because you haven&#8217;t indented code a certain way can be rather demotivating. Users, however, likely won&#8217;t need these details.</p>
+<p>If your project observes certain coding conventions, be sure to include those conventions in the developer documentation.
+Having a patch rejected by a maintainer because you haven&#8217;t indented code a certain way can be rather demotivating. Users, however, likely won&#8217;t need these details.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -985,14 +994,12 @@ Its tools help you build the versatile, structured content that dynamic web expe
 <p>What a content management system is (a tool to build websites).</p>
 </li>
 <li>
-<p>Why Drupal is a compelling choice (easy to use, reliable, secure, and flexible).
-PD&#8212;&#8203;Made some edits here so the bullets would be parallel.</p>
+<p>Why Drupal is a compelling choice (easy to use, reliable, secure, and flexible).</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Let&#8217;s take another example from a popular project, Kubernetes.
-PD&#8212;&#8203;Consider a colon instead of a comma after "project." It&#8217;s more emphatic.</p>
+<p>Let&#8217;s take another example from a popular project: Kubernetes.</p>
 </div>
 <div class="paragraph">
 <p>When visiting the project home page, <a href="http://kubernetes.io/">kubernetes.io</a>, a visitor immediately sees the following explanation:</p>
@@ -1024,8 +1031,7 @@ Kubernetes builds upon 15 years of experience of running production workloads at
 <p>Kubernetes is open source. (A user can expect to use, run, modify, and share changes to the code base; any questions about barriers to entry due to licensing fees, procurement processes, etc., are dismissed.)</p>
 </li>
 <li>
-<p>The project values community engagement. (One can expect that contributions of code, documentation, etc.
-are welcome and encouraged.)</p>
+<p>The project values community engagement. (One can expect that contributions of code, documentation, etc., are welcome and encouraged.)</p>
 </li>
 </ul>
 </div>
@@ -1034,10 +1040,7 @@ are welcome and encouraged.)</p>
 <h4 id="_getting_started">3.4.2. Getting started</h4>
 <div class="paragraph">
 <p>The processes for creating good "getting started" documentation—occasionally called "onboarding documentation"—are outside the scope of this chapter.
-PD&#8212;&#8203;A general observation here: There are several em dashes in this paragraph (and the chapter as a whole). I love em dashes. They are my favorite punctuation mark. However, when used too often, their effectiveness is diluted. Consider replacing them with other punctuation throughout the chapter.</p>
-</div>
-<div class="paragraph">
-<p>(See the dedicated "Onboarding" section in this guidebook for more detail.)
+(Refer to the dedicated "Onboarding" section in this guidebook for more detail.)
 Here, suffice it to say that open source project websites should feature a section aimed at helping new users and potential contributors get started using the software.
 Clearly labeling that section "getting started" or "new users" makes finding that section easy when people need it.
 Further differentiating between "new users" and "new contributors" in your onboarding documentation is even better, as these two audiences have very different needs.
@@ -1125,89 +1128,66 @@ It can even encourage adoption of open source alternatives to the vendor&#8217;s
 </div>
 <div class="sect2">
 <h3 id="_not_working_as_intended_getting_the_most_from_the_issue_tracker">3.5. Not working as intended: Getting the most from the issue tracker</h3>
-<div class="literalblock">
-<div class="content">
-<pre>=== What is an issue tracker?</pre>
-</div>
-</div>
+<div class="sect3">
+<h4 id="_what_is_an_issue_tracker">3.5.1. What is an issue tracker?</h4>
 <div class="paragraph">
-<p>An issue tracker (sometimes also known as a "bug tracker, "issues list," or "issue queue") is a tool that allows people to submit reports when they encounter instances where they believe the software is not working as intended.footnote:[The authors are grateful for the work of Kent C.Dodds a
-Some projects manage their entire development workflow via their issue trackers as a way to monitor pending tasks and allow for collaborative commenting and review of work in progress.
-PD&#8212;&#8203;You may want to flip flop the order of the sentence here and begin with "As a way to monitor &#8230;&#8203;" to give more emphasis to the motivation.</p>
+<p>An issue tracker (sometimes also known as a "bug tracker, "issues list," or "issue queue") is a tool that allows people to submit reports when they encounter instances where they believe the software is not working as intended.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup>
+As a way to monitor pending tasks and allow for collaborative commenting and review of work in progress, some projects manage their entire development workflow via their issue trackers.</p>
 </div>
 <div class="paragraph">
 <p>In this section, we&#8217;ll discuss using an issue tracker for the purpose of reporting failures with the software.
 By reporting your issue using a project&#8217;s issue tracker, you ensure maintainers who are looking out for problems see your report and act upon it.</p>
 </div>
-<div class="sect3">
-<h4 id="_why_file_an_issue">3.5.1. Why file an issue?</h4>
-<div class="paragraph">
-<p>While filing an issue may seem more cumbersome than simply asking for help in real-time chat, it is important to do for several reasons:
-PD&#8212;&#8203;Some of the bullets in this list are also quite long. Can you pare down the content so they&#8217;re shorter? Or consider a different presentation (paragraphs/subheads)?</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Project contributors cannot keep track of all conversations occurring across various platforms, but they can always refer back to the issue tracker when they have an opportunity to work on improving the project.
-PD-With an eye toward paring down content, maybe change to "&#8230;&#8203; but they can always refer to the issue tracker to improve the project."?</p>
-</li>
-</ul>
+<div class="sect3">
+<h4 id="_why_file_an_issue">3.5.2. Why file an issue?</h4>
+<div class="paragraph">
+<p>While filing an issue may seem more cumbersome than simply asking for help in real-time chat, it is important to do for several reasons:</p>
+</div>
+<div class="paragraph">
+<p>Project contributors cannot keep track of all conversations occurring across various platforms, but they can always refer to the issue tracker to improve the project.</p>
 </div>
 <div class="paragraph">
 <p>Real-time chat and social media are ephemeral communication channels.
 The issue tracker is a purpose built tool for recording and reviewing problems with the software.
-* Software projects often define their upcoming work plans by using their issue tracker as a key component—and perhaps their sole tool—to prioritize all possible areas to work on.
+Software projects often define their upcoming work plans by using their issue tracker as a key component—and perhaps their sole tool—to prioritize all possible areas to work on.
 (Simply put, the project&#8217;s issue tracker is very often synonymous with the project&#8217;s to-do list.)
 If your problem does not make its way into the issue tracker, it will likely not be addressed simply because a very busy person has forgotten the details of the problem.
-For this reason, you will often find that one of the first requests you receive when asking for help is to file an issue so the project maintainers can keep track of the problem.
-* Filing an issue allows you and the project contributors to communicate asynchronously about the problem in an easy way, as all parties can refer back to and access the issue description and follow up comments at any time.
-PD&#8212;&#8203;Be careful about using "easy" as what&#8217;s easy for you may not be easy for your reader. It&#8217;s subjective and can come across as an absolute. Try to soften by making it more relative.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>When you&#8217;ve uncovered a problem with the software, you might discover that the problem is actually the root cause of <em>another</em> problem, or there may be a way in which <em>several</em> problems are related.
-Issue tracking software allows project developers to easily group related issues together, which may aid in diagnosing a problem&#8217;s root cause.
-PD&#8212;&#8203;See comment above about "easy" and carry through with "easily."</p>
-</li>
-<li>
-<p>People often encounter the same issues with software, and many of them are filing issues with the project.
-Having multiple reports of the same problem can be very time consuming for the project maintainers, as they then need to respond to each individual reporter about work in progress.
-Fortunately, issue trackers make this process easier by allowing maintainers to quickly and easily close issues by stating they&#8217;re duplicates of an existing one (and then asking the reporter to track work-in-progress in the "original" report).
-PD&#8212;&#8203;Additional instances of "easy" and "easily" to consider.</p>
-</li>
-</ul>
+For this reason, you will often find that one of the first requests you receive when asking for help is to file an issue so the project maintainers can keep track of the problem.</p>
 </div>
 <div class="paragraph">
-<p>Project maintainers can then engage in broadcast-style communication to everyone experiencing the problem in one place, simplifying their work stream while still helping everyone who needs assistance.
-PD--"Simplifying" could be considered along the lines of "easy/easily." Maybe "streamlining" instead.</p>
+<p>Filing an issue allows you and the project contributors to communicate asynchronously about the problem, as all parties can refer back to and access the issue description and follow up comments at any time.</p>
+</div>
+<div class="paragraph">
+<p>When you&#8217;ve uncovered a problem with the software, you might discover that the problem is actually the root cause of <em>another</em> problem, or there may be a way in which <em>several</em> problems are related.
+Issue tracking software allows project developers to group related issues together, which may aid in diagnosing a problem&#8217;s root cause.</p>
+</div>
+<div class="paragraph">
+<p>People often encounter the same issues with software, and many of them are filing issues with the project.
+Having multiple reports of the same problem can be very time consuming for the project maintainers, as they then need to respond to each individual reporter about work in progress.
+Fortunately, issue trackers make this process easier for maintainers by allowing them to quickly close issues by stating they are duplicates of an existing one (and then asking the bug reporter to track work-in-progress in the "original" report).</p>
+</div>
+<div class="paragraph">
+<p>Project maintainers can then engage in broadcast-style communication to everyone experiencing the problem in one place, streamling their workflow while still helping everyone who needs assistance.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_make_finding_it_easy">3.5.2. Make finding it easy</h4>
-<div class="paragraph">
-<p>PD&#8212;&#8203;Reference earlier comments about "easy." Also, does "it" refer to "issue"? If so, it may be too far from the antecedent.</p>
-</div>
+<h4 id="_make_the_issue_tracker_findable">3.5.3. Make the issue tracker findable</h4>
 <div class="paragraph">
 <p>Make sure the location of your project&#8217;s issue tracker is prominently displayed in your FAQ, as well as in your usage and development documentation.
-If people cannot figure out where to submit an issue, they will ask someone in the project where to do so—and supporting well-meaning users by offering repeated answers to very basic questions like this one can be quite time consuming.
-PD&#8212;&#8203;A longish sentence. Maybe break into multiple ones so it&#8217;s easier for the reader.</p>
+If people cannot figure out where to submit an issue, they will ask someone in the project where to do so. Supporting well-meaning users by offering repeated answers to basic questions like this one can be quite time consuming.</p>
 </div>
 <div class="paragraph">
-<p>Do yourself and your community a favor and make your issue tracker very easy to find!.
-==== Use issue templates</p>
+<p>Do yourself and your community a favor and make your issue tracker very easy to find!.</p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_use_issue_templates">3.5.4. Use issue templates</h4>
 <div class="paragraph">
 <p>Not everyone who uses your software will be familiar with your community&#8217;s conventions for filing a useful bug report.
-To save both you and the reporter time, offer an issue template to ensure you receive the information you need to reproduce the reported error and effectively triage it.
-PD&#8212;&#8203;My non-technical background caused me to pause on "reporter" as I immediately thought of a journalist. Maybe recast the sentence to "To save everyone time" or "To save time" instead?</p>
-</div>
-<div class="paragraph">
-<p>For example, you may need to know what version of the software was in use when an error occurred, or what operating system the user has on the computer running the software.
-PD&#8212;&#8203;Maybe "&#8230;&#8203; what version of the software or what operating system was being used" instead?</p>
-</div>
-<div class="paragraph">
-<p>If common information is required for reproducing errors, ask for it in an issue template.</p>
+To save you and the bug reporter time, offer an issue template to ensure you receive the information you need to reproduce the reported error and effectively triage it.
+For example, you may need to know what version of the software or what operating system was in use when an error occurred.
+If common information is required for reproducing errors, ask for it in an issue template.</p>
 </div>
 <div class="paragraph">
 <p>Common fields in issue templates include a summary of the issue, steps to reproduce it, the actual behavior the user observes, the intended behavior for the software, and a request for log files or screenshots to help guide the issue reviewer in better understanding the bug report.
@@ -1218,14 +1198,11 @@ Several issue trackers support templates for bug reports, including <a href="htt
 </div>
 </div>
 <div class="sect3">
-<h4 id="_help_wanted_labeling_issues_for_clarity_and_encouraging_contribution">3.5.3. Help wanted: Labeling issues for clarity and encouraging contribution</h4>
+<h4 id="_help_wanted_labeling_issues_for_clarity_and_encouraging_contribution">3.5.5. Help wanted: Labeling issues for clarity and encouraging contribution</h4>
 <div class="paragraph">
 <p>Most modern issue trackers allow users to label issues they file, which can be useful for organizing project work.
-By differentiating between different types of requests—features for development, software errors, etc.—a project can be more organized and triage issues more efficiently.
-PD&#8212;&#8203;Question the use of "project" as the subject for the second verb as a "project" can&#8217;t technically "triage issues," but people can.</p>
-</div>
-<div class="paragraph">
-<p>Further, many people interested in contributing to open source software projects are looking for issues on which they can work to better understand the project&#8217;s development mechanics.
+By differentiating between different types of requests—features for development, software errors, etc.—a project&#8217;s maintainers can be more organized and triage issues more efficiently.
+Further, many people interested in contributing to open source software projects are looking for issues on which they can work to better understand the project&#8217;s development mechanics.
 If you will actively use labels in your issue tracker, make sure to document the label definitions in your development documentation so those labels are used consistently (or restrict the addition of issue labels to project maintainers only).
 A list of labels that used inconsistently is no more helpful than a list of undifferentiated issues.</p>
 </div>
@@ -1242,7 +1219,7 @@ Nothing squelches a contributor&#8217;s enthusiasm like showing up with a workin
 </div>
 </div>
 <div class="sect3">
-<h4 id="_communicate_clearly_and_kindly">3.5.4. Communicate clearly and kindly</h4>
+<h4 id="_communicate_clearly_and_kindly">3.5.6. Communicate clearly and kindly</h4>
 <div class="paragraph">
 <p>Whether you are a user of the project reporting an issue or a project maintainer reviewing a pull request, it is always important to communicate about the issue <em>clearly</em> and <em>kindly</em>.
 When a tool is not working, the person using it can become frustrated.
@@ -1251,131 +1228,120 @@ Remember to be gracious and thankful in your discussions with other project part
 </div>
 </div>
 <div class="sect3">
-<h4 id="_when_issues_become_the_subject_of_heated_debate">3.5.5. When issues become the subject of heated debate</h4>
+<h4 id="_when_issues_become_the_subject_of_heated_debate">3.5.7. When issues become the subject of heated debate</h4>
 <div class="paragraph">
-<p>At times, the details of addressing a particular issue can cause tension or argument within the community.
-PD--"Argument" should either be made plural, or "an" should be inserted before it.</p>
+<p>At times, the details of addressing a particular issue can cause tension or arguments within the community.</p>
 </div>
 <div class="paragraph">
-<p>While healthy and respectful debate is part of any thriving project—software or otherwise—tempers can flare easily, and (as has been well documented) people tend to behave with less civility online than they would in person.
-PD&#8212;&#8203;What&#8217;s your source for "as has been well documented"?</p>
+<p>While healthy and respectful debate is part of any thriving project—software or otherwise—tempers can flare easily, and (as has been well documented)<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> people tend to behave with less civility online than they would in person.</p>
 </div>
 <div class="paragraph">
 <p>If an issue has become especially contentious and discourse has become rude or inflammatory, restrict access to that issue for a stated period of time (say 24 to 48 hours) to allow people time to calm down, reflect, and state their argument in a more even-tempered and constructive manner.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_quick_tips_for_filing_issues_well">3.5.6. Quick tips for filing issues well</h4>
+<h4 id="_quick_tips_for_filing_issues">3.5.8. Quick tips for filing issues</h4>
 <div class="paragraph">
-<p>PD&#8212;&#8203;The bullets below are pushing the limit on length.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
 <p>Thank the people creating the software for their time and energy, especially if you are new to the project.
-The individuals spending their (free) time creating free and open source software for you to use are also people who want to know their time is valued and their work appreciated.
-PD&#8212;&#8203;Maybe "spare" instead of "free"?</p>
-</li>
-<li>
+The individuals spending their (spare) time creating free and open source software for you to use are also people who want to know their time is valued and their work appreciated.</p>
+</div>
+<div class="paragraph">
 <p>Include as much information as you possibly can about the error you have encountered.
-If the project uses issue templates, fill it out as completely as possible.
-PD&#8212;&#8203;There&#8217;s an issue with number here. You&#8217;ve got templates (plural) and it (singular).</p>
-</li>
-</ol>
+If the project uses issue templates, fill one out as completely as possible.</p>
 </div>
 <div class="paragraph">
 <p>If you do not have the information requested or cannot determine how to get it yourself, simply note what you have attempted to do in order to get the information.
-These details help mainters determine what they might need to do to assist you.
-PD&#8212;&#8203;Did you mean "maintainers" here?</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>If a project does not use issue templates, look at other issues that have been "closed‒fixed" or at merged pull requests to see how other people have filed bug reports.
-PD&#8212;&#8203;Make sure the number for "templates" here agrees with whatever you decide in the bullet above.</p>
-</li>
-</ol>
+These details help maintainers determine what they might need to do to assist you.</p>
 </div>
 <div class="paragraph">
-<p>If the issue was fixed, chances are quite good that you&#8217;ll be able to use these historical artifacts as examples of the sort of information necessary for reproducing an error.
+<p>If a project does not use issue templates, look at other issues that have been "closed‒fixed" or at merged pull requests to see how other people have filed bug reports.
+If the issue was fixed, chances are quite good that you&#8217;ll be able to use these historical artifacts as examples of the sort of information necessary for reproducing an error.
 Replicate what you find in these reports and add more detail as you are able.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_quick_tips_for_responding_to_issues_well">3.5.7. Quick tips for responding to issues well</h4>
-<div class="paragraph">
-<p>PD&#8212;&#8203;Like some of the other bulleted lists, the bullets here are rather long. Can you pare down the content any more or try another presentation?</p>
-</div>
+<h4 id="_quick_tips_for_responding_to_issues">3.5.9. Quick tips for responding to issues</h4>
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
 <p>"While the size and skill of the development community constrains the rate at which tickets can be resolved, the project should at least try to acknowledge each ticket the moment it appears.
-Even if the ticket lingers for a while, a response encourages the reporter to stay involved, because she feels that a human has registered what she has done (remember that filing a ticket usually involves more effort than, say, posting an email)."—Karl Fogel, Producing Open Source Software.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup>
-PD&#8212;&#8203;Would the quote here be better before the subhead?</p>
+Even if the ticket lingers for a while, a response encourages the reporter to stay involved, because she feels that a human has registered what she has done (remember that filing a ticket usually involves more effort than, say, posting an email)."—Karl Fogel, Producing Open Source Software.<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup></p>
 </div>
 </blockquote>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
+<div class="paragraph">
 <p>Thank the submitter for filing the issue.
 Helping a project improve is an excellent contribution to that project&#8217;s health.
 Further, by being gracious, kind and welcoming, you encourage continued participation and contribution from the issue reporter.</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>When closing an issue as "won&#8217;t fix," explain why the issue will not be fixed.
-Maintainers shouldn&#8217;t feel compelled to accept every pull request or fix every reported issue, but they should at least let reporters know <em>why</em> they won&#8217;t be addressing certain issues.
-PD&#8212;&#8203;Reference my earlier comment about "reporter."</p>
-</li>
-</ol>
+Maintainers shouldn&#8217;t feel compelled to accept every pull request or fix every reported issue, but they should at least let bug reporters know <em>why</em> they won&#8217;t be addressing certain issues.</p>
 </div>
 <div class="paragraph">
 <p>In particular, if someone has submitted an issue along with code to fix a problem or implement a new feature, it is vital to tell them why their work has not been accepted by the project.
 Not doing so makes the contributor feel like they&#8217;ve wasted their time and should devote their energies to a different software project.
 In an ideal world, you are able to include a link to a published project roadmap that explains why the submission does not meet the needs of the project.
-(See above.)
-. For new contributor submissions, fix minor issues with the patch yourself along with a note about what you fixed and why.
+(Refer to above.)</p>
+</div>
+<div class="paragraph">
+<p>For new contributor submissions, fix minor issues with the patch yourself along with a note about what you fixed and why.
 Having a patch rejected for minor nits discourages additional contribution, and often it takes just as long to explain why a patch is being rejected as it does to make very small fixes.
-Such explanations are an excellent time to point contributors to additional project resources, such as your coding style guide, documentation on communication norms, etc.
-. For submissions coming in response to a "help wanted" issue, engage early and often with the person who has stated an interest in working on the issue.
+Such explanations are an excellent time to point contributors to additional project resources, such as your coding style guide, documentation on communication norms, etc.</p>
+</div>
+<div class="paragraph">
+<p>For submissions coming in response to a "help wanted" issue, engage early and often with the person who has stated an interest in working on the issue.
 Doing so ensures that the contributor&#8217;s submission will actually meet the project&#8217;s needs.
 Further, by being available to and in regular dialogue with new contributors, you form a relationship with them that encourages mutual learning and increases the chances they will continue to contribute to the project&#8217;s ongoing work.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_having_development_discussions_and_other_conversations_in_the_issue_tracker">3.5.8. Having development discussions and other conversations in the issue tracker</h4>
+<h4 id="_having_development_discussions_and_other_conversations_in_the_issue_tracker">3.5.10. Having development discussions and other conversations in the issue tracker</h4>
 <div class="paragraph">
 <p>Conventional wisdom in the early days of open source software development held that communities should <em>not</em> carry on development related discussions in the project&#8217;s issue tracker.
-Project&#8217;s instead preferred carrying on such conversations via mailing lists or in forums a number of reasons:
-PD&#8212;&#8203;I don&#8217;t follow "Project&#8217;s instead" as the subject of the sentence. Am I missing something? Also, I suggest creating a bulleted list after "reasons:".</p>
+Project communities instead preferred carrying on such conversations via mailing lists or in forums a number of reasons:</p>
 </div>
-<div class="paragraph">
-<p>People following the mailing list were able to comment and express their views and needs without needing to parse through the issue tracker
-PD&#8212;&#8203;Start your bulleted list here.</p>
-</div>
-<div class="paragraph">
-<p>Forum or mailing list conversations were seen as better for asynchronous and long-form communications, and popular issue trackers in the 1990s and early 2000s were an unwieldy way to engage in actual discourse.
-PD&#8212;&#8203;Second item in the list.</p>
-</div>
-<div class="paragraph">
+<div class="ulist">
+<ul>
+<li>
+<p>People following the mailing list were able to comment and express their views and needs without needing to parse through the issue tracker</p>
+</li>
+<li>
+<p>Forum or mailing list conversations were seen as better for asynchronous and long-form communications, and popular issue trackers in the 1990s and early 2000s were an unwieldy way to engage in actual discourse.</p>
+</li>
+<li>
 <p>Discovering why a particular technical decision was made when those details were buried in an issue tracker was difficult, especially since the issue would be in a "closed" state once the decision was made.
-Looking for a closed issue to explain the technical direction of the project was considered counterintuitive.
-PD&#8212;&#8203;Final item in the list</p>
+Looking for a closed issue to explain the technical direction of the project was considered counterintuitive.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>With the rise in popularity of GitHub as a one-stop platform for online development work, conversations in the project issue tracker have become mainstream.
 GitHub&#8217;s issue system visually mirrors the typically expected visual interface for forum software, making discussions in its system seem natural for those who began their development careers when online forums were first gaining popularity.
 Further, time and resources necessary for maintaining a Mailman instance or additional forum software as part of project infrastructure became cumbersome when all other infrastructure could be managed via a single tool.
-The addition of features such as the ability to "+1" an issue, set fine-grained controls on notifications for specific issues, and lock specific issues for editing only by project maintainers (while still allowing others to view the issue) made the move to discussions in the issue tracker more palatable and effective.
-PD&#8212;&#8203;Is it locking the issue to "editing only" or is it project maintainers should be the only editors?</p>
+The addition of features such as the ability to "+1" an issue, set fine-grained controls on notifications for specific issues, and lock specific issues so that only project maintainers may edit it (while still allowing others to view the issue) made the move to discussions in the issue tracker more palatable and effective.</p>
 </div>
 <div class="paragraph">
 <p>Nonetheless, interested parties should be able to follow discussions <em>outside</em> the project&#8217;s issue tracker.
 Only the most deeply interested and invested individuals will rigorously follow every issue update, making engaging with the project difficult for casual contributors.
 While excellent search capabilities in online issue trackers make finding closed issues easier, the flow of an issue discussion does not fulfill the same function as a narrative description of a particular implementation or an explanation of why a certain decision was made.
-Note, too, that some maintainers who are most intimately familiar with the project—those who can recall specific issue numbers for particular discussions with ease—will not always be available to help with the project work.
-Preserving the knowledge of key decisions in an easy-to-access way saves time for people working to uncover the why of project processes, saves time for maintainers so they need not rehash history regularly, and ensures that critical details on how and why decisions were made are always available even as project membership changes.
-PD&#8212;&#8203;Should it be "about" instead of "of key&#8230;&#8203;"? Also, this sentence is long. You could theoretically turn it into a bulleted list spotlighting each of the three things preserving knowledge allows for.</p>
+Note, too, that some maintainers who are most intimately familiar with the project—those who can recall specific issue numbers for particular discussions with ease—will not always be available to help with the project work.</p>
+</div>
+<div class="paragraph">
+<p>Preserving the knowledge about decisions in an easy-to-access way:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Saves time for people working to uncover the why of project processes.</p>
+</li>
+<li>
+<p>Saves time for maintainers so they need not rehash history regularly.</p>
+</li>
+<li>
+<p>Ensures that critical details on how and why decisions were made are always available even as project membership changes.</p>
+</li>
+</ul>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -1384,8 +1350,7 @@ PD&#8212;&#8203;Should it be "about" instead of "of key&#8230;&#8203;"? Also, th
 <div class="title">Tip</div>
 </td>
 <td class="content">
-If your project carries on most of its development discussions in the issue tracker, consider taking some small steps to highlight these discussions in other ways that will be most accessible and discoverable.
-PD&#8212;&#8203;Accessible and discoverable to whom?
+If your project carries on most of its development discussions in the issue tracker, consider taking some small steps to highlight these discussions in other ways that will be most accessible and discoverable to interested parties and wider audiences in general.
 </td>
 </tr>
 </table>
@@ -1410,13 +1375,11 @@ There are a few steps projects can take to help those for whom English is not th
 <h4 id="_prominently_recognize_community_resources_available_in_multiple_languages">3.6.2. Prominently recognize community resources available in multiple languages</h4>
 <div class="paragraph">
 <p>Should your project be widely adopted and grow to the point that it hosts communication channels in more than one human language, make sure to list these resources prominently on your project&#8217;s website.
-Include on the website a note that the project welcomes submissions from community members for resources that are not written in English, and when the project receives such submissions act promptly to get them included in your project documentation.
-PD--"your website" or "the project website" instead? You could also break into two sentences after "English."</p>
+Include on the project&#8217;s website a note that the project welcomes submissions from community members for resources that are not written in English. When the project receives such submissions act promptly to get them included in your project documentation.</p>
 </div>
 <div class="paragraph">
 <p>As you would with any resource you point your community to, do your best to ensure the resource is helpful.
-If you are unable to vet the resources given current resources on the project, reference the fact that project maintainers have been unable to assess the resource themselves, and welcome feedback on its inclusion in the project&#8217;s documentation.
-PD&#8212;&#8203;There are multiple instances of "resource(s)" in these two sentences. Can you use a synonym on some instances? Also, it&#8217;s awkward to say "&#8230;&#8203; vet the resources given current resources on the&#8230;&#8203;".</p>
+If you are unable to vet the resources as helpful given currently available person-hours on the project, reference the fact that project maintainers have been unable to assess the resource themselves. Note you welcome feedback on its inclusion in the project&#8217;s documentation.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1489,11 +1452,11 @@ Someone whose hobby project is in use with enterprises might like to make explic
 <div class="paragraph">
 <p>As has been discussed throughout this chapter, maintaining kind and gracious communications is vital for the project&#8217;s ongoing health and well-being.
 While assuming everyone understands what "kind and gracious communication" looks like may seem natural, one cannot assume a consistent meaning for all participants, especially when dealing with a global audience.
-Project maintainers and community members do well to lead by example, but making an explicit statement about what constitutes civil discourse, what matters are off-topic for the project, and what is expected from anyone communicating with the project about matters that may cause conflict sets an appropriate tone for the project.
-PD&#8212;&#8203;Consider breaking into two sentences to make the thought easier for the reader to digest. Also, is "about matters that may cause conflict" too restrictive. Shouldn&#8217;t the expectations be for whenever you are communicating with the project?</p>
+Project maintainers and community members do well to lead by example.
+But it sets an appropriate tone for the project to make an explicit statement about what constitutes civil discourse, what matters are off-topic for the project, and what is expected from anyone communicating with the project, especially about matters that may cause conflict .</p>
 </div>
 <div class="paragraph">
-<p>From the Diversity Statement of the Dreamwidth Project:^<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup>^</p>
+<p>From the Diversity Statement of the Dreamwidth Project:^<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup>^</p>
 </div>
 <div class="quoteblock">
 <blockquote>
@@ -1554,50 +1517,130 @@ See this guidebook&#8217;s chapter on governance for more information about code
 <div class="paragraph">
 <p>So far, we&#8217;ve focused primarily on ways in which software project <em>maintainers</em> can ensure the best possible outcomes for communication in their projects.
 However, contributors, too, can take a number of steps to ensure they&#8217;re communicating effectively with their favorite open source communities.
-Here are just a few:
-PD&#8212;&#8203;Some of the bullets are rather long. Look to pare down when possible.</p>
+Here are just a few:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><strong>Read the project website and documentation before jumping into discussions</strong>.
-By taking the time to read about the project and understand its nuances, you demonstrate that you respect the time and attention of the people producing the project.</p>
+<p>Read the project website and documentation before jumping into discussions.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Take the time to read about the project and understand its nuances</p>
 </li>
 <li>
-<p><strong>Do your research, and tell people you&#8217;ve done it.</strong>
-If you run into a problem using open source software, do what you can to solve the problem yourself.
-There&#8217;s no shame in not being able to do so, but make sure to include what steps you have taken to resolve the issue when filing a bug report or asking for help in one of the project&#8217;s communication channels.
-Doing so saves people time and energy, as they will not ask you to try something you have already done.
-Further, listing the ways you&#8217;ve already attempted to help yourself is a demonstration of respect for the time and energy of the project&#8217;s maintainers.
-<strong>Practice <a href="https://en.wikipedia.org/wiki/Etiquette_in_technology">basic netiquette</a>.</strong>
-Most fundamental advice for communicating on the internet is applicable in open source projects and communities.
-For instance, avoid typing in all capital letters, as this style is read as shouting (and one would not go about asking for help by shouting at someone).
-Choose a username or screen name that is reasonable and approachable, otherwise you risk not being taken seriously by others.
-Wait a reasonable amount of time—say 24 to 48 hours—for a response to your inquiry before trying to get a response in a different communication channel.
-You may find Virgina Shea&#8217;s oft-cited <a href="http://www.albion.com/netiquette/corerules.html">The Core Rules of Netiquette</a> to be a useful resource if you are unfamiliar with the rules of engagement in internet communications.</p>
+<p>Demonstrate that you respect the time and attention of the people producing the project.</p>
+</li>
+</ol>
+</div>
 </li>
 <li>
-<p><strong>Post questions and communications in the appropriate places.</strong>
-Encountering information in a place people don&#8217;t expect can overwhelm them.
-For example, using a project issue tracker to let folks know you are hosting a hackfest next week is inappropriate.
-If the project has taken the time to let contributors know how and where to ask questions—and you should know this by following the guidance in the first item on this list—make sure to use the appropriate forum to do so.
-Demonstrating you have taken the time and energy to interact with the project&#8217;s maintainers and other volunteers in the way they&#8217;ve asked shows you respect their efforts and, in turn, makes helping you be successful much easier for them.</p>
+<p>Do your research, and tell people you&#8217;ve done it.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>If you run into a problem using open source software, do what you can to solve the problem yourself. There&#8217;s no shame in not being able to solve the problem, and it helps your bug report.</p>
 </li>
 <li>
-<p><strong>Make the subject of your posts as meaningful as possible.</strong>
-When writing the subject line of an email or forum post, make your needs explicit.
-For example, a subject line that says "I think I found a bug" is likely to be acted upon more slowly than one that says "external display not recognized upon upgrading to version 2.2."
-The second subject tells the reader that they will likely find more detail on how to diagnose the problem, and that they are dealing with someone who understands the limited amount of time and attention the reader has.
-The first subject does not differentiate the sender&#8217;s problem in any way, and makes it difficult for your communication to be memorable to the reader.
-The more useful the subject of your post, the more likely you are to receive a prompt reply.</p>
+<p>Make sure to include what steps you have taken to resolve the issue when filing a bug report or asking for help in one of the project&#8217;s communication channels.
+Doing so saves people time and energy, as they will not ask you to try something you have already done.</p>
 </li>
 <li>
-<p><strong>Be kind and courteous in all your communications.</strong>
-Once more, let&#8217;s stress that the key to effective communication in any project—open source software or otherwise—is thoughtful and gracious behavior.
-Do not show up at an open source project angrily demanding help for your problems, send impolite follow up messages when you do not get an immediate answer, or otherwise be unkind to the people with whom you are communicating.
-Take the time to thank them for their help and for providing the project to you and everyone else.
-Remember you are communicating with other people, some of whom are spending their free time to write your free software.
-Treat them with the respect and courtesy you want for yourself.</p>
+<p>Listing the ways you&#8217;ve already attempted to help yourself is a demonstration of respect for the time and energy of the project&#8217;s maintainers.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Practice <a href="https://en.wikipedia.org/wiki/Etiquette_in_technology">basic netiquette</a>.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Most fundamental advice for communicating on the internet is applicable in open source projects and communities.</p>
+</li>
+<li>
+<p>For instance, avoid typing in all capital letters, as this style is read as shouting (and one would not go about asking for help by shouting at someone).</p>
+</li>
+<li>
+<p>Choose a username or screen name that is reasonable and approachable, otherwise you risk not being taken seriously by others.</p>
+</li>
+<li>
+<p>Wait a reasonable amount of time—say 24 to 48 hours—for a response to your inquiry before trying to get a response in a different communication channel.</p>
+</li>
+<li>
+<p>You may find Virgina Shea&#8217;s oft-cited <a href="http://www.albion.com/netiquette/corerules.html">The Core Rules of Netiquette</a> to be a useful resource if you are unfamiliar with the rules of engagement in internet communications.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Post questions and communications in the appropriate places.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Encountering information in a place people don&#8217;t expect can overwhelm them.
+For example, using a project issue tracker to let folks know you are hosting a hackfest next week is inappropriate.</p>
+</li>
+<li>
+<p>If the project has taken the time to let contributors know how and where to ask questions—and you should know this by following the guidance in the first item on this list—make sure to use the appropriate forum to do so.</p>
+</li>
+<li>
+<p>Demonstrating you have taken the time and energy to interact with the project&#8217;s maintainers and other volunteers in the way they&#8217;ve asked shows you respect their efforts and, in turn, makes helping you be successful much easier for them.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Make the subject of your posts as meaningful as possible.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>When writing the subject line of an email or forum post, make your needs explicit.</p>
+</li>
+<li>
+<p>For example, a subject line that says "I think I found a bug" is likely to be acted upon more slowly than one that says "external display not recognized upon upgrading to version 2.2."</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>The second subject tells the reader that they will likely find more detail on how to diagnose the problem, and that they are dealing with someone who understands the limited amount of time and attention the reader has.</p>
+</li>
+<li>
+<p>The first subject does not differentiate the sender&#8217;s problem in any way, and makes it difficult for your communication to be memorable to the reader.</p>
+</li>
+<li>
+<p>The more useful the subject of your post, the more likely you are to receive a prompt reply.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Be kind and courteous in all your communications.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Once more, let&#8217;s stress that the key to effective communication in any project—open source software or otherwise—is thoughtful and gracious behavior.</p>
+</li>
+<li>
+<p>Do not show up at an open source project angrily demanding help for your problems, send impolite follow up messages when you do not get an immediate answer, or otherwise be unkind to the people with whom you are communicating.</p>
+</li>
+<li>
+<p>Do take the time to thank them for their help and for providing the project to you and everyone else.</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Remember you are communicating with other people, some of whom are spending their free time to write your free software.</p>
+</li>
+<li>
+<p>Treat them with the respect and courtesy you want for yourself.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
 </li>
 </ol>
 </div>
@@ -1612,8 +1655,7 @@ Though 20 or 30 years seems like ancient history on the internet, it is worth no
 Open source is still a blip (albeit a significant one) in a much longer technological timeline.</p>
 </div>
 <div class="paragraph">
-<p>Academic researchers have found open source software projects and their development methodologies particularly worthy of study, due to open source&#8217;s disruptive influence in the software industry.
-PD&#8212;&#8203;Consider flip flopping the order and beginning with "Due to open &#8230;&#8203;".</p>
+<p>Due to open source&#8217;s disruptive influence in the software industry, academic researchers have found open source software projects and their development methodologies particularly worthy of study.</p>
 </div>
 <div class="paragraph">
 <p>However, as projects' communication tools and platforms have evolved, researchers' ability to access project data for the purpose of study has been, at times, diminished.
@@ -1640,7 +1682,8 @@ Remember there is a human being reading what you have written, and remember to t
 <div class="sectionbody">
 <div class="paragraph">
 <p>Authors: Dave Neary &lt;<a href="mailto:dneary@redhat.com">dneary@redhat.com</a>&gt;, Josh Berkus &lt;<a href="mailto:jberkus@redhat.com">jberkus@redhat.com</a>&gt;, Bryan Behrenshausen &lt;<a href="mailto:bbehrens@redhat.com">bbehrens@redhat.com</a>&gt;
-Updated: 2020-05-27</p>
+Updated: 2020-05-27
+Development edit: 2020-10-07, bkp</p>
 </div>
 <div class="sect2">
 <h3 id="_introduction_3">4.1. Introduction</h3>
@@ -1661,10 +1704,8 @@ But every project has them.</p>
 </div>
 <div class="paragraph">
 <p>Unfortunately, too many discussions of open source project governance focus on activities or resources, like "speaking for the project" or "ownership of the web domain."
-While documenting these functions is useful, these are not, strictly speaking, governance issues.</p>
-</div>
-<div class="paragraph">
-<p>At its heart, open source project and community governance is about <em>people</em>—their rights and responsibilities as part of a project, and the expectations others have for them.</p>
+While documenting these functions is useful, we should remember that these are <em>aspects</em> of a project&#8217;s governance, but they are not the full extent of it.
+At its heart, open source project and community governance is about <em>people</em>—their rights and responsibilities as part of a project and the expectations others have for them.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1710,16 +1751,15 @@ Think of a <strong>role</strong> as a function someone in the project performs.<
 <strong>Policies and procedures</strong> refer to the processes and guidelines contributors follow when performing their roles.</p>
 </div>
 <div class="paragraph">
-<p>When analyzing your project&#8217;s procedure- or -policy-related governance systems, ask the following questions:</p>
+<p>When analyzing your project&#8217;s procedure- or policy-related governance systems, ask the following questions:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>How do code and documentation get accepted into the project?</p>
+<p>How do various contributions get accepted into the project?</p>
 </li>
 <li>
-<p>How do contributors come to occupy and eventually depart from certain
-roles in the project?</p>
+<p>How do contributors come to occupy and eventually depart from certain roles in the project?</p>
 </li>
 <li>
 <p>How can role descriptions and responsibilities be changed?</p>
@@ -1739,43 +1779,37 @@ roles in the project?</p>
 <p>Remember: A project&#8217;s <strong>roles</strong> and its <strong>policies and procedures</strong> aren&#8217;t discrete; they&#8217;re interwoven as part of the project&#8217;s overall governance model.
 For example, consider a project role called "Documentation Maintainer." A project might outline that role this way:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Role Title: Documentation Maintainer</p>
 </li>
 <li>
-<p>Qualifications: several years of consistent contributions to
-documentation</p>
+<p>Qualifications: several years of consistent contributions to documentation</p>
 </li>
 <li>
-<p>Access to Role: other Documentation Maintainers can nominate and vote
-to grant this role to eligible contributors</p>
+<p>Access to Role: other Documentation Maintainers can nominate and vote to grant this role to eligible contributors</p>
 </li>
 <li>
-<p>Duties: write documentation and review documentation from other
-contributors</p>
+<p>Duties: write documentation and review documentation from other contributors</p>
 </li>
 <li>
-<p>Privileges: speak for the documentation team, participate in
-development meetings</p>
+<p>Privileges: speak for the documentation team, participate in development meetings</p>
 </li>
 <li>
-<p>Authority: ultimate decision on documentation content, technology, and
-strategy</p>
+<p>Authority: ultimate decision on documentation content, technology, and strategy</p>
 </li>
 <li>
-<p>Change Procedure: other Documentation Maintainers vote on changes to
-role description</p>
+<p>Change Procedure: other Documentation Maintainers vote on changes to role description</p>
 </li>
-</ul>
+</ol>
 </div>
 <div class="paragraph">
 <p>In many cases, a project&#8217;s actual role descriptions are more elaborate than that (some projects' role handbooks are dozens of pages long).
 As projects mature, the number of different roles people play in them can increase.
 Moreover, larger and more mature projects associate roles with <em>collectives</em>—that is, a group of contributors can perform a certain role jointly.
 For instance, a project might feature several "steering committees," each with its own set of election procedures.
-This is true for the Kubernetes project, where "special interest groups" are a popular unit of governance.
+This is true for the <a href="https://kubernetes.io/">Kubernetes project</a>, where "special interest groups" are a popular unit of governance.
 In that project, the role of Code Contributor is subdivided further by interest group (team) and by contributor level (Member, Reviewer, Approver, and Owner).
 So a contributor&#8217;s <em>actual</em> role would be something like "SIG‒Network Approver," not just "Code Contributor."</p>
 </div>
@@ -1784,21 +1818,20 @@ So a contributor&#8217;s <em>actual</em> role would be something like "SIG‒Net
 <div class="sect2">
 <h3 id="_why_governance">4.3. Why governance?</h3>
 <div class="paragraph">
-<p>In some open source communities, "governance" gets a bad rap.
-This is true in cases where project contributors tend to construe governance as a purely negative force—a set of rules or procedures aimed solely at telling people what they <em>can&#8217;t</em> do, how they <em>shouldn&#8217;t</em> act, or how they should <em>limit</em> themselves to acting only within certain boundaries.</p>
+<p>In some open source communities, the idea of "governance" has a poor reputation.
+This is true in cases where project contributors tend to construe governance as a purely negative force—a set of rules or procedures aimed solely at telling people what they can&#8217;t do, how they shouldn&#8217;t act, or how they should limit themselves to acting only within certain boundaries.</p>
 </div>
 <div class="paragraph">
 <p>But a well-crafted governance model can in fact be a largely positive force in open source communities.
-A project&#8217;s governance model outlines that project&#8217;s "terms of engagement"—the specific, tried-and-tested structures for working together and making decisions that project contributors have found works best for the community.
-A clear governance model can <em>encourage</em> new contributors to become involved in your project.</p>
+A project&#8217;s governance model outlines that project&#8217;s <em>terms of engagement</em>—the specific, tried-and-tested structures for working together and making decisions that project contributors have found works best for the community.
+A clear governance model encourages new contributors to become involved in your project.</p>
 </div>
 <div class="paragraph">
 <p>A well-designed system of governance is much less likely to turn away or de-motivate project participants than a vague or non-existent one is.
 Consider your project from the perspective of new contributors.
 Are new contributors <em>more</em> or <em>less</em> likely to jump into a project without any sense of the role they&#8217;re supposed to play and the rules they&#8217;re supposed to follow when they want others to seriously consider your contributions?
-A clear governance model helps people understand precisely how they can make an immediate contribution to a project, how they can pitch in without "rocking the boat," how they can escalate questions or issues if they have them, and what sorts of leadership
-positions they can aspire to if they stick around long enough.
-So a community&#8217;s goal in architecting a governance model should be <em>making structures of participation obvious</em>.
+A clear governance model helps people understand precisely how they can make an immediate contribution to a project, how they can pitch in without upsetting the project&#8217;s rhythms, how they can escalate questions or issues if they have them, and what sorts of leadership positions they can aspire to if they stick around long enough.
+So a community&#8217;s goal in architecting a governance model should be, "Make structures of participation obvious."
 When your project&#8217;s rules are clear, contributors can engage with confidence.
 Taking this approach to governance can positively impact a project&#8217;s long-term viability and growth.</p>
 </div>
@@ -1806,40 +1839,41 @@ Taking this approach to governance can positively impact a project&#8217;s long-
 <div class="sect2">
 <h3 id="_making_governance_explicit">4.4. Making governance explicit</h3>
 <div class="paragraph">
-<p>Recall that <em>every</em> open source project features different roles contributors can play and procedures that people in those roles are typically (or should be) following.
-This is true whether or not those roles and procedures are actually <em>documented</em> anywhere.
+<p>Recall that every open source project features different roles contributors can play and procedures that people in those roles are typically (or should be) following.
+This is true whether or not those roles and procedures are actually documented anywhere.
 Where roles aren&#8217;t documented, they are implicit in regular contributors' activities (and not infrequently a source of argument).
-Successful open source projects make their governance models <em>explicit</em>.</p>
+Successful open source projects make their governance models explicit.</p>
 </div>
 <div class="paragraph">
-<p>In a 2018 study, <a href="https://opensource.com/open-organization/18/4/new-governance-model-research">researcher
-Javier Canovas found</a> that 19 of the 25 most-starred projects on GitHub hadn&#8217;t published documents outlining their governance models.
-Canovas considered this unfortunate for several reasons.
-"First, [explicit governance] helps promote an organization&#8217;s sense of transparency," he writes.
+<p>In a 2018 study, <a href="https://opensource.com/open-organization/18/4/new-governance-model-research">researcher Javier Canovas found</a> that 19 of the 25 most-starred projects on GitHub hadn&#8217;t published documents outlining their governance models.
+Canovas considered this unfortunate for several reasons.</p>
+</div>
+<div class="paragraph">
+<p>"First, [explicit governance] helps promote an organization&#8217;s sense of transparency," he writes.
 "One could know how much time a group takes to consider an issue, the chances contributions have of making an impact on the organization, or who is going to hear their voices when they speak up.
 Second, explicitly defining a governance model may also help one better understand and classify how open organizations are driven."</p>
 </div>
 <div class="paragraph">
-<p>Here&#8217;s an example of how this works: In 2018, the Kubernetes project added a set of detailed, comprehensive Role Handbooks for their Release Team.
+<p>Here&#8217;s an example of how this works: in 2018, the Kubernetes project added a set of detailed, comprehensive Role Handbooks for their Release Team.
 These handbooks outlined information related to the Release Team role, including qualifications necessary for joining the team, duties members of the team perform, and details on the team&#8217;s decision-making processes.
 As a result, the Release Team became the most popular point of entry for project contributions; new participants knew exactly what to expect.
-Other teams within Kubernetes followed suit—and experienced a doubling or even tripling number of new contributors.</p>
+Other teams within Kubernetes followed suit—and experienced a doubling or even tripling of the number of new contributors.</p>
 </div>
 <div class="paragraph">
-<p>Clear and explicit governance models have another critical benefit: cultivating a strong sense of trust in your project&#8217;s community.
+<p>Clear and explicit governance models have another critical benefit—cultivating a strong sense of trust in your project&#8217;s community.
 Members of projects with robust, detailed governance models benefit from a shared commitment to a transparent set of procedures, policies, and role descriptions.
 They can appeal to a commonly understood set of guidelines when disputes arise.
-All this makes questions about participants motives, intentions, goals, and authority less contentious.</p>
+All of this makes questions about participants' motives, intentions, goals, and authority less contentious.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_how_community_originated_projects_evolve">4.5. How community-originated projects evolve</h3>
 <div class="paragraph">
 <p>Open source projects rarely begin by "selecting" and implementing a perfectly preconceived governance model.
-Much more commonly, projects' governance models <em>evolve</em> as their communities grow and diversify.</p>
+Much more commonly, projects' governance models evolve as their communities grow and diversify.</p>
 </div>
 <div class="paragraph">
-<p>In its early days, a project might only have one or two developers—making discussions of "governance" largely irrelevant (the project is simply not big enough to have a need for any structured decision-making process).
+<p>In its early days, a project might only have one or two developers, making discussions of "governance" largely irrelevant (the project is simply not big enough to have a need for any structured decision-making process).
 But this will change as the project attracts additional contributors.
 And because a project&#8217;s governance model, its culture, and the behaviors of its leaders are all intimately entwined, any change to one will likely spur changes in the others.
 While every project is different—growing in its own way and following its own trajectory of maturation—we might note certain common, recurring milestones in a project&#8217;s development that tend to trigger governance evolutions.</p>
@@ -1850,8 +1884,7 @@ While every project is different—growing in its own way and following its own 
 <p>Projects that start with a single developer (or small group of developers) do not often require any formal governance structure.
 Gauging consensus is easy, and during the early stages of a project, disagreements about what should be done (and who should do it) are rare.
 A project&#8217;s early members all typically have carte blanche to take the actions they see as best for the project, like approving code for inclusion.
-Normally, no structure is required in addition to a GitHub repository, and all early developers receive project membership status
-almost immediately.</p>
+Normally, no structure is required in addition to a GitHub repository, and all early developers receive project membership status almost immediately.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1862,20 +1895,20 @@ When a project has even five developers, coordinating work becomes more difficul
 </div>
 <div class="paragraph">
 <p>So the first evolution projects tend to undergo is often one that requires code submissions to undergo peer review before being merged.
-The "first level" of the project&#8217;s hierarchy consists of those with the authority to approve pull requests or code submissions for inclusion in the project.
-Initially, deciding who receives this power is easy; the project&#8217;s original, trusted developers all receive it, and the project founder acts as final arbiter in case of disagreements.</p>
+The "first level" of the project&#8217;s hierarchy consists of those with the authority to approve pull requests or code and content submissions for inclusion in the project.
+Initially, deciding who receives this authority is easy; the project&#8217;s original, trusted developers all receive it, and the project founder acts as final arbiter in case of disagreements.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_mid_term_project_growth_10_to_15_members">4.5.3. Mid-term project growth (10 to 15 members)</h4>
 <div class="paragraph">
-<p>The next event to trigger a project governance evolution is often related to how people who join the project become members of the group.
+<p>The next event to trigger a project governance evolution is often related to how people who join the project become recognized members of the group.
 This tends to occur when the size of the project has increased to approximately 10 or 15 developers.
 At this point, a project community typically must develop more formal guidelines for admitting new project members.</p>
 </div>
 <div class="paragraph">
-<p>One common standard projects use to assess new members is sustained participation (how long and how often the contributor has been active in the project) combined with a judgment about what one might call "good taste"—an assessment about the quality of work a contributor tends to submit, that contributors good judgement in review comments, etc.
-Still, the project founder tends to be the gatekeeper and final arbiter of who gets "promoted" inside the project.</p>
+<p>One common standard projects use to assess new members is sustained participation (how long and how often the contributor has been active in the project) combined with a judgment about what one might call "good taste"—an assessment about the quality of work a contributor tends to submit, that contributor&#8217;s good judgement in review comments, etc.
+Still, the project founder tends to be the gatekeeper and final arbiter of who gets promoted inside the project.</p>
 </div>
 </div>
 </div>
@@ -1914,12 +1947,14 @@ Uniting these parties will have implications for project governance.</p>
 <p>Many projects begin enticing other vendors to contribute by demonstrating a viable market for the project.
 Vendors typically do not invest sustainably in open source projects unless they can justify that investment.
 Illustrating significant and enthusiastic user adoption of the software is therefore critical at this stage.
-Initial efforts focus on accelerating adoption momentum and successfully converting <em>users</em> into <em>contributors</em> by soliciting their active participation in the project roadmap and project promotion.</p>
+Initial efforts focus on accelerating adoption momentum and successfully converting users into contributors by soliciting their active participation in the project roadmap and project promotion.</p>
 </div>
 <div class="paragraph">
 <p>Alternatively, a project may attempt to engage with other vendors by focusing on encouraging collaborators to "build on" a common platform.
-While companies may not be able to justify significant investment in the project "core," they may be able to justify investment in <em>extensions</em> to a project—if those extensions are relatively inexpensive and can support their business.
-For example, by focusing initial outreach and engagement efforts on APIs, developer experience for extensions, and the path to distribution for people <em>writing</em> those extensions, projects may grow large communities of vendors building <em>atop</em> a platform, rather than modifying the core platform itself.
+While companies may not be able to justify significant investment in the project "core," they may be able to justify investment in <em>extensions</em> to a project—if those extensions are relatively inexpensive and can support their business.</p>
+</div>
+<div class="paragraph">
+<p>For example, by focusing initial outreach and engagement efforts on the APIs, the developer experience for extensions, and the path to distribution for people writing those extensions, projects may grow large communities of vendors building atop a platform, rather than modifying the core platform itself.
 Distinguishing these two areas of development—between the "core" and the "periphery"—often involves making governance decisions specific to each (only some project roles may receive permission to operate in the project "core," for instance).</p>
 </div>
 <div class="paragraph">
@@ -1929,15 +1964,15 @@ This discussion is partly technical and partly business-focused.</p>
 <div class="paragraph">
 <p>Before making a significant investment of engineering resources in a project, vendors will likely ask:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
 <p>Can we engage with the project on a level playing field? Or do stakeholders use different processes to evaluate changes from different vendors (Contributor Licensing Agreements that give additional rights to the originating vendor over others, for example)? One common way to ensure a level playing field from a legal perspective is to contribute the project&#8217;s management and trademark to a foundation.</p>
 </li>
 <li>
 <p>Does this project meet a customer need? Vendors will consider market fit, and how the project fits into their product portfolio.</p>
 </li>
-</ol>
+</ul>
 </div>
 <div class="paragraph">
 <p>Accepting participation from additional vendors can significantly impact a project&#8217;s governance.
@@ -1956,18 +1991,18 @@ Competing vendors may only be willing to join when a project can demonstrate a c
 <p>In all the cases we&#8217;ve discussed so far, rules and procedures for decision making tend to be implicit.
 And since most open source projects never recruit more than 10 active developers (or one core vendor), most projects never reach a point where explicitly documenting project governance becomes necessary.
 Those that do, however, will likely adopt even more nuanced and complex governance models.
-See "Examples of open source governance models" below to learn more about these.</p>
+Refer to "Examples of open source governance models" below to learn more about these.</p>
 </div>
 <div class="paragraph">
 <p>Sometimes, when projects reach this size, they seek to transition management and trademark of a project to an independent entity (usually called "foundations" in the open source world).
 On rare occasions, projects may establish their own independent consortium for this purpose.
-More frequently, however, a project will approach an existing foundation (such as the Apache Foundation, the Linux Foundation, the Cloud Native Computing Foundation, the Eclipse Foundation, the OpenStack Foundation, or the Software Freedom Conservancy, to name just a few) and ask the foundation to adopt the project.</p>
+More frequently, however, a project will approach an existing foundation (such as the Apache Software Foundation, the Linux Foundation, the Cloud Native Computing Foundation, the Eclipse Foundation, the OpenStack Foundation, or the Software Freedom Conservancy, to name just a few) and ask the foundation to adopt the project.</p>
 </div>
 <div class="paragraph">
 <p>When selecting a foundation with whom to partner in this way, open source projects must make several considerations, including:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>cost structure</p>
 </li>
@@ -1977,23 +2012,23 @@ More frequently, however, a project will approach an existing foundation (such a
 <li>
 <p>affinity of the foundation with the user and developer base of the project</p>
 </li>
-</ul>
+</ol>
 </div>
 <div class="paragraph">
 <p>At this point, projects will commonly discuss the extent to which member fees should influence the project&#8217;s technical governance. Two dominant models for this governance exist.</p>
 </div>
 <div class="paragraph">
-<p>The first is a strict "church and state" separation, where the members who join at the highest membership level have input into (and can influence) project budgetary matters (for example, how funds will be disbursed between infrastructure, headcount, marketing, events), but technical merit dictates how the project is governed technically.
+<p>The first is a strict separation of funding and technical inputs, where the members who join at the highest membership level have input into (and can influence) project budgetary matters (for example, how funds will be disbursed between infrastructure, headcount, marketing, events), but technical merit dictates how the project is governed technically.
 The second is a "pure member" organization, where members are entitled to appoint representatives to a technical governing board with oversight on which sub-projects will be adopted in the project, and how the projects will be governed.</p>
 </div>
 <div class="paragraph">
-<p>Foundations can play another key role in a project&#8217;s evolution: defining the market dynamics <em>around</em> the project, including administration of the project trademark.
-A trademark is one of an open source project&#8217;s most valuable resources for guaranteeing that vendors are distributing the project (or derivatives of it) in a way which does not damage the project&#8217;s reputation.
+<p>Foundations can play another key role in a project&#8217;s evolution: defining the market dynamics around the project, including administration of the project trademark.
+A trademark is one of an open source project&#8217;s most valuable resources for guaranteeing that vendors are distributing the project (or derivatives of it) in a way that does not damage the project&#8217;s reputation.
 Open source projects commonly use trademark certification as a way to "bless" certain vendor products in the market or to influence the way derivative products behave.</p>
 </div>
 <div class="paragraph">
-<p>Some projects hold tightly to the idea that contributors are <em>individual</em> contributors and not representatives of companies for which they may happen to work.
-In mature open source projects (like Apache or the Linux kernel), this allows people to maintain community status and seniority even when they change employers.</p>
+<p>Some projects hold tightly to the idea that contributors are <em>individual contributors</em> and not representatives of companies for which they may happen to work.
+In mature open source projects (like the Linux kernel), this allows people to maintain community status and seniority even when they change employers.</p>
 </div>
 </div>
 <div class="sect2">
@@ -2002,12 +2037,12 @@ In mature open source projects (like Apache or the Linux kernel), this allows pe
 <h4 id="_do_ocracy">4.8.1. "Do-ocracy"</h4>
 <div class="paragraph">
 <p>Open source projects adopting the "do-ocracy" governance model tend to forgo formal and elaborate governance conventions and instead insist that "decisions are made by those who do the work." In other words: In a do-ocracy, members gain authority by making the most consistent contributions.
-Peer review remains common under this model; however, individual contributors tend to retain <em>de facto</em> decision-making power over project components on which they&#8217;ve worked most closely.</p>
+Peer review remains common under this model; however, individual contributors tend to retain de facto decision-making power over project components on which they&#8217;ve worked most closely.</p>
 </div>
 <div class="paragraph">
-<p>For this reason, some do-ocracies will claim to have "no governance at all," relying instead on individual stakeholders' authority to make decisions on matters "where they&#8217;ve done the most work."
-But as we&#8217;ve already explained, such claims about an absence of governance are misguided.
-Every open source project has a governance model. In the case of most do-ocracies, the governance model is merely implicit in the everyday interactions of project members.
+<p>For this reason, some do-ocracies will claim to have "no governance at all," relying instead on individual stakeholders' authority to make decisions on matters "where they&#8217;ve done the most work." But as we&#8217;ve already explained, such claims about an absence of governance are misguided.
+Every open source project has a governance model.
+In the case of most do-ocracies, the governance model is merely implicit in the everyday interactions of project members.
 As a result, joining them can be difficult and intimidating for newcomers, as would-be contributors might not immediately know how to participate or seek approval for their contributions.</p>
 </div>
 <div class="paragraph">
@@ -2022,7 +2057,7 @@ Do not expect to influence decisions in a do-ocracy until you are able to demons
 <div class="paragraph">
 <p>The founder-leader governance model is most common among new projects or those with a small number of contributors (and since most open source projects have only a small number of contributors, this is a rather popular model!).
 In these projects, the individual or group who started the project also administers the project, establishes its vision, controls all permissions to merge code into it, and assumes the right to speak for it in public.
-Some projects refer to their founder-leaders as "BDFLs" or "Benevolent Dictators for Life."</p>
+Some projects refer to their founder-leaders as "BDFLs" or "Benevolent Dictators for Life," a term that is falling out of fashion.</p>
 </div>
 <div class="paragraph">
 <p>In projects following the founder-leader model, lines of power and authority are typically quite clear; they radiate from founder-leaders, who are the final decision-makers for all project matters.
@@ -2044,8 +2079,7 @@ When starting out, do not expect to propose changes that will not serve the foun
 <div class="paragraph">
 <p>Recognizing shortcomings of the founder-leader model, the self-appointing council or board model aims to better facilitate community leadership turnover and succession.
 Under this model, members of an open source project may appoint a number of leadership groups to govern various aspects of a project.
-Such groups may have names like "steering committee," "committer council," "technical operating committee, "architecture council," or "board of directors."
-And typically, these groups construct their own decision-making conventions and succession procedures.</p>
+Such groups may have names like "steering committee," "committer council," "technical operating committee, "architecture council," or "board of directors." And typically, these groups construct their own decision-making conventions and succession procedures.</p>
 </div>
 <div class="paragraph">
 <p>The self-appointing council or board governance model is useful in cases where a project does not have a sponsoring foundation and establishing electoral mechanisms is prohibitively difficult.
@@ -2056,7 +2090,7 @@ Moreover, this model can stymie community participation in leadership activities
 <p><strong>To get started in a project with this governance model:</strong> Because this governance model is typical of more mature open source projects, communities adopting this model will often curate getting started documentation aimed at assisting potential contributors.
 Find this documentation and read it first.
 Then read the project&#8217;s governance documentation to determine how its governing bodies are composed.
-In many cases, you can locate a council or board governing the aspect of the project to which you would like to make a contribution.
+In many cases, you can locate a council or board governing the part of the project where you would like to make a contribution.
 That body will be able to oversee your contribution and answer questions you may have.</p>
 </div>
 </div>
@@ -2081,7 +2115,7 @@ Some communities promote elections as a solution to the indefinite tenure of wel
 <div class="paragraph">
 <p><strong>To get started in a project with this governance model:</strong> Communities appointing leaders through elections typically feature election results and a leadership roster prominently on their project websites.
 Review those documents to determine a point of contact in the project.
-Well- governed open source communities will make clear, also often on their project websites, their pro- cesses for proposing and reviewing items on which the community will vote.
+Well-governed open source communities will it make clear on their project websites their processes for proposing and reviewing items that the community can vote on.
 As you establish a reputation for making useful contributions to the project, you may eventually decide to be a candidate for a project leadership position.
 Be sure to interact productively and collaborate effectively with other contributors as they may be voting you into a leadership position some day.</p>
 </div>
@@ -2094,14 +2128,14 @@ They might do this to accelerate adoption of their work, spur development activi
 </div>
 <div class="paragraph">
 <p>Under this model, the governing organization usually does not accept contributions from anyone outside it.
-Instead, open and closed source innovation occurs at the "edges" of the project.
+Instead, open and closed source innovation occurs at the edges of the project, just where it contacts the rest of the world.
 For this reason, some commentators call this the "walled garden" governance model.
-Occasionally, projects following this model will adopt license with strong "copyleft" requirements, which they see as a deterrent to commercial competitors benefitting from their work on the project (the goal is to force competitors and customers with production requirements to purchase a non-open source license for the software—what some call a "dual license" approach).
+Occasionally, projects following this model will adopt license with strong "copyleft" requirements, which they see as a deterrent to commercial competitors benefitting from their work on the project (the goal is to force competitors and customers with production requirements to purchase a non-open source license for the software—what some call a "dual-license" approach).
 This model becomes problematic in cases where a project claims to have an open community but is in fact wholly owned by a company or consortium.</p>
 </div>
 <div class="paragraph">
 <p><strong>To get started in a project with this governance model:</strong> First, consider any existing relationship between your employer and the company originating the project, if applicable.
-Next, assess the project&#8217;s licensing terms and review its change history and bug tracker to determine whether you are able to contribute to the aspect of the project that interests you — and in the way you would like.
+Next, assess the project&#8217;s licensing terms and review its change history and bug tracker to determine whether you are able to contribute to the aspect of the project that interests you—and in the way you would like.
 Given the project&#8217;s particular licensing stipulations, you may find yourself working alongside or on top of a particular project rather than contributing to it directly.</p>
 </div>
 </div>
@@ -2113,17 +2147,16 @@ Doing this allows the "project," as an abstract entity, to take ownership of res
 </div>
 <div class="paragraph">
 <p>In some cases, foundation leadership and project leadership can form a single governance structure that manages all aspects of the open source project.
-In other cases, the foundation manages some matters (such as trademarks and events) and other governance structures in the project(s) control other matters (such as code approval).</p>
+In other cases, the foundation manages some matters—such as trademarks and events—and other governance structures in the project(s) control other matters (such as code approval).</p>
 </div>
 <div class="paragraph">
 <p>Extensive funding and legal requirements normally limit this model to larger open source projects.
-However, many smaller projects choose to join larger "umbrella" foundations (like the Software Freedom
-Conservancy or the Linux Foundation) to reap some of the benefits of this governance model.
+However, many smaller projects choose to join larger so-called umbrella foundations, such as the Software Freedom Conservancy or the Linux Foundation, to reap some of the benefits of this governance model.
 This governance model is advantageous for projects seeking to establish legal relationships with third parties (like conference venues) or projects seeking to ensure successful leadership transitions following departure of key individuals.
 It might also help prevent the commercialization of the project under a single vendor.</p>
 </div>
 <div class="paragraph">
-<p>High overhead (not strictly financial, but particularly in terms of contributor time, which can be substantial) is a significant drawback of the foundation-backed governance model.
+<p>High overhead—not strictly financial, but particularly in terms of contributor time, which can be substantial—is a significant drawback of the foundation-backed governance model.
 Some foundations are incorporated as industry consortia, in which sponsoring companies govern the organization.
 Different consortia allow different degrees of participation from individual project contributors; some are fairly open groups, while in others only corporate managers have authority.</p>
 </div>
@@ -2136,7 +2169,7 @@ As many foundations feature a contribution-based voting system, familiarize your
 If the foundation is a members-only industry consortium, determine whether your employer is already a member.
 If not, talk to your manager about the importance of the project to your work and ask whether your employer might consider joining.
 In either case, foundation projects may require signing contributor paperwork.
-Your legal department should assist with reviewing and signing this paperwork.</p>
+Your legal department should assist with reviewing and signing such paperwork.</p>
 </div>
 </div>
 </div>
@@ -2149,16 +2182,17 @@ Finally, let&#8217;s examine some concrete steps you can take to structure your 
 <div class="paragraph">
 <p>Recall that most governance models consist of two primary dimensions: roles, and policies and procedures.
 The basic requirements here are actually quite spartan, and can be evolved as the project grows.
-What follows constitutes a kind of "minimum viable product" for project governance.</p>
+What follows constitutes a kind of <em>minimum viable product</em> for project governance.</p>
 </div>
 <div class="paragraph">
-<p>In your project, each of the following sections could very well be its own document. Or  they might simply be part of a single long README—or anything in between.
+<p>In your project, each of the following sections could very well be its own document.
+Or they might simply be part of a single long README—or anything in between.
 What&#8217;s important it to get the basics of how things work down in text, so that people thinking about participating in your project know where to go, who to talk to, and most of all aren&#8217;t horribly surprised.</p>
 </div>
 <div class="sect3">
 <h4 id="_the_importance_of_honesty">4.9.1. The importance of honesty</h4>
 <div class="paragraph">
-<p>When writing governance documentation, it can be tempting to define your project as you would like it to be—or how your corporate marketing department would like it to be seen— rather than how it actually is.
+<p>When writing governance documentation, it can be tempting to define your project as you would like it to be—or how your corporate marketing department would like it to be seen—rather than how it actually is.
 Particularly, project leaders frequently make the mistake of attempting to make the project appear more democratic than it actually is, in documentation.
 This falls apart when users or contributors expect your project to live up to its governance documentation, and it doesn&#8217;t.
 People who would have been fine with being told a project was single-company at the outset become very upset if they ask for their committer status and are refused later.</p>
@@ -2171,28 +2205,29 @@ If there are aspirational goals, those go in their own section under "Roadmap" o
 <div class="sect3">
 <h4 id="_defining_roles">4.9.2. Defining roles</h4>
 <div class="paragraph">
-<p>As mentioned, your project will have a variety of real roles, but you only need to define a handful of them to start out.  Those basic Roles are:</p>
+<p>As mentioned, your project will have a variety of real roles, but you only need to define a handful of them to start out.
+ Those basic Roles are:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Member</p>
+<p><em>Member</em></p>
 </li>
 <li>
-<p>Contributor</p>
+<p><em>Contributor</em></p>
 </li>
 <li>
-<p>Leader</p>
+<p><em>Leader</em></p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p>Whether or not you&#8217;ve thought about it, your project already features all these roles you already have in your project.
+<p>Whether you&#8217;ve thought about it, your project already features all these roles you already have in your project.
 Each one of them should be recorded in a roles document of some kind, either in your project&#8217;s documentation or your main source code repository.
-This allows you to make what was implicit, explicit, both setting expectations, and allowing more people to participate in your project.
+This allows you to make what was implicit into explicit, both setting expectations for and allowing more people to participate in your project.
 For each role, you&#8217;ll need to define who they are, how they qualify for that role, what they are expected to do, and what their rights and privileges are.
 Eventually you&#8217;ll go beyond these roles and define many more specific ones.
-But detailing these three will take your project a fair ways.</p>
+But detailing these three will take your project a fair distance on its journey.</p>
 </div>
 <div class="sect4">
 <h5 id="_members">Members</h5>
@@ -2200,36 +2235,37 @@ But detailing these three will take your project a fair ways.</p>
 <p>This is possibly the least-documented role across all of open source, despite being the most pervasive.
 Members are the people or organizations who participate in your project and are recognized for it.
 Depending on how your project is run, these can be subscribers on a mailing list, sponsoring companies, known end-users, participants at an event, or members of a foundation.
-In some projects, "member" is synonymous with "contributor," but in most this is not the case.
-Most projects have a much larger cadre of people who are "involved" with the project in some way but are not actively contributing to it.</p>
+In some projects, Member is synonymous with Contributor, but in most this is not the case.
+Most projects have a much larger cadre of people who are involved with the project in some way but are not actively contributing code or content to it.</p>
 </div>
 <div class="paragraph">
-<p>Defining who members are requires deciding who the project is actually serving, which is always a critical discussion to have.
-Are customers of the main sponsoring company automatically project members?  Can companies be members, or only individuals?
-Are end-users members or just contributors?
-More than anything, defining Members means defining who it is that project leades need to listen to.</p>
+<p>Defining who Members are requires deciding who the project is actually serving, which is always a critical discussion to have.
+Are customers of the main sponsoring company automatically project Members?
+Can companies be Members, or only individuals?
+Are end-users Members or can they only be Contributors?
+More than anything, defining Members means defining who it is that project Leaders need to listen to.</p>
 </div>
 <div class="paragraph">
-<p>For almost all projects, you need to specify what rules members are subject to (usually a code of conduct and not much else) and what they can expect from leaders and contributors.
-It&#8217;s particularly helpful to explain how members should participate in the project, such as "members file bugs against this repository, and use the 'new bug' template."
+<p>For almost all projects, you need to specify what rules Members are subject to (usually a code of conduct and not much else) and what they can expect from Leaders and Contributors.
+It&#8217;s particularly helpful to explain how Members should participate in the project, such as "Members file bugs against this repository, and use the 'new bug' template."
 Most people, given clear instructions, are happy to channel their participation into the routes you show them.</p>
 </div>
 <div class="paragraph">
-<p>In projects with democratically elected leadership, members can be a much more rigorously defined role, because being a member can come with voting rights.
-This requires you to more carefully qualify members to avoid vote-packing or simply derailing election procedures.</p>
+<p>In projects with democratically elected leadership, Members can be a much more rigorously defined role, because being a Member can come with voting rights.
+This requires you to more carefully qualify Members to avoid vote-packing or simply derailing election procedures.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_contributors">Contributors</h5>
 <div class="paragraph">
 <p>Far more projects have a written definition of Contributors, but fewer than you&#8217;d think.
-It&#8217;s often assumed, in the age of publicly hosted source code control, that you simply count up anyone who shows up in the Github or Gitlab statistics is therefore a Contributor.
+It&#8217;s often assumed, in the age of publicly hosted source code control, that you count anyone in the GitHub or GitLab statistics as therefore a Contributor.
 But defining "who is a Contributor to this project" can be deceptively hard.</p>
 </div>
 <div class="paragraph">
 <p>Is it anyone who posted on a mailing list, or do you need 100 merged pull requests?
 Is it just code contributors, or contributors of any kind? What about folks who do events and advocacy?
-Are staff who work for a contributing company automatically considered contributors, or do they have to earn it individually?
+Are staff who work for a contributing company automatically considered Contributors, or do they have to earn it individually?
 What about someone who contributed a lot of code three years ago, but not since then?
 Who gets listed in your release credits and how?</p>
 </div>
@@ -2237,39 +2273,42 @@ Who gets listed in your release credits and how?</p>
 <p>The conversation around this will often have a greater effect on your project than the document does.</p>
 </div>
 <div class="paragraph">
-<p>The "controubutor" role is also one for which you&#8217;ll need to set many more expectations for what contributors receive in return for their work.
-This not only includes an explanation of the intellectual property rules of the project (e.g. does the contributor still own their code, or not), but also questions like how soon a contributor can expect their submissions to be reviewed and accepted or rejected.
-Generally, you should also explain how the contributor will be credited for their participation.</p>
+<p>The Contributor role is also one for which you&#8217;ll need to set many more expectations for what Contributors receive in return for their work.
+This not only includes an explanation of the intellectual property rules of the project (e.g., does the contributor still own their code or not), but also questions like how soon Contributor can expect their submissions to be reviewed and accepted or rejected.
+Generally, you should also explain how the Contributor will be credited for their participation.</p>
 </div>
 <div class="paragraph">
-<p>It&#8217;s also a place where you set out clearly what rules contributors need to follow.
-For example, many projects require contributors or their employers to sign paperwork officially sharing their copyright or other intellectual property (see below for more on this).
-You may also require contributors to do certain things to help maintain the project, such as review others' submissions or help with documentation.</p>
+<p>It&#8217;s also a place where you set out clearly what rules Contributors need to follow.
+For example, some projects require Contributors or their employers to sign paperwork officially sharing their copyright or other intellectual property (see below for more on this).
+You may also require Contributors to do certain things to help maintain the project, such as review others' submissions or help with documentation.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_leaders">Leaders</h5>
 <div class="paragraph">
-<p>As we noted, every project has leadership, even those leaders are not clearly identified.
-As such, at a minimum you&#8217;ll need to identify who your leaders are, so that decision-making processes can be clear.
-Many projects also explain the qualifications and procedure to become a leader, whether it&#8217;s selection by a committee, election, or simply based on your job. If you have a more politically sophisticated project, then those should be written down in a selection/election procedure document as well (see below), but if it&#8217;s simple, selection can just be part of the role document.</p>
+<p>As we noted, every project has leadership, even when those leaders are not clearly identified.
+As such, at a minimum you&#8217;ll need to transparently identify who your Leaders are, so that decision-making processes can be clear.
+Many projects also explain the qualifications and procedure to become a Leader, whether it&#8217;s selection by a committee, election, or simply based on your job.
+If you have a more politically sophisticated project, then those should be written down in a selection/election procedure document as well (refer below), but if it&#8217;s simple, selection can just be part of the role document.</p>
 </div>
 <div class="paragraph">
-<p>What fewer projects put into their leadership role documents is the other parts: the powers and limitations of the leaders, their duties, and how people leave the role (voluntary or not).
-It&#8217;s very important that everyone know exactly how far a leader&#8217;s authority extends, as well as what they&#8217;re responsible for, or you end up with a lot of conflict between leaders and other project members.
-Having a set of written duties helps immensely when your leadership team has to decide to kick out a project leader who has stopped participating, but does not want to resign.</p>
+<p>What fewer projects put into their leadership role documents is the other parts: the powers and limitations of the Leaders, their duties, and how people leave the role (voluntary or not).
+It&#8217;s very important that everyone know exactly how far a Leader&#8217;s authority extends, as well as what they&#8217;re responsible for, or you end up with a lot of conflict between Leaders and other project members.
+Having a set of written duties helps immensely when your leadership team has to decide to remove a project Leader who has stopped participating, but does not want to resign.</p>
 </div>
 <div class="paragraph">
-<p>If your project is trying to recruit new/additional leaders, then it&#8217;s also important to have a detailed set of qualifications a leader needs to meet.
+<p>If your project is trying to recruit new/additional Leaders, then it&#8217;s also important to have a detailed set of qualifications a Leader needs to meet.
 Contrary to some expectations, having detailed qualifications gives people who want to move up in the project a target to shoot for.</p>
 </div>
-<div class="paragraph">
-<p>Setting policies and procedures</p>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_setting_policies_and_procedures">4.10. Setting policies and procedures</h3>
 <div class="paragraph">
 <p>In addition to some basic role documentation, there&#8217;s a certain amount of basic paperwork that each project should create for itself.
-These "policy and procedure" (P&amp;P) documents are considered a kind of minimum for what you need to grow and mature a project.
-Your project may, and eventually will, have others as your contributor base expands and the number of processes you need to write down with it.</p>
+These <em>policy and procedure</em> (P&amp;P) documents are considered a kind of minimum for what you need in order to grow and mature a project.
+Your project may, and eventually will, have other P&amp;P docs as your contributor base expands and the number of processes you need to write down with it.</p>
 </div>
 <div class="paragraph">
 <p>Some of these will be mostly technical (like release process, or a support policy), and we won&#8217;t be exploring those here.</p>
@@ -2283,7 +2322,7 @@ Your project may, and eventually will, have others as your contributor base expa
 <p>Code of conduct</p>
 </li>
 <li>
-<p>Contribution process &amp; paperwork</p>
+<p>Contribution process</p>
 </li>
 <li>
 <p>Communication information</p>
@@ -2291,7 +2330,7 @@ Your project may, and eventually will, have others as your contributor base expa
 </ol>
 </div>
 <div class="paragraph">
-<p>Projects that grow larger and more popular, become commercially adopted, or are actively recruiting many new contributors probably want some additional P&amp;P docs, such as:</p>
+<p>Projects that grow larger and more popular, become commercially adopted, or are actively recruiting many new contributors probably want some additional P&amp;P documents, such as:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -2305,7 +2344,7 @@ Your project may, and eventually will, have others as your contributor base expa
 <p>Release process</p>
 </li>
 <li>
-<p>Security issue reporting &amp; handling</p>
+<p>Security issue reporting and handling</p>
 </li>
 <li>
 <p>Project trademark usage</p>
@@ -2313,11 +2352,10 @@ Your project may, and eventually will, have others as your contributor base expa
 </ol>
 </div>
 <div class="paragraph">
-<p>We&#8217;ll talk about these six documents below.</p>
+<p>We&#8217;ll talk about these eight documents below.</p>
 </div>
-</div>
-<div class="sect4">
-<h5 id="_developing_a_code_of_conduct">Developing a code of conduct</h5>
+<div class="sect3">
+<h4 id="_developing_a_code_of_conduct">4.10.1. Developing a code of conduct</h4>
 <div class="paragraph">
 <p>Creating a code of conduct (CoC) for your open source community is one of the simplest and most powerful ways to begin influencing the project&#8217;s governance model.
 A code of conduct is a description of expectations for community members' behavior when they act within or on behalf of the project.
@@ -2349,13 +2387,12 @@ In this way, constructing a code of conduct can become a compelling community-bu
 As your project grows, you&#8217;ll want to form a specific CoC committee, but you don&#8217;t need that right away.</p>
 </div>
 </div>
-</div>
 <div class="sect3">
-<h4 id="_contribution_process">4.9.3. Contribution process</h4>
+<h4 id="_contribution_process">4.10.2. Contribution process</h4>
 <div class="paragraph">
 <p>In order to recruit contributors, you need to tell them the basics of how to contribute to your project.
-For projects on Github or Gitlab this is generally placed in a document called CONTRIBUTING.md, but it can really go anywhere as long as it&#8217;s linked from your project&#8217;s home page.
-If you&#8217;ve documented your "contributor" role, you can just use that for your contribution docs.
+For projects on GitHub or GitLab this is generally placed in a document called CONTRIBUTING.md, but it can really go anywhere as long as it&#8217;s linked from your project&#8217;s home page.
+If you&#8217;ve documented your Contributor role, you can just use that for your contribution docs.
 If you haven&#8217;t, then here&#8217;s a few things you should cover in your contribution document:</p>
 </div>
 <div class="olist arabic">
@@ -2381,8 +2418,9 @@ If you haven&#8217;t, then here&#8217;s a few things you should cover in your co
 <p>Some projects have paperwork that needs to be submitted before any contributions can be accepted, such as a Developer Certificate or Origin (DCO) or Contributor License Agreement (CLA), certificate of identity, or GPG keyring.
 Spell these out with step-by-step instructions in your contribution document.</p>
 </div>
-<div class="sect4">
-<h5 id="_communications">Communications</h5>
+</div>
+<div class="sect3">
+<h4 id="_communication_information">4.10.3. Communication information</h4>
 <div class="paragraph">
 <p>Most open source projects have multiple ways that project members talk to each other, including email, chat, issues, code reviews, video conferencing, and even in-person meetings.
 You need to spell out which channels your project uses, and how to join them.
@@ -2396,11 +2434,11 @@ Any regular meetings should link to a calendar, or at least information about th
 And if your community has any important events, such as annual developer conference, mention it.</p>
 </div>
 <div class="paragraph">
-<p>See this guidebook&#8217;s chapter on communication norms in open source projects for more detail.</p>
+<p>Refer to this guidebook&#8217;s chapter on communication norms in open source projects for more detail.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_leadership_selectionelection">Leadership selection/election</h5>
+<div class="sect3">
+<h4 id="_leadership_selectionelection_process">4.10.4. Leadership selection/election process</h4>
 <div class="paragraph">
 <p>If you&#8217;ve already documented your "leadership" role, the information on how project members become leaders will be part of it.
 However, some projects don&#8217;t get around to writing roles, and other projects have multi-step election procedures that require additional documentation.
@@ -2415,8 +2453,8 @@ If your project has a self-appointing council, it&#8217;s not that much more com
 We&#8217;ll offer additional advice on holding elections at the conclusion of this chapter.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_contributor_promotion">Contributor promotion</h5>
+<div class="sect3">
+<h4 id="_contributor_promotion">4.10.5. Contributor promotion</h4>
 <div class="paragraph">
 <p>If your project has multiple levels of contributor status, with a defined progression between them—what&#8217;s known as a "contributor ladder"—then it can be useful to write a specific document explaining how this works.
 This will give new contributors an idea of what&#8217;s ahead of them and what they need to do to move up.
@@ -2428,11 +2466,11 @@ For example, "Has consistently helped with code reviews in the subproject" is go
 Quantifiable rules help you avoid overlooking contributors who are valuable, but not outspoken.</p>
 </div>
 <div class="paragraph">
-<p>Smaller projects, with only a couple of contributor levels (e.g. "contributor" and "owner"), do not need a separate document for this.</p>
+<p>Smaller projects, with only a couple of contributor levels (e.g., Contributor and Owner), do not need a separate document for this.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_release_process">Release process</h5>
+<div class="sect3">
+<h4 id="_release_process">4.10.6. Release process</h4>
 <div class="paragraph">
 <p>Releasing software involves making decisions around what will and won&#8217;t be included in the current release.
 When a project is small, this is pretty obvious, but in larger projects with contributors working for multiple employers, deciding what stays and what gets cut can be political.
@@ -2443,38 +2481,52 @@ As such, when your project grows you&#8217;re going to want to write down some p
 <p>Some projects have defined release teams, in which case this document will be largely a collection of Role documents for the release team.
 In other projects, the maintainers do the releases, but even with those it&#8217;s worthwhile to explain how they decide what gets included.
 This doesn&#8217;t mean necessarily changing how you do releases, but rather just writing down what the real procedure already is, particularly the method of deciding which features and patches get left out.
-The process for writing and editing the announcement is also worthwhile, especially if your project involves multiple vendors.</p>
+The process for writing and editing the release announcement is also worthwhile, especially if your project involves multiple vendors.</p>
 </div>
 <div class="paragraph">
 <p>This document will also have lots of non-governance content, like the locations of the servers, the commands to build packages, and how long to wait for mirrors to sync.
 It&#8217;s expected that most of it will be technical instructions.
-Just don&#8217;t neglect the who and why along with the how.</p>
+Just don&#8217;t neglect the <em>who</em> and <em>why</em> along with the <em>how</em>.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_security_issue_reporting_handling">Security issue reporting &amp; handling</h5>
+<div class="sect3">
+<h4 id="_security_issue_reporting_and_handling">4.10.7. Security issue reporting and handling</h4>
 <div class="paragraph">
 <p>Once your project&#8217;s code is being used in production by external users, managing security issue reports becomes a critical priority.
 While this topic could use an entire chapter on its own, there is some basic governance setup associated with handling security issues.
-This will include:
-. Who is selected to be on the security team, how, and when.
-. Where security reports get sent
-. How they are handled, including confidentiality requirements
-. What reciprocation security researchers can expect
-. How long you can wait before disclosing</p>
+This will include:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Who is selected to be on the security team, how, and when</p>
+</li>
+<li>
+<p>Where security reports get sent</p>
+</li>
+<li>
+<p>How they are handled, including confidentiality requirements</p>
+</li>
+<li>
+<p>What reciprocation security researchers can expect</p>
+</li>
+<li>
+<p>How long you can wait before disclosing</p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
-<p>Confidentiality requirements are particularly important for both the security team itself, and for the programmers and security researchers you work with.
+<p>Confidentiality requirements are particularly important for both the security team itself, and for the programmers and security researchers with whom you work.
 For example, security researchers are willing to not disclose their findings to the public until your project does, but only if they are promised that your security team won&#8217;t do that either.
 In many projects, security team members aren&#8217;t allowed to share certain information even with their own employers.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_project_trademark_usage">Project trademark usage</h5>
+<div class="sect3">
+<h4 id="_trademark_usage">4.10.8. Trademark usage</h4>
 <div class="paragraph">
-<p>When a project gets popular, both commercial and non-commercial groups want to use the project&#8217;s name, word mark, and graphical logo in things.
+<p>When a project gets popular, both commercial and non-commercial groups want to use the project&#8217;s name, word mark, and graphical logo.
 Whether it&#8217;s just statements of support, a third party wanting to sell shirts with your project on them, or other projects that derive from yours, projects need these entities to be following some kind of official policy around usage.
-Even if the project has not filed for a trademark with any government yet, establishing a pattern of policy and permission will help protect your project&#8217;s name in the future.</p>
+Even if the project has not filed for a trademark with any government yet, establishing a pattern of policy and permission will help protect your project&#8217;s name and marks in the future.</p>
 </div>
 <div class="paragraph">
 <p>Such a policy consists of four things:</p>
@@ -2498,7 +2550,7 @@ Even if the project has not filed for a trademark with any government yet, estab
 <div class="paragraph">
 <p>For the actual acceptable usage statement and guidelines, projects should obtain legal assistance.
 The governance part of this is selecting the "trademark team" (which could be an existing steering council, or similar), and how guidelines are updated and changed.
-In projects run by multiple technology vendors, it&#8217;s critical to work this out in the early stages of the project, because the project&#8217;s own sponsors will want to use it&#8217;s mark almost immediately.
+In projects run by multiple technology vendors, it&#8217;s critical to work this out in the early stages of the project, because the project&#8217;s own sponsors will want to use its mark almost immediately.
 Make sure that responsibility here is shared between the stakeholders in your project.</p>
 </div>
 <div class="paragraph">
@@ -2506,8 +2558,8 @@ Make sure that responsibility here is shared between the stakeholders in your pr
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_holding_community_elections">4.9.4. Holding community elections</h4>
+<div class="sect2">
+<h3 id="_holding_community_elections">4.11. Holding community elections</h3>
 <div class="paragraph">
 <p>As community projects grow, many choose to select community representatives.
 This process may occur when a community loses a founder, a group decides to move to a "ruling technical council" governance model, or when a project moves to a non-profit governing body with paying members.</p>
@@ -2519,8 +2571,8 @@ Historically, choosing a voting system, defining an electorate, and limiting the
 <div class="paragraph">
 <p>This section summarizes project election best practices, including who gets to vote, who can be a candidate, and how elections are run.</p>
 </div>
-<div class="sect4">
-<h5 id="_electorate_and_eligible_candidate_pool">Electorate and eligible candidate pool</h5>
+<div class="sect3">
+<h4 id="_electorate_and_eligible_candidate_pool">4.11.1. Electorate and eligible candidate pool</h4>
 <div class="paragraph">
 <p>Establishing franchise rules is critical.
 Some projects have allowed anyone registered for a project&#8217;s site to vote in an election—a very low bar—but have specified that only project committers could be election candidates—a high bar.
@@ -2530,8 +2582,8 @@ Anyone who can vote in the election is therefore eligible to become a candidate.
 <div class="paragraph">
 <p>Projects typically take one of three approaches to defining the electorate and candidate pools:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p><strong>High bar:</strong> Voters are members of an inside group—such as committers, maintainers, and core contributors.
 Membership requires a long history of participation and seniority recognized by peers.</p>
@@ -2542,7 +2594,7 @@ Membership requires a long history of participation and seniority recognized by 
 <li>
 <p><strong>Low bar:</strong> Anyone can vote as long as they complete some basic steps, like signing up to the program or joining the mailing list.</p>
 </li>
-</ul>
+</ol>
 </div>
 <div class="paragraph">
 <p>Defining an activity metric and minimum bar specifying what qualifies as "participation" can become contentious, mainly because it involves drawing arbitrary lines delimiting eligible participants.
@@ -2551,17 +2603,16 @@ Generally, projects specify that quantified, ongoing participation is necessary 
 <div class="paragraph">
 <p>One common election fear is ballot stuffing or cohort effects, where large companies dominate the representative bodies by having a large voting bloc, or where friends of candidates will pass the low bar to become voters simply to vote for their candidate.
 In most cases, however, such fears are unfounded.
-Technical communities often try to create rules to mitigate against possible abuses of the system, but in most cases, these rules are "premature optimization," which Donald Knuth, author of <em>The Art of Computer Programming</em>, has famously described as "the root of all evil."<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup>
-Avoiding special rules—and addressing issues with the electoral process as they arise—is generally the better practice.</p>
+Technical communities often try to create rules to mitigate against possible abuses of the system, but in most cases, these rules are "premature optimization," which Donald Knuth, author of <em>The Art of Computer Programming</em>, has famously described as "the root of all evil." <sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup> Avoiding special rules—and addressing issues with the electoral process as they arise—is generally the better practice.</p>
 </div>
 <div class="paragraph">
 <p>One final consideration is the process for becoming a candidate in the election.
 The most popular option is self-nomination, where candidates post election information and their reasons for running.
-Another option is nomination,which is often the same as self-nomination as the candidate typically asks people to nominate them and second their nomination.</p>
+Another option is nomination, which is often the same as self-nomination as the candidate typically asks people to nominate them and second their nomination.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_voting_system">Voting system</h5>
+<div class="sect3">
+<h4 id="_voting_system">4.11.2. Voting system</h4>
 <div class="paragraph">
 <p>Another complex community decision is the voting system.
 Any community will include people passionate about how to vote—and how to count votes.
@@ -2570,21 +2621,21 @@ Without proper care, conversations about these issues can go on for months and r
 <div class="paragraph">
 <p>Most community projects have used:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Voting by secret ballot.</p>
 </li>
 <li>
-<p>Online voting, with a personal token to ensure each person may only vote once.</p>
+<p>Online voting, with a personal token to ensure each person may only vote once</p>
 </li>
 <li>
-<p>Some form of preferential voting, listing candidates in order of preference.</p>
+<p>Some form of preferential voting, listing candidates in order of preference</p>
 </li>
 <li>
 <p><a href="https://en.wikipedia.org/wiki/Condorcet_method">Condorcet</a> or <a href="https://en.wikipedia.org/wiki/Single_transferable_vote">single transferable vote</a> (STV) to count the votes and identify winners</p>
 </li>
-</ul>
+</ol>
 </div>
 <div class="paragraph">
 <p>Some projects continue to use alternative voting systems like "first past the post" or weighted voting systems, in which voters receive 12 tokens to allocate to candidates however they wish, and the candidates with the most tokens win the election.</p>
@@ -2593,8 +2644,8 @@ Without proper care, conversations about these issues can go on for months and r
 <p>Several projects use online counting software.
 Options to consider include:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p><a href="http://civs.cs.cornell.edu/">Condorcet Internet Voting Service</a>, a free, online voting and Condorcet counting system.</p>
 </li>
@@ -2607,11 +2658,11 @@ Options to consider include:</p>
 <li>
 <p><a href="https://vote.heliosvoting.org/">Helios</a>, another free election service that allows online voting and several different vote counting methods.</p>
 </li>
-</ul>
+</ol>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_how_to_start">How to start</h5>
+<div class="sect3">
+<h4 id="_how_to_start">4.11.3. How to start</h4>
 <div class="paragraph">
 <p>If you are planning to propose an election system, begin with a mission statement.
 For example:</p>
@@ -2627,7 +2678,6 @@ For example:</p>
 <p>The mission statement clarifies several things: who is being represented by the elected body, what their authority will be, and why they are being elected.
 Once you have agreed on the goal of the elected body, choose the simplest ways to define membership in the body being represented.
 Then, choose the simplest voting and counting system possible.</p>
-</div>
 </div>
 </div>
 </div>
@@ -3074,18 +3124,18 @@ This experience can provide insight to developing and building up social norms a
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>"Self-care is the ability of individuals, families and communities to promote health, prevent disease, maintain health, and to cope with illness and disability with or without the support of a healthcare provider".<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup></p>
+<p>"Self-care is the ability of individuals, families and communities to promote health, prevent disease, maintain health, and to cope with illness and disability with or without the support of a healthcare provider".<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup></p>
 </div>
 </blockquote>
 </div>
 <div class="paragraph">
 <p>In a nutshell, then, self-care is the practice of making conscious, mindful efforts to perform activities that aid in our physical, emotional, relational, and perhaps spiritual well-being at a fundamental level.
-Most of us already practice self-care daily by taking actions to protect our overall health (for example, eating healthily, exercising, and getting enough sleep).
+Most of us already practice self-care daily by taking actions to protect our overall health (for example, eating healthy, exercising, and getting enough sleep).
 Sometimes, however, we may find acts like these alone are insufficient for maintaining our well-being—and that a conscious effort at finding additional support is required.</p>
 </div>
 <div class="paragraph">
 <p>We can usually handle stress more effectively when we&#8217;re in a happy state in mind.
-So by practicing self-care, we can build a resilience to life&#8217;s unavoidable stressors.</p>
+By practicing self-care, we can build a resilience to life&#8217;s unavoidable stressors.</p>
 </div>
 <div class="paragraph">
 <p>This concept of self-care may appear simplistic in theory, but it is so commonly overlooked or neglected—especially by community managers.
@@ -3095,7 +3145,7 @@ Let&#8217;s explore (and deconstruct) some reasons why.</p>
 <h4 id="_emotional_contagion">6.3.1. Emotional contagion</h4>
 <div class="paragraph">
 <p>Community managers are often seen as leaders, the people everyone can turn to, an inspiration for others to emulate.
-This seemingly high pedestal can be daunting, demanding a good deal of emotional intelligence and mental effort to deliver a community that&#8217;s not only growing but also productive.<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup></p>
+This seemingly high pedestal can be daunting, demanding a good deal of emotional intelligence and mental effort to deliver a community that&#8217;s not only growing but also productive.<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>When the going gets tough, it&#8217;s often our responsibility (and our desire) to pull the community through those times.
@@ -3108,8 +3158,8 @@ And that is why self-care is so important.</p>
 <p>One of the first tasks on the road to self-care, then, is to be aware of how our own emotional states can impact our communities.</p>
 </div>
 <div class="paragraph">
-<p>Emotions (both positive and negative) are highly contagious.<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup>
-Our emotional expressions have the power to unconsciously influence people around us, such that others may even begin unconsciously mimicking our own.<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup>
+<p>Emotions (both positive and negative) are highly contagious.<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup>
+Our emotional expressions have the power to unconsciously influence people around us, such that others may even begin unconsciously mimicking our own.<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup>
 If we are in a state of anxiety or stress, others will sense this and add to it their own negative energy.
 We see this when dealing with particularly toxic community members infecting others, but fail to identify that we ourselves can unconsciously unduly influence others as well.
 Similarly, if we are in a genuine pleasant mood, then people tend to be driven by that positive mood and become more productive.</p>
@@ -3150,7 +3200,7 @@ A leader can be many things to many people, but the most important aspect is tha
 </div>
 <div class="paragraph">
 <p>The belief that being "in control" is a reflection of our confidence in what we produce is inaccurate.
-It actually demonstrates that we are reluctant to show others that we are not perfect and struggle to accept anything less.<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup>
+It actually demonstrates that we are reluctant to show others that we are not perfect and struggle to accept anything less.<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup>
 Although maintaining this front can help shield us temporarily from others' emotions and criticisms towards us, it doesn&#8217;t protect us from our own self-destruction caused by bottling them up.</p>
 </div>
 <div class="paragraph">
@@ -3177,7 +3227,7 @@ We must acknowledge and accept that being perfect is unattainable, and more impo
 What <em>is</em> important is that people can relate to your human side.</p>
 </div>
 <div class="paragraph">
-<p>People gravitate to others with whom they share a kinship.<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup>, and being able to identify this feeling of kinship is one hallmark of an effective community manager.
+<p>People gravitate to others with whom they share a kinship.<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup>, and being able to identify this feeling of kinship is one hallmark of an effective community manager.
 If your members see that you possess qualities they can relate to, they can more easily empathize with you.
 Ironically, we often emphasis the significance of practicing empathy for our members or team, but it&#8217;s equally important that our members demonstrate compassion, and gratitude towards us too.</p>
 </div>
@@ -3216,8 +3266,8 @@ Keeping ourselves nourished helps us maintain bodily health. Getting into health
 <div class="paragraph">
 <p>Physical self-care might include activities like:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Maintaining a regular sleep routine</p>
 </li>
@@ -3239,7 +3289,7 @@ Keeping ourselves nourished helps us maintain bodily health. Getting into health
 <li>
 <p>Doing yoga (or other forms of exercise)</p>
 </li>
-</ul>
+</ol>
 </div>
 </div>
 <div class="sect3">
@@ -3259,8 +3309,8 @@ Keeping ourselves nourished helps us maintain bodily health. Getting into health
 <div class="paragraph">
 <p>A few examples of mental self-care:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Reading a new book or article</p>
 </li>
@@ -3276,7 +3326,7 @@ Keeping ourselves nourished helps us maintain bodily health. Getting into health
 <li>
 <p>Organize or clean out a space in your room</p>
 </li>
-</ul>
+</ol>
 </div>
 </div>
 <div class="sect3">
@@ -3291,8 +3341,8 @@ The word soul is merely a representation of the entity or uniqueness you feel em
 <div class="paragraph">
 <p>A few examples of spiritual self-care:</p>
 </div>
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
 <p>Volunteering for a cause you care about</p>
 </li>
@@ -3314,7 +3364,7 @@ The word soul is merely a representation of the entity or uniqueness you feel em
 <li>
 <p>Discover new forms of spirituality and religion</p>
 </li>
-</ul>
+</ol>
 </div>
 <div class="paragraph">
 <p>Regardless of the different types and activities of self-care you perform, the aim is to help us in a constant and sustainable way, to fight off and defend us against the negative effects of our role.
@@ -3330,16 +3380,16 @@ By ignoring our physical and mental well being we will be more likely to succumb
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
-<p>"Burnout is a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed. ".<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup></p>
+<p>"Burnout is a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed. ".<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup></p>
 </div>
 </blockquote>
 </div>
 <div class="paragraph">
 <p>Burnout can affect us all and in any occupation, however it seems more prevalent in roles that are mentally and emotionally draining for extended periods of time.
-This is common due to the prevailing norms within those roles of being selfless and putting others first.<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup>: going the extra mile to maintain a happy and content environment or atmosphere either for the client or within a community.</p>
+This is common due to the prevailing norms within those roles of being selfless and putting others first.<sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup>: going the extra mile to maintain a happy and content environment or atmosphere either for the client or within a community.</p>
 </div>
 <div class="paragraph">
-<p>It is also appearing more and more within the tech industry.<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup>
+<p>It is also appearing more and more within the tech industry.<sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup>
 This increase has been attributed to the seemly accepted 24/7 work mentality and competitiveness of the industry, leading to workers involved in technology, particularly software development, to becoming overwhelmed and mentally exhausted to the point of risking their health.</p>
 </div>
 <div class="paragraph">
@@ -3353,8 +3403,8 @@ When occupational stress is long occurring, seen as chronic, affecting the overa
 This is because the two are similar until it becomes too late and has developed into a much deeper and harder problem to treat.</p>
 </div>
 <div class="paragraph">
-<p>Psychologist Herbert Freudenberger has released multiple books and articles regarding his research of the possible causes, implications and affects of burnout since the 1970&#8217;s.
-His work.<sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup> has helped to define the different symptoms and thus the phases of experiencing burnout.</p>
+<p>Psychologist Herbert Freudenberger has released multiple books and articles regarding his research of the possible causes, implications and affects of burnout since the 1970s.
+His work.<sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup> has helped to define the different symptoms and thus the phases of experiencing burnout.</p>
 </div>
 <div class="paragraph">
 <p>Perhaps you recognize several of them in yourself; perhaps you recognize only one or two.
@@ -3364,7 +3414,7 @@ It&#8217;s not always easy to see the signs since not only do they gradually occ
 <p><strong>Exhaustion</strong></p>
 </div>
 <div class="paragraph">
-<p>Loss of energy and accompanying feelings of weariness are usually the first distress signals especially when, being a community manager, we naturally have high energy levels.<sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup>
+<p>Loss of energy and accompanying feelings of weariness are usually the first distress signals especially when, being a community manager, we naturally have high energy levels.<sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnotedef_20" title="View footnote.">20</a>]</sup>
 However, be careful not to push yourself harder if you do find yourself struggling to keep up with your usual round of activities.
 Doing so will only exacerbate the problem.</p>
 </div>
@@ -3428,7 +3478,7 @@ We can then begin to feel like we&#8217;re being less appreciated from others in
 This feeling can lead to being bitter and angry.</p>
 </div>
 <div class="paragraph">
-<p><strong>Paranoia</strong>.<sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
+<p><strong>Paranoia</strong>.<sup class="footnote">[<a id="_footnoteref_21" class="footnote" href="#_footnotedef_21" title="View footnote.">21</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>Leading from the signs of feeling unappreciated to feeling as though the world is against us.
@@ -3456,7 +3506,7 @@ Sometimes these illnesses mask the deeper more emotional stress that we feel but
 <div class="sect3">
 <h4 id="_burnout_cycle">6.5.2. Burnout cycle</h4>
 <div class="paragraph">
-<p>Freudenberger and his colleague Gail North.<sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnotedef_20" title="View footnote.">20</a>]</sup> later categorized the consequences of these symptoms into 12 phases of one developing burnout syndrome.<sup class="footnote">[<a id="_footnoteref_21" class="footnote" href="#_footnotedef_21" title="View footnote.">21</a>]</sup>.
+<p>Freudenberger and his colleague Gail North.<sup class="footnote">[<a id="_footnoteref_22" class="footnote" href="#_footnotedef_22" title="View footnote.">22</a>]</sup> later categorized the consequences of these symptoms into 12 phases of one developing burnout syndrome.<sup class="footnote">[<a id="_footnoteref_23" class="footnote" href="#_footnotedef_23" title="View footnote.">23</a>]</sup>.
 Similar to the symptoms, sufferers may experience episodes in multiple phases, not in sequential order, and for any length of period of time.</p>
 </div>
 <div class="olist arabic">
@@ -3480,7 +3530,7 @@ Similar to the symptoms, sufferers may experience episodes in multiple phases, n
 <p><strong>Denial of Emerging Problems</strong>: mechanisms to defend oneself against the impact of life and in turn their demands. Develop inability to tolerate ambiguity and become non-receptive; projecting the anxieties and insecurities externally.</p>
 </li>
 <li>
-<p><strong>Withdrawal</strong>: Become detached from our emotions and from other people. Often "escaping" through television, books or other means like alcohol/drugs.</p>
+<p><strong>Withdrawal</strong>: Become detached from our emotions and from other people. Often "escaping" through television, books, or other means like alcohol/drugs.</p>
 </li>
 <li>
 <p><strong>Odd Behavioral Changes</strong>: friends and family identify increasingly obvious changes in behavior like attitude, language or physical activities.</p>
@@ -3512,7 +3562,7 @@ Similar to the symptoms, sufferers may experience episodes in multiple phases, n
 <p>We&#8217;ve identify the devastating affects of burnout now lets explore the possible sources to these symptoms within our role or even within the community.</p>
 </div>
 <div class="paragraph">
-<p>We earlier described that burnout is a combination of many factors but a recurring element is the realization, subconsciously or not, that we don&#8217;t feel our work is providing us the same sense of reward and purpose as it had once done before.<sup class="footnote">[<a id="_footnoteref_22" class="footnote" href="#_footnotedef_22" title="View footnote.">22</a>]</sup>
+<p>We earlier described that burnout is a combination of many factors but a recurring element is the realization, subconsciously or not, that we don&#8217;t feel our work is providing us the same sense of reward and purpose as it had once done before.<sup class="footnote">[<a id="_footnoteref_24" class="footnote" href="#_footnotedef_24" title="View footnote.">24</a>]</sup>
 Rewards doesn&#8217;t always equate to money or status but can simply be the deeper satisfaction and pleasure in the adhering to one&#8217;s values and achieving happiness.</p>
 </div>
 <div class="paragraph">
@@ -3560,7 +3610,7 @@ This can be seen as self-betrayal to your morals and build up resentment towards
 <p><strong>Work Overload</strong></p>
 </div>
 <div class="paragraph">
-<p>Probably the most common experience attributing to burnout is the over burdening of one&#8217;s workload.<sup class="footnote">[<a id="_footnoteref_23" class="footnote" href="#_footnotedef_23" title="View footnote.">23</a>]</sup>, whether from our own doing or by someone else.
+<p>Probably the most common experience attributing to burnout is the over burdening of one&#8217;s workload.<sup class="footnote">[<a id="_footnoteref_25" class="footnote" href="#_footnotedef_25" title="View footnote.">25</a>]</sup>, whether from our own doing or by someone else.
 This can occur when the quantity of work and expectations exceeds the amount of time or resources available.
 We often find that most other employees expect work attributed to yourself is "urgent" when in fact they aren&#8217;t.
 It&#8217;s important to maintain boundaries and stand your ground to combat an ever increasing list of things to do.</p>
@@ -3575,10 +3625,10 @@ It&#8217;s important to maintain boundaries and stand your ground to combat an e
 <div class="sect3">
 <h4 id="_preventingtreating_burnout">6.5.4. Preventing/Treating Burnout</h4>
 <div class="paragraph">
-<p>If you feel yourself or anyone else succumbing to burnout then the most direct approach is to take a break from the source of the stress, which is more often work, and reflect on the more acute causes of your burnout.<sup class="footnote">[<a id="_footnoteref_24" class="footnote" href="#_footnotedef_24" title="View footnote.">24</a>]</sup></p>
+<p>If you feel yourself or anyone else succumbing to burnout then the most direct approach is to take a break from the source of the stress, which is more often work, and reflect on the more acute causes of your burnout.<sup class="footnote">[<a id="_footnoteref_26" class="footnote" href="#_footnotedef_26" title="View footnote.">26</a>]</sup></p>
 </div>
 <div class="paragraph">
-<p><strong>1. Use your holiday time</strong></p>
+<p><strong>Use your holiday time</strong></p>
 </div>
 <div class="paragraph">
 <p>Don&#8217;t be afraid to utilize this time and don&#8217;t feel guilty either.
@@ -3586,7 +3636,7 @@ Using your holiday does not demerit your dedication to the role, neither does it
 Use this time to concentrate on yourself, and what gives you pleasure in life.</p>
 </div>
 <div class="paragraph">
-<p><strong>2. Spend time with those you care about</strong></p>
+<p><strong>Spend time with those you care about</strong></p>
 </div>
 <div class="paragraph">
 <p>Re-kindle your social relationships, they have probably missed you as a result of the developing burnout.
@@ -3598,7 +3648,7 @@ This could mean letting them disappear from your social network, or limit your i
 Remember, other people&#8217;s emotions can affect us both positive and negatively.</p>
 </div>
 <div class="paragraph">
-<p><strong>3. Re-evaluate priorities</strong></p>
+<p><strong>Re-evaluate priorities</strong></p>
 </div>
 <div class="paragraph">
 <p>Identify what is important to you and reflect upon if your current lifestyle, or work life balance mirrors that.
@@ -3610,14 +3660,14 @@ This could be coming to a solution or compromises with your line manager to redu
 There may be a point that the only way to remove certain stressors in your life is to leave your job to improve your health.</p>
 </div>
 <div class="paragraph">
-<p><strong>4. Practice self-care</strong></p>
+<p><strong>Practice self-care</strong></p>
 </div>
 <div class="paragraph">
 <p>Take the time to commit yourself fully to what ever self-care activity you want to enjoy and do it.
 Try and practice self-care daily, detaching yourself from as much work as possible and devote yourself to some "me" time.</p>
 </div>
 <div class="paragraph">
-<p><strong>5. Seek professional help</strong></p>
+<p><strong>Seek professional help</strong></p>
 </div>
 <div class="paragraph">
 <p>If all the other options have little or no affect on your physical or mental well being, or you feel you require immediate assistance, then do seek professional help as a matter of urgency.</p>
@@ -3625,9 +3675,9 @@ Try and practice self-care daily, detaching yourself from as much work as possib
 </div>
 </div>
 <div class="sect2">
-<h3 id="_work_life_balance">6.6. Work Life Balance</h3>
+<h3 id="_work_life_balance">6.6. Work-Life Balance</h3>
 <div class="paragraph">
-<p>A healthy work life balance is having a clear distinction between our personal and work lives without allowing one to dominate the other. Both are equally important and neither should be undervalued.
+<p>A healthy work-life balance is having a clear distinction between our personal and work lives without allowing one to dominate the other. Both are equally important and neither should be undervalued.
 We can find ourselves in unhealthy mindsets when forced to be stuck in either one extreme or the other withholding an important sense of purpose and enjoyment from that part of our lives.</p>
 </div>
 <div class="paragraph">
@@ -3664,26 +3714,26 @@ However, eventually this over compensation of effort and time, neglect of person
 Try and assess what truly drives your motivations to achieve and does this require you to be online the amount of time you are.
 Do you find that you feed off external praise as form of validation of your work?
 Do feel that if you walked away from the community it would fall apart?
-Identify those moments of pleasure, whether it&#8217;s ticking off a task, or receiving a compliment from a community member or boss, and evaluate whether or not they are needed in the same doses you are currently experiencing them at.</p>
+Identify those moments of pleasure, whether it&#8217;s completing a task, or receiving a compliment from a community member or boss, and evaluate whether they are needed in the same doses you are currently experiencing them at.</p>
 </div>
 <div class="paragraph">
 <p>We can also find that this need to achieve is a reaction to a heavy workload from the lack of resources within the team trying to prove to others the value the role and team brings to the project or company.</p>
 </div>
 <div class="paragraph">
 <p>Reconsider these goals with the aim to reduce your workload.
-Are they achievable and maintainable with the current resources without sacrificing quality and a good work/life balance?
+Are they achievable and maintainable with the current resources without sacrificing quality and a good work-life balance?
 If they aren&#8217;t then consider prioritizing and communicating the most impactful goals that the team can achieve.
 Delegate any other tasks to suitable members or establish more flexible timelines, and anticipate time for possible firefighting as part of those deadlines.</p>
 </div>
 <div class="paragraph">
-<p>Not only does this help to set reasonable expectations for the team members to achieve, but also promotes that a healthy work/life balance is an integral part of their schedule.
+<p>Not only does this help to set reasonable expectations for the team members to achieve, but also promotes that a healthy work-life balance is an integral part of their schedule.
 This predictable schedule also helps you to provide better forecasting to the company or community.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_maintain_boundaries">6.6.2. Maintain boundaries</h4>
 <div class="paragraph">
-<p>When reflecting upon our work life balance, it is important to establish clear boundaries between the two.
+<p>When reflecting upon our work-life balance, it is important to establish clear boundaries between the two.
 As we&#8217;ve said earlier that due to our nature of work, we find ourselves participating within the community and this begins to eat into our personal time leaving nothing else.
 This is tolerable only on a temporary basis and only when we are required for an intervention, but this should not be the norm.
 Boundaries help us establish where our work ends, and pleasure begins.
@@ -3695,7 +3745,7 @@ Be as transparent as possible by defining your available hours, an escalation pr
 The aim is to establish a consistent schedule and the team and community to respect it. Although they may not do so on every occasion, you will be able to use your boundaries to help combat the feeling of guilt as you begin to embrace personal time as your own as well as respecting others.</p>
 </div>
 <div class="paragraph">
-<p>Of course if there are any serious incidences that requires your intervention during down time ensure you put into place mechanisms for the team to combat them rather than yourself being the only one who ‘can handle it'.
+<p>Of course if there are any serious incidences that requires your intervention during down time ensure you put into place mechanisms for the team to combat them rather than yourself being the only one who ‘can handle it.'
 These mechanisms can be an escalation process or a team effort to respond and review the response collectively.
 This helps encourages the mentality that everyone can lighten the load especially when it eats into yours and their personal time.</p>
 </div>
@@ -3746,6 +3796,9 @@ Take time out to frequently reflect what drives you and your community, positive
 </div>
 <div class="sect2">
 <h3 id="_self_reflection">6.7. Self-Reflection</h3>
+<div class="paragraph">
+<p><strong><strong>BKP: There should not be headings jammed together. Please add brief introductory text for this section. </strong></strong></p>
+</div>
 <div class="sect3">
 <h4 id="_through_the_looking_glass">6.7.1. Through the looking glass</h4>
 <div class="paragraph">
@@ -3780,9 +3833,9 @@ However creating a routine of introspection and self-reflection as part of our s
 </div>
 </div>
 <div class="sect3">
-<h4 id="_tackling_imposter_syndrome">6.7.2. Tackling Imposter Syndrome</h4>
+<h4 id="_tackling_imposter_syndrome">6.7.2. Tackling imposter syndrome</h4>
 <div class="paragraph">
-<p>This term was first defined by psychologists Dr Pauline Clance and Dr Suzanne Imes.<sup class="footnote">[<a id="_footnoteref_25" class="footnote" href="#_footnotedef_25" title="View footnote.">25</a>]</sup> in the 1970&#8217;s as the internal experience one feels, despite overwhelming amount of evidence proving other wise, that they are incompetent and that their success was a product of luck or fraud within their field of expertise.</p>
+<p>This term was first defined by psychologists Dr Pauline Clance and Dr Suzanne Imes.<sup class="footnote">[<a id="_footnoteref_27" class="footnote" href="#_footnotedef_27" title="View footnote.">27</a>]</sup> in the 1970s as the internal experience one feels, despite overwhelming amount of evidence proving other wise, that they are incompetent and that their success was a product of luck or fraud within their field of expertise.</p>
 </div>
 <div class="paragraph">
 <p>Often those that experience impostor syndrome have a hard time internalizing and accepting their success by minimizing positive feedback and comparing other&#8217;s work to their own.
@@ -3790,7 +3843,7 @@ This more frequently happens if we have started a new job, take on new responsib
 In order to compensate for this chronic self-doubt we begin to work late, procrastinate or try and justify our position in unnecessary ways.</p>
 </div>
 <div class="paragraph">
-<p>Dr Valerie Young.<sup class="footnote">[<a id="_footnoteref_26" class="footnote" href="#_footnotedef_26" title="View footnote.">26</a>]</sup>, further categorized these types of flawed thinking of what sufferers believe it takes to be component into the following subgroups:</p>
+<p>Dr Valerie Young.<sup class="footnote">[<a id="_footnoteref_28" class="footnote" href="#_footnotedef_28" title="View footnote.">28</a>]</sup>, further categorized these types of flawed thinking of what sufferers believe it takes to be component into the following subgroups:</p>
 </div>
 <div class="paragraph">
 <p><strong>Perfectionist</strong></p>
@@ -3879,12 +3932,12 @@ Not only will we be able to record multiple successes but also help acknowledge 
 So why do we feel we can&#8217;t have the same mentality to helping ourselves?</p>
 </div>
 <div class="paragraph">
-<p>During stress of tough times, whether its just a bad day, or more chronic episodes of illness, research has shown that having a strong, though not required to be large, social support network is beneficial to our well being.<sup class="footnote">[<a id="_footnoteref_27" class="footnote" href="#_footnotedef_27" title="View footnote.">27</a>]</sup>
-Without a social support network it can feel lonely and isolating which can lead into further depression and anxiety.<sup class="footnote">[<a id="_footnoteref_28" class="footnote" href="#_footnotedef_28" title="View footnote.">28</a>]</sup>
+<p>During stress of tough times, whether its just a bad day, or more chronic episodes of illness, research has shown that having a strong, though not required to be large, social support network is beneficial to our well being.<sup class="footnote">[<a id="_footnoteref_29" class="footnote" href="#_footnotedef_29" title="View footnote.">29</a>]</sup>
+Without a social support network it can feel lonely and isolating which can lead into further depression and anxiety.<sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnotedef_30" title="View footnote.">30</a>]</sup>
 Often it&#8217;s our social support network, even if we don&#8217;t think we have one, that first spots there is a change with our behavior before we do.</p>
 </div>
 <div class="paragraph">
-<p>A social support network is made up of friends, family and peers.<sup class="footnote">[<a id="_footnoteref_29" class="footnote" href="#_footnotedef_29" title="View footnote.">29</a>]</sup>
+<p>A social support network is made up of friends, family and peers.<sup class="footnote">[<a id="_footnoteref_31" class="footnote" href="#_footnotedef_31" title="View footnote.">31</a>]</sup>
 Although this is different from a support group, which is more formal and often prescribed, a social support network is something we can develop as part of our community and team structure to help tackle stress, and promote self-care.</p>
 </div>
 <div class="paragraph">
@@ -3899,15 +3952,15 @@ But also remember that we should also serve as a form of support to others.</p>
 <div class="paragraph">
 <p>The more education and communicating with our members about the benefits of self-care, the more likely we will see it being practiced and encouraged by others.
 This in turns helps create a more caring and accepting atmosphere in the community.
-Education can be in the form of discussions promoting self-care, celebrating mental health campaigns.<sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnotedef_30" title="View footnote.">30</a>]</sup>, adding to the community guidelines when on-boarding team members to speak to the team if their workload, or other aspects is affecting their health.<sup class="footnote">[<a id="_footnoteref_31" class="footnote" href="#_footnotedef_31" title="View footnote.">31</a>]</sup><sup class="footnote">[<a id="_footnoteref_32" class="footnote" href="#_footnotedef_32" title="View footnote.">32</a>]</sup>, or organizing training for team members on mental health awareness.</p>
+Education can be in the form of discussions promoting self-care, celebrating mental health campaigns.<sup class="footnote">[<a id="_footnoteref_32" class="footnote" href="#_footnotedef_32" title="View footnote.">32</a>]</sup>, adding to the community guidelines when on-boarding team members to speak to the team if their workload, or other aspects is affecting their health.<sup class="footnote">[<a id="_footnoteref_33" class="footnote" href="#_footnotedef_33" title="View footnote.">33</a>]</sup><sup class="footnote">[<a id="_footnoteref_34" class="footnote" href="#_footnotedef_34" title="View footnote.">34</a>]</sup>, or organizing training for team members on mental health awareness.</p>
 </div>
 <div class="paragraph">
 <p>If you see a member on the team or community showing symptoms of burnout then reach out to them and let them know that you are concerned for their well being.
-Identify that you are there to support them and more often they will respond positively and work together to elevate their stress.<sup class="footnote">[<a id="_footnoteref_33" class="footnote" href="#_footnotedef_33" title="View footnote.">33</a>]</sup></p>
+Identify that you are there to support them and more often they will respond positively and work together to elevate their stress.<sup class="footnote">[<a id="_footnoteref_35" class="footnote" href="#_footnotedef_35" title="View footnote.">35</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>However, it is important to make clear here that if we feel that we are unable to assist a community member&#8217;s emotional stress beyond our role&#8217;s capacity, then encourage that they seek professional health advice immediately.
-We may find ourselves feeling guilty we are unable to provide support, but we need to remind ourselves that we are not professional trained and thus could provide, though well intended, ill advice.<sup class="footnote">[<a id="_footnoteref_34" class="footnote" href="#_footnotedef_34" title="View footnote.">34</a>]</sup>
+We may find ourselves feeling guilty we are unable to provide support, but we need to remind ourselves that we are not professional trained and thus could provide, though well intended, ill advice.<sup class="footnote">[<a id="_footnoteref_36" class="footnote" href="#_footnotedef_36" title="View footnote.">36</a>]</sup>
 Remember that other emotions affect those around them including how member&#8217;s stress can affect ours.</p>
 </div>
 <div class="paragraph">
@@ -3977,100 +4030,106 @@ Be as direct as you are with helping others, that you are with yourself.</p>
 <a href="#_footnoteref_4">4</a>. Kubernetes home page, <a href="https://kubernetes.io/">https://kubernetes.io/</a>, accessed June 22, 2020 05:57 CET
 </div>
 <div class="footnote" id="_footnotedef_5">
-<a href="#_footnoteref_5">5</a>. <a href="https://producingoss.com/en/producingoss-letter.pdf">_https://producingoss.com/en/producingoss-letter.pdf</a>, page 64, accessed 24 June 2020 11:46 CET
+<a href="#_footnoteref_5">5</a>. The authors are grateful for the work of Kent C.Dodds and Sara Drasner in their article <a href="https://css-tricks.com/open-source-etiquette-guidebook/">An Open Source Etiquette Guidebook</a>, accessed 24 June 2020 12:52 CET.
 </div>
 <div class="footnote" id="_footnotedef_6">
-<a href="#_footnoteref_6">6</a>. <a href="https://www.dreamwidth.org/legal/diversity"><em>https://www.dreamwidth.org/legal/diversity</em></a> accessed 2 July 2020 13:37 CET (and how leet it is :)
+<a href="#_footnoteref_6">6</a>. Gaia Vince, <a href="https://www.bbc.com/future/article/20180403-why-do-people-become-trolls-online-and-in-social-media">Evolution explains why we act differently online</a>
 </div>
 <div class="footnote" id="_footnotedef_7">
-<a href="#_footnoteref_7">7</a>. Knuth, Donald E, <em>The Art of Computer Programming</em>. Reading, Mass: Addison-Wesley Pub. Co, 1968. Print.
+<a href="#_footnoteref_7">7</a>. <a href="https://producingoss.com/en/producingoss-letter.pdf">_https://producingoss.com/en/producingoss-letter.pdf</a>, page 64, accessed 24 June 2020 11:46 CET
 </div>
 <div class="footnote" id="_footnotedef_8">
-<a href="#_footnoteref_8">8</a>. World Health Organization, <a href="https://www.who.int/news-room/fact-sheets/detail/self-care-health-interventions">website</a>
+<a href="#_footnoteref_8">8</a>. <a href="https://www.dreamwidth.org/legal/diversity"><em>https://www.dreamwidth.org/legal/diversity</em></a> accessed 2 July 2020 13:37 CET (and how leet it is :)
 </div>
 <div class="footnote" id="_footnotedef_9">
-<a href="#_footnoteref_9">9</a>. The Community Roundtable, <a href="https://communityroundtable.com/state-of-community-management/burn-out-risk-is-high-for-online-community-managers/">2019 State of Community Management Survey</a>
+<a href="#_footnoteref_9">9</a>. Knuth, Donald E, <em>The Art of Computer Programming</em>. Reading, Mass: Addison-Wesley Pub. Co, 1968. Print.
 </div>
 <div class="footnote" id="_footnotedef_10">
-<a href="#_footnoteref_10">10</a>. Sherrie Bourg Carter Psy.D, <a href="https://www.psychologytoday.com/us/blog/high-octane-women/201210/emotions-are-contagious-choose-your-company-wisely">Emotions Are Contagious - Choose Your Company Wisely</a>
+<a href="#_footnoteref_10">10</a>. World Health Organization, <a href="https://www.who.int/news-room/fact-sheets/detail/self-care-health-interventions">website</a>
 </div>
 <div class="footnote" id="_footnotedef_11">
-<a href="#_footnoteref_11">11</a>. Principles of Social Psychology, <a href="https://opentextbc.ca/socialpsychology/chapter/the-role-of-affect-moods-and-emotions/">The Role of Affect: Moods and Emotions </a>
+<a href="#_footnoteref_11">11</a>. The Community Roundtable, <a href="https://communityroundtable.com/state-of-community-management/burn-out-risk-is-high-for-online-community-managers/">2019 State of Community Management Survey</a>
 </div>
 <div class="footnote" id="_footnotedef_12">
-<a href="#_footnoteref_12">12</a>. Alex Budak, <a href="https://www.huffpost.com/entry/in-control-vs-under-control-leadership_b_12590650">In-Control vs. Under-Control Leadership</a>
+<a href="#_footnoteref_12">12</a>. Sherrie Bourg Carter Psy.D, <a href="https://www.psychologytoday.com/us/blog/high-octane-women/201210/emotions-are-contagious-choose-your-company-wisely">Emotions Are Contagious - Choose Your Company Wisely</a>
 </div>
 <div class="footnote" id="_footnotedef_13">
-<a href="#_footnoteref_13">13</a>. Psychologyt Today , <a href="https://www.psychologytoday.com/gb/blog/close-encounters/201812/why-do-we-people-who-are-similar-us">Why Do We Like People Who Are Similar to Us?</a>
+<a href="#_footnoteref_13">13</a>. Principles of Social Psychology, <a href="https://opentextbc.ca/socialpsychology/chapter/the-role-of-affect-moods-and-emotions/">The Role of Affect: Moods and Emotions </a>
 </div>
 <div class="footnote" id="_footnotedef_14">
-<a href="#_footnoteref_14">14</a>. World Health Organization, <a href="https://www.who.int/mental_health/evidence/burn-out/en/">website</a>
+<a href="#_footnoteref_14">14</a>. Alex Budak, <a href="https://www.huffpost.com/entry/in-control-vs-under-control-leadership_b_12590650">In-Control vs. Under-Control Leadership</a>
 </div>
 <div class="footnote" id="_footnotedef_15">
-<a href="#_footnoteref_15">15</a>. Herbert J. Freudenberger, <a href="https://spssi.onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-4560.1974.tb00706.x">Staff Burn-Out</a>
+<a href="#_footnoteref_15">15</a>. Psychology Today , <a href="https://www.psychologytoday.com/gb/blog/close-encounters/201812/why-do-we-people-who-are-similar-us">Why Do We Like People Who Are Similar to Us?</a>
 </div>
 <div class="footnote" id="_footnotedef_16">
-<a href="#_footnoteref_16">16</a>. Team Blind, <a href="https://www.teamblind.com/blog/index.php/2018/05/29/close-to-60-percent-of-surveyed-tech-workers-are-burnt-out-credit-karma-tops-the-list-for-most-employees-suffering-from-burnout/">Close to 60 Percent of Surveyed Tech Workers Are Burnt Out&#8230;&#8203;</a>
+<a href="#_footnoteref_16">16</a>. World Health Organization, <a href="https://www.who.int/mental_health/evidence/burn-out/en/">website</a>
 </div>
 <div class="footnote" id="_footnotedef_17">
-<a href="#_footnoteref_17">17</a>. Dr Herbert Freudenberger and Geraldine Richelson, "Burn-out : The High Cost of High Achievement"
+<a href="#_footnoteref_17">17</a>. Herbert J. Freudenberger, <a href="https://spssi.onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-4560.1974.tb00706.x">Staff Burn-Out</a>
 </div>
 <div class="footnote" id="_footnotedef_18">
-<a href="#_footnoteref_18">18</a>. Maslach, C., &amp; Leiter, M. P. (2008), <a href="https://doi.apa.org/doi/10.1037/0021-9010.93.3.498">Early predictors of job burnout and engagement. Journal of Applied Psychology, 93(3), 498–512</a>
+<a href="#_footnoteref_18">18</a>. Team Blind, <a href="https://www.teamblind.com/blog/index.php/2018/05/29/close-to-60-percent-of-surveyed-tech-workers-are-burnt-out-credit-karma-tops-the-list-for-most-employees-suffering-from-burnout/">Close to 60 Percent of Surveyed Tech Workers Are Burnt Out&#8230;&#8203;</a>
 </div>
 <div class="footnote" id="_footnotedef_19">
-<a href="#_footnoteref_19">19</a>. R Bianchi, L Janin <a href="https://academic.oup.com/occmed/article/69/1/35/5151234">Burnout, depression and paranoid ideation: a cluster-analytic study</a>
+<a href="#_footnoteref_19">19</a>. Dr Herbert Freudenberger and Geraldine Richelson, "Burn-out : The High Cost of High Achievement"
 </div>
 <div class="footnote" id="_footnotedef_20">
-<a href="#_footnoteref_20">20</a>. Dr Herbert Freudenberger and Dr Gail North, "Women&#8217;s Burnout: How to Spot It, How to Reverse It, and How to Prevent It"
+<a href="#_footnoteref_20">20</a>. Maslach, C., &amp; Leiter, M. P. (2008), <a href="https://doi.apa.org/doi/10.1037/0021-9010.93.3.498">Early predictors of job burnout and engagement. Journal of Applied Psychology, 93(3), 498–512</a>
 </div>
 <div class="footnote" id="_footnotedef_21">
-<a href="#_footnoteref_21">21</a>. Freudenberger&#8217;s 12 stages, <a href="https://www.burnoutgeese.com/freudenberger-burnout.html">Freudenberger&#8217;s 12 stages</a>
+<a href="#_footnoteref_21">21</a>. R Bianchi, L Janin <a href="https://academic.oup.com/occmed/article/69/1/35/5151234">Burnout, depression and paranoid ideation: a cluster-analytic study</a>
 </div>
 <div class="footnote" id="_footnotedef_22">
-<a href="#_footnoteref_22">22</a>. Adeva <a href="https://adevait.com/blog/workplace/burnout-tech-industry#2-what-causes-employee-burnout-in-the-tech-industry">What causes employee burnout in the tech industry</a>
+<a href="#_footnoteref_22">22</a>. Dr Herbert Freudenberger and Dr Gail North, "Women&#8217;s Burnout: How to Spot It, How to Reverse It, and How to Prevent It"
 </div>
 <div class="footnote" id="_footnotedef_23">
-<a href="#_footnoteref_23">23</a>. The American Institute of Stress: Survey, <a href="https://www.stress.org/workplace-stress">The AIS Workplace Stress Survey</a>
+<a href="#_footnoteref_23">23</a>. Freudenberger&#8217;s 12 stages, <a href="https://www.burnoutgeese.com/freudenberger-burnout.html">Freudenberger&#8217;s 12 stages</a>
 </div>
 <div class="footnote" id="_footnotedef_24">
-<a href="#_footnoteref_24">24</a>. Pyschology Today, <a href="https://www.psychologytoday.com/us/blog/high-octane-women/201109/when-life-loses-its-meaning-the-heavy-price-high-achievement">When Life Loses Its Meaning: The Heavy Price of High Achievement</a>
+<a href="#_footnoteref_24">24</a>. Adeva <a href="https://adevait.com/blog/workplace/burnout-tech-industry#2-what-causes-employee-burnout-in-the-tech-industry">What causes employee burnout in the tech industry</a>
 </div>
 <div class="footnote" id="_footnotedef_25">
-<a href="#_footnoteref_25">25</a>. Dr Pauline Clance and Dr Suzanne Imes, "The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention."
+<a href="#_footnoteref_25">25</a>. The American Institute of Stress: Survey, <a href="https://www.stress.org/workplace-stress">The AIS Workplace Stress Survey</a>
 </div>
 <div class="footnote" id="_footnotedef_26">
-<a href="#_footnoteref_26">26</a>. Dr Valerie Young, "The Secret Thoughts of Successful Women"
+<a href="#_footnoteref_26">26</a>. Pyschology Today, <a href="https://www.psychologytoday.com/us/blog/high-octane-women/201109/when-life-loses-its-meaning-the-heavy-price-high-achievement">When Life Loses Its Meaning: The Heavy Price of High Achievement</a>
 </div>
 <div class="footnote" id="_footnotedef_27">
-<a href="#_footnoteref_27">27</a>. American Pyschological Association, <a href="https://www.apa.org/topics/manage-stress-social-support">Manage stress: Strengthen your support network</a>
+<a href="#_footnoteref_27">27</a>. Dr Pauline Clance and Dr Suzanne Imes, "The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention."
 </div>
 <div class="footnote" id="_footnotedef_28">
-<a href="#_footnoteref_28">28</a>. Siv Grav, Ove Hellzèn, Ulla Romild, Eystein Stordal, <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2702.2011.03868.x">Association between social support and depression in the general population: the HUNT study, a cross‐sectional survey</a>
+<a href="#_footnoteref_28">28</a>. Dr Valerie Young, "The Secret Thoughts of Successful Women"
 </div>
 <div class="footnote" id="_footnotedef_29">
-<a href="#_footnoteref_29">29</a>. Mayo Clinic, <a href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/social-support/art-20044445">Social support: Tap this tool to beat stress</a>
+<a href="#_footnoteref_29">29</a>. American Pyschological Association, <a href="https://www.apa.org/topics/manage-stress-social-support">Manage stress: Strengthen your support network</a>
 </div>
 <div class="footnote" id="_footnotedef_30">
-<a href="#_footnoteref_30">30</a>. Mental Health Foundation <a href="https://www.mentalhealth.org.uk/campaigns/mental-health-awareness-week">Mental Health Awareness Week</a>
+<a href="#_footnoteref_30">30</a>. Siv Grav, Ove Hellzèn, Ulla Romild, Eystein Stordal, <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2702.2011.03868.x">Association between social support and depression in the general population: the HUNT study, a cross‐sectional survey</a>
 </div>
 <div class="footnote" id="_footnotedef_31">
-<a href="#_footnoteref_31">31</a>. Ubuntu <a href="https://wiki.ubuntu.com/BuildingCommunity/Burnout/">Ubuntu Burnout</a>
+<a href="#_footnoteref_31">31</a>. Mayo Clinic, <a href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/social-support/art-20044445">Social support: Tap this tool to beat stress</a>
 </div>
 <div class="footnote" id="_footnotedef_32">
-<a href="#_footnoteref_32">32</a>. Ubuntu Burnout Help, <a href="https://wiki.ubuntu.com/BuildingCommunity/Burnout/Help">Ubuntu Burnout Help</a>
+<a href="#_footnoteref_32">32</a>. Mental Health Foundation <a href="https://www.mentalhealth.org.uk/campaigns/mental-health-awareness-week">Mental Health Awareness Week</a>
 </div>
 <div class="footnote" id="_footnotedef_33">
-<a href="#_footnoteref_33">33</a>. Jono Bacon, <em>Detecting and Treating Burnout</em>, "The Art of Community"
+<a href="#_footnoteref_33">33</a>. Ubuntu <a href="https://wiki.ubuntu.com/BuildingCommunity/Burnout/">Ubuntu Burnout</a>
 </div>
 <div class="footnote" id="_footnotedef_34">
-<a href="#_footnoteref_34">34</a>. Chartered Management Institute <a href="https://www.managers.org.uk/insights/news/2019/september/how-to-talk-about-depression-at-work">How to Talk About Depression at Work</a>
+<a href="#_footnoteref_34">34</a>. Ubuntu Burnout Help, <a href="https://wiki.ubuntu.com/BuildingCommunity/Burnout/Help">Ubuntu Burnout Help</a>
+</div>
+<div class="footnote" id="_footnotedef_35">
+<a href="#_footnoteref_35">35</a>. Jono Bacon, <em>Detecting and Treating Burnout</em>, "The Art of Community"
+</div>
+<div class="footnote" id="_footnotedef_36">
+<a href="#_footnoteref_36">36</a>. Chartered Management Institute <a href="https://www.managers.org.uk/insights/news/2019/september/how-to-talk-about-depression-at-work">How to Talk About Depression at Work</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 1.99<br>
-Last updated 2020-10-27 15:47:33 -0700
+Last updated 2020-10-29 20:13:10 -0700
 </div>
 </div>
 </body>

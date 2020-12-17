@@ -461,7 +461,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_getting_started">2. Getting Started</a>
 <ul class="sectlevel2">
-<li><a href="#_community_101">2.1. Community 101</a></li>
+<li><a href="#_community_101_understanding_joining_or_forming_a_new_community">2.1. Community 101: Understanding, Joining, or Forming a New Community</a></li>
 <li><a href="#_new_project_checklist">2.2. New Project Checklist</a></li>
 </ul>
 </li>
@@ -754,41 +754,39 @@ The chapters in this section are good places to start for practioners of all lev
 </ul>
 </div>
 <div class="sect2">
-<h3 id="_community_101">2.1. Community 101</h3>
-<div class="paragraph">
-<p>Authors: Bryan Behrenshausen &lt;<a href="mailto:bbehrens@redhat.com">bbehrens@redhat.com</a>&gt;, Dave Neary &lt;<a href="mailto:dneary@redhat.com">dneary@redhat.com</a>&gt;
-Updated: 2020-02-27</p>
-</div>
+<h3 id="_community_101_understanding_joining_or_forming_a_new_community">2.1. Community 101: Understanding, Joining, or Forming a New Community</h3>
 <div class="sect3">
 <h4 id="_introduction">2.1.1. Introduction</h4>
 <div class="paragraph">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Suspendisse viverra id leo et lacinia.
-Maecenas convallis lacinia diam, et lobortis quam tincidunt hendrerit.
-Mauris eget nulla at dolor ullamcorper lacinia.
-Quisque nisl eros, hendrerit et erat sit amet, feugiat venenatis sapien.
-Duis a dapibus mauris.
-Aliquam tempus ornare metus nec accumsan.
-Nulla et dui arcu.
-Proin hendrerit nibh velit, quis aliquet est interdum sit amet.
-Pellentesque vitae turpis tempor ex pulvinar sodales ut vitae arcu.
-Nunc commodo dolor quis porttitor imperdiet.
-Ut imperdiet egestas diam nec pretium.
-Vivamus non ligula viverra, egestas dolor consequat, pretium nisi.
-Nulla non leo pellentesque.</p>
+<p>This chapter is named <em>Community 101</em> in reference to a way of numbering courses at colleges and universities.
+The "101 course" is the material you first encounter as a learner in a specific field.</p>
+</div>
+<div class="paragraph">
+<p>There are generally two pursuit areas where it comes to getting involved in open source software from the very beginning.
+The first pursuit ranges from understanding through to participating in an existing open source community.
+The second pursuit is deciding to start a new open source software community yourselves.</p>
+</div>
+<div class="paragraph">
+<p>This chapter is in two sub-sections.
+The first covers pursuit toward participation.
+The second covers how you decide if you want to start a new open source community.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_open_source_software_communities_frequently_asked_questions">2.1.2. Open source software communities: Frequently asked questions</h4>
+<h4 id="_understanding_the_basicswhat_is_an_open_source_software_community">2.1.2. Understanding the basics—what is an open source software community?</h4>
+<div class="paragraph">
+<p>If you are considering forming or joining an open source community for the first time, some of the concepts may be new.
+This section explains the basics of an open source community, and why people and organizations get involved in them.</p>
+</div>
 <div class="sect4">
-<h5 id="_what_is_a_community">What is a community?</h5>
+<h5 id="_what_is_a_community">What is a community</h5>
 <div class="paragraph">
 <p>A community is a group of people united by a common identity and collective purpose who engage in activities together over time.
 Communities develop unique sets of shared values, principles, and norms that distinguish them from others and provide members with a sense of belonging.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_what_is_an_open_source_software_community">What is an open source software community?</h5>
+<h5 id="_what_is_an_open_source_software_community">What is an open source software community</h5>
 <div class="paragraph">
 <p>An open source software community is a group of people united by the shared purpose of developing, maintaining, extending, and promoting a specific body of open source software.
 These communities are often globally distributed—their members occupy different geographic regions and work across numerous industries.
@@ -796,83 +794,380 @@ What unites them is their common vision for the open source software project—a
 </div>
 </div>
 <div class="sect4">
-<h5 id="_what_are_upstream_communities">What are upstream communities?</h5>
+<h5 id="_what_are_upstream_communities">What are upstream communities</h5>
 <div class="paragraph">
 <p>The community-driven ecosystem of open source software is vast and difficult to visualize, so many developers tend to describe it metaphorically, preferring the language of waterways and tributaries.
 Software that forms the foundation of other software is said to exist "upstream" from that software.
 When "upstream" software undergoes changes, those changes flow "downstream" to the open source projects that rely on them.
-When programmers working "downstream" create innovations that might benefit others, they can submit those changes "upstream" to their parent projects, so those improvements can ripple outward to everyone utilizing those same upstream projects.
-Red Hat Enterprise Linux, for example, exists "downstream" from many open source software projects that comprise it, such as Fedora and CentOS Stream.
+When programmers working "downstream" create innovations that might benefit others, they can submit those changes "upstream" to their parent projects, so those improvements can ripple outward to everyone utilizing those same upstream projects.</p>
+</div>
+<div class="paragraph">
+<p>Red Hat Enterprise Linux, for example, exists "downstream" from many open source software projects that comprise it, such as Fedora and CentOS Stream.
 Those projects, in turn, rely on additional "upstream" projects—like the Linux kernel, the GNOME desktop environment, and hundreds more.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_how_does_an_open_source_software_community_form">How does an open source software community form?</h5>
+<h5 id="_how_an_open_source_software_community_forms">How an open source software community forms</h5>
 <div class="paragraph">
 <p>Open source software communities form when people agree to work together to build and improve software.
-For this to occur, a person or group building software must make that software available to others—by releasing the software&#8217;s source code and expressly giving others permission to copy, modify, and redistribute it (typically under the terms of a specific open source license).
-Because open source communities are globally distributed, they typically form online through the shared use of electronic mailing lists, forums like Discourse, and code-sharing platforms like GitHub.</p>
+For this to occur, a person or group building software must make that software available to others—by releasing the software&#8217;s source code and expressly giving others permission to copy, modify, and redistribute it (typically under the terms of a specific open source license).</p>
+</div>
+<div class="paragraph">
+<p>Because open source communities are globally distributed, they typically form online through the shared use of electronic mailing lists, forums like Discourse, and code-sharing platforms like GitHub.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_how_does_someone_get_involved_in_an_open_source_community">How does someone get involved in an open source community?</h5>
+<h5 id="_how_someone_gets_involved_in_an_open_source_community">How someone gets involved in an open source community</h5>
 <div class="paragraph">
 <p>Most open source software communities don&#8217;t have formal membership applications or approval processes.
-More commonly, people get involved in projects simply by contributing to them in some way—for example, by fixing bugs in software code, creating new features for an application, writing and editing documentation, creating logos and graphics, promoting adoption of the software, representing the project at a conference and other events, or assisting others who have questions about the software.
-In short, people earn membership in open source software communities by virtue of their contributions to those communities and the positive reputations they establish as a result of those contributions.</p>
+More commonly, people get involved in projects simply by contributing to them in some way—for example, by fixing bugs in software code, creating new features for an application, writing and editing documentation, creating logos and graphics, promoting adoption of the software, representing the project at a conference and other events, or assisting others who have questions about the software.</p>
+</div>
+<div class="paragraph">
+<p>In short, people earn membership in open source software communities by virtue of their contributions to those communities and the positive reputations they establish as a result of those contributions.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_why_do_people_join_open_source_software_communities">Why do people join open source software communities?</h5>
+<h5 id="_why_do_people_join_open_source_software_communities">Why do people join open source software communities</h5>
 <div class="paragraph">
-<p>People join open open source software communities for many different reasons.
-Many join because working on the software is part of their jobs—either because their organizations hired them to develop it, or because their jobs depend on the software working well.
-They join communities so they can directly impact the development of software on which they (or their organizations) rely for critical operations.
-Other people join because communities offer opportunities for them to sharpen their skills by working alongside and learning from others.
-Some join because doing so allows them to collaboratively solve a problem they&#8217;re experiencing.
-Some join because of their belief in the importance of contributing to a common set of resources beneficial to everyone.
+<p>People join open open source software communities for many different reasons.</p>
+</div>
+<div class="paragraph">
+<p>Many join because working on the software is part of their jobs—either because their organizations hired them to develop it, or because their jobs depend on the software working well.
+They join communities so they can directly impact the development of software on which they (or their organizations) rely for critical operations.</p>
+</div>
+<div class="paragraph">
+<p>Other people join because communities offer opportunities for them to sharpen their skills by working alongside and learning from others.</p>
+</div>
+<div class="paragraph">
+<p>Some join because doing so allows them to collaboratively solve a problem they&#8217;re experiencing.</p>
+</div>
+<div class="paragraph">
+<p>Some join because of their belief in the importance of contributing to a common set of resources beneficial to everyone.
 And others join for the purpose of socializing, or for a sense of identity and affiliation.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_why_would_an_organization_want_to_get_involved_in_an_open_source_software_community">Why would an organization want to get involved in an open source software community?</h5>
+<h5 id="_why_organizations_get_involved_in_open_source_software_communitities">Why organizations get involved in open source software communitities</h5>
 <div class="paragraph">
 <p>Organizations increasingly rely on open source software applications for various critical operations, as much of the world&#8217;s most innovative and effective applications are open source.
-So they participate in open source software communities because they&#8217;re invested in the long-term viability, stability, and security of those applications—and, often, because they want to influence development of those applications' features and functionalities.
-Other organizations participate in open source software communities because they&#8217;d like the software they&#8217;ve developed to become an industry-wide standard—they open their work in the hope that others will more quickly adopt and integrate it.
-Many organizations find that participating in open source software communities allows them to access a wider talent pool than they could if they developed their applications entirely in house.</p>
+So they participate in open source software communities because they&#8217;re invested in the long-term viability, stability, and security of those applications—and, often, because they want to influence development of those applications' features and functionalities.</p>
+</div>
+<div class="paragraph">
+<p>Other organizations participate in open source software communities because they&#8217;d like the software they&#8217;ve developed to become an industry-wide standard—they open their work in the hope that others will more quickly adopt and integrate it.</p>
+</div>
+<div class="paragraph">
+<p>Many organizations find that participating in open source software communities allows them to access a wider talent pool than they could if they developed their applications entirely in house.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_how_can_an_organization_start_participating_in_an_open_source_software_community">How can an organization start participating in an open source software community?</h5>
+<h5 id="_how_an_organization_can_start_participating_in_an_open_source_software_community">How an organization can start participating in an open source software community</h5>
 <div class="paragraph">
 <p>Consider engaging an open source community using the same approach you might take when you move into a new neighborhood.
-Introduce yourself and work to understand the community&#8217;s history, values, and dynamics before proposing big changes.
-Make new friends by performing small jobs.
+Introduce yourself and work to understand the community&#8217;s history, values, and dynamics before proposing big changes.</p>
+</div>
+<div class="paragraph">
+<p>Make new friends by performing small jobs.
 Fix bugs in source code.
 Edit documentation.
 Build installation scripts.
-If your organization is able to allocate additional resources to support the community, consider sponsoring that community&#8217;s activity at events or hiring community developers so they&#8217;re able to spend more time working on the project.
-Just note that arriving in a community with more people than it can comfortably welcome at one time may elicit a reaction from the community, which can be counterproductive to an organization&#8217;s long-term goals.
+If your organization is able to allocate additional resources to support the community, consider sponsoring that community&#8217;s activity at events or hiring community developers so they&#8217;re able to spend more time working on the project.</p>
+</div>
+<div class="paragraph">
+<p>Just note that arriving in a community with more people than it can comfortably welcome at one time may elicit a reaction from the community, which can be counterproductive to an organization&#8217;s long-term goals.
 And choose your organization&#8217;s initial participants in a community wisely.
-Individuals—not organizations—join open source communities, and the trust one participant garners is not automatically transferrable to another.</p>
+Individuals—not organizations—join open source communities, and the trust one participant garners is not automatically transferrable to another person or organization.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_can_companies_who_are_market_competitors_participate_in_the_same_open_source_communities">Can companies who are market competitors participate in the same open source communities?</h5>
+<h5 id="_how_companies_who_are_market_competitors_participate_in_the_same_open_source_communities">How companies who are market competitors participate in the same open source communities</h5>
 <div class="paragraph">
-<p>Yes, and many do.
+<p>Many companies are in this position.
 These companies have determined that collaborating on mutually beneficial software applications or standards is more valuable than competing to develop different, perhaps incompatible, technologies.
 Instead, their business models involve building market-differentiating and revenue-generating innovations on top of these shared technological foundations.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_how_should_an_organization_determine_whether_to_get_involved_in_an_open_source_software_community">How should an organization determine whether to get involved in an open source software community?</h5>
+<h5 id="_how_an_organization_determines_whether_to_get_involved_in_an_open_source_software_community">How an organization determines whether to get involved in an open source software community</h5>
 <div class="paragraph">
 <p>Getting involved in an open source software community has important organizational, procedural, and legal implications for an enterprise.
-Most organizations that are seriously invested in open source software development fund internal open source program offices to advise the organization on matters related to open source community participation.
+Most organizations that are seriously invested in open source software development fund internal open source program offices (OSPO) to advise the organization on matters related to open source community participation.
 Others partner with open source experts to advise this work.</p>
 </div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_considering_forming_a_community">2.1.3. Considering forming a community</h4>
+<div class="paragraph">
+<p>It is possible and not uncommon to have software that is open source and the maintainers have shown no interest in forming a community beyond themselves.
+Frankly, not every code base needs its own community.
+Conversely, any code base may suddenly find itself at the center of a community that arises around it.
+Being open source doesn&#8217;t mean it must have a community.
+But it does mean that if it has one, it gets certain benefits particular to open source software.</p>
+</div>
+<div class="paragraph">
+<p>Forming an open source software community has many of the same ethical and organizational considerations of forming any other community of practice.
+A community of practice is a group of people who share a common interest, who also get together to learn and practice within the common domain.</p>
+</div>
+<div class="paragraph">
+<p>An example of a community of practice might be hammer dulcimer players who have an annual gathering to share about the art and practice of being a hammer dulcimer player.
+Or it might be skateboarders, gathering every week at the park to learn and practice new tricks.</p>
+</div>
+<div class="paragraph">
+<p>For you and your organization to consider forming an open source software community, you must first ask yourselves: are you willing to form and be the caretakers for any other sort of community?
+Does doing so match your vision?
+Does it match your style of getting things done?</p>
+</div>
+<div class="paragraph">
+<p>For example, an organization like a university or a branch of the armed forces would have two very different approaches to getting things done.
+Their reasons for forming any kind of community may be wildly different, or unexpectedly aligned.</p>
+</div>
+<div class="paragraph">
+<p>A feature of communities of practice that applies to open source software communities is how they can truly draw together people and organizations form wildly different worlds.
+The key is when their common interests cross (the practice) and when there is tolerance for sharing and growing together (community).</p>
+</div>
+<div class="paragraph">
+<p>Some other considerations around forming an open source community:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You are interested in the benefits of open collaboration and innovation.
+You might already have or are planning a new technology, and open source is a way to find like-minded collaborators.
+Or you may just have a feeling that this is the right approach for your plans.</p>
+</li>
+<li>
+<p>Attracting enthusiasts to your project is a key part of your growth strategy, and you&#8217;ve identified that open source contributors of all types are good enthusiasts for you.</p>
+</li>
+<li>
+<p>The scientific method is core to your mission, purpose, and/or practices, and you see the benefit of having your entire software toolchain, infrastructure, et al as something your users should be able to contribute to and become maintainers of.</p>
+</li>
+<li>
+<p>Your organization is one that is open, collaborative, and community-building by nature.
+You may create right-sized open source projects, where the users and contributors are closely aligned in some way.
+For example, collaborators at a university.
+If there is no legal barrier to starting a project, why not start one?
+You never know who might find it and benefit from it in the future.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_forming_a_community_defining_project_goals">2.1.4. Forming a community: Defining project goals</h4>
+<div class="paragraph">
+<p>Anyone advising open source communities on project goals has likely found themselves asking project leaders the same basic questions.
+This chapter outlines seven of the most common questions communities can ask themselves as they work to articulate a project&#8217;s goal.</p>
+</div>
+<div class="sect4">
+<h5 id="_what_is_the_project">What is the project?</h5>
+<div class="paragraph">
+<p>This should be a very basic question.
+But its answers typically aren&#8217;t.
+Too often, open source projects describe themselves in terminology unfamiliar to many potential users, or they focus on <em>how</em> they do what they do, rather than on the <em>problems</em> they can solve.
+When formulating potential answers to this question, focus them on <em>how the project helps its users</em>.
+What problem does it solve?
+How would you describe your project to a potential user of the project in the most succinct terms possible?</p>
+</div>
+<div class="paragraph">
+<p>For example, let&#8217;s imagine we&#8217;re asking an Istio developer what Istio is.
+The most basic answer is "it&#8217;s a service mesh."
+One might argue, however, that most container application developers don&#8217;t entirely understand what a "service mesh" is.
+So the shorthand description—"It&#8217;s a service mesh!"—doesn&#8217;t help a novice understand if or how to use it.
+A better explanation might involve describing Istio in terms of an application data plane and control plane (if I am talking to someone from the networking world), or perhaps a concept of traffic cops assigned to components of an application (if I am explaining the project to someone unfamiliar with the concept of a service mesh).</p>
+</div>
+<div class="paragraph">
+<p>Ask as many follow-up questions as your community needs in order to develop a simple, straightforward understanding of project and what it <em>can do</em>.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_who_are_the_projects_users">Who are the project&#8217;s users?</h5>
+<div class="paragraph">
+<p>Many open source projects do not clearly understand who uses their projects and what those users do with the project&#8217;s tools.
+Consider using the concept of "personas" to characterize archetypal groups of key users, and be sure to think in terms of "jobs to be done."</p>
+</div>
+<div class="paragraph">
+<p>You might categorize a project&#8217;s potential or current users with a number of criteria:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Is the project more useful to an individual or to an organization?</p>
+</li>
+<li>
+<p>Is your project particularly useful in a specific industry vertical or business domain?</p>
+</li>
+<li>
+<p>What size organization will find your project most useful? Are you targeting sysadmins in large enterprises, or the small and medium business space?</p>
+</li>
+<li>
+<p>What are the job titles of the people who will be downloading, installing and using your project? Are they the same people? Or are the users different from the project administrators?</p>
+</li>
+<li>
+<p>What is the relationship between the people who download and install open source projects and the people who evaluate and purchase commercial products?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Answers to these questions will influence the priorities your community sets for structuring the project, promoting it, and even the degree of engineering effort you&#8217;ll invest into certain features.
+For example, if your project runs in a datacenter or on a cluster of servers, your audience will typically be a business audience—people running IT professionally (or as a volunteer in a university).
+For a mobile application or a web development framework, the majority of your audience will be running your project on their personal computer, workstation, or cellphone.
+Each of these groups has different resource prerequisites, and the problems motivating their use of the project and its tools are different.</p>
+</div>
+<div class="paragraph">
+<p>Moreover, anyone interested in developing an open source <em>product</em> strategy should think additionally about the critical relationship between project <em>users</em> and product <em>buyers</em>.
+A company&#8217;s path to adopting open source doesn&#8217;t usually follow a straight line a straight line from use of an upstream open source project to conversion to an enterprise open source product.
+Open source adoption tends to be "grassroots," bottom-up; enterprise open source products are often evaluated and purchased top-down.
+Those adopting an open source project inside a company can be valuable influencers when consulting on purchasing decisions—if they&#8217;re connected to the purchasing process, or if the person responsible for purchasing is aware that the company is already using the product.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_how_do_you_engage_with_your_user_base_today">How do you engage with your user base today?</h5>
+<div class="paragraph">
+<p>Once people are turning up to your project, engagement is key to growing the project&#8217;s user base and community.
+You can engage with users in multiple ways, each requiring different degrees of effort and resulting in differing outcomes.</p>
+</div>
+<div class="paragraph">
+<p>Figuring out where you should focus your efforts can be difficult.
+So it&#8217;s useful to take stock of all of the ways you&#8217;re currently engaging with project users in order to identify blind spots and opportunities for improvement.
+Consider characterizing engagement techniques as "low-," "medium-," and "high-touch" (terminology borrowed from sales).
+<strong>Low-touch</strong> methods represent very little interaction between potential users and your community, while <strong>high-touch</strong> methods represent one-to-one or one-to-few efforts.</p>
+</div>
+<div class="paragraph">
+<p>Here are some examples of the types of things you can categorize this way:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Low touch: Website, documentation, online training, newsletters, podcasts, blogs</p>
+</li>
+<li>
+<p>Medium touch: Mailing list, bug tracker, community forum, conference presentation, webinars, user groups</p>
+</li>
+<li>
+<p>High touch: Phone calls, one-on-one or one-to-few training, conversations at conferences, community meetings</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ideally, your project will have a healthy mix of each of these. Working on your website, documentation, and promotional materials allows new users to act autonomously and without much help from a senior community member.
+Your bug tracker, mailing list, and forum provide opportunities for community members to engage with your community, ask questions, and provide feedback.
+This kind of activity provides an opportunity to learn more about how people are using your project.
+Finally, high-effort activities like training, conference booth attendance and follow-up, and in-person conversations can be extremely valuable on a one-on-one basis—but those techniques do not scale well.</p>
+</div>
+<div class="paragraph">
+<p>The "sales funnel" model may be useful to communities thinking about engagement activities and project goals.</p>
+</div>
+<div class="paragraph">
+<p>Low-touch activities are good for raising awareness of your project and getting people to look at it for the first time.
+Ensuring your web site and other materials clearly communicate what the project does, how it can help users, and how contributors can try it out and get started quickly is paramount.
+Medium-touch activities are great for creating a "center of gravity" around your project—not only making communication with users possible but also enabling those users to help each other (hopefully generating a network effect).
+And high-touch activities are great for building relationships with key community users, gathering community case studies, and helping larger groups be productive with and become advocates for your project.</p>
+</div>
+<div class="paragraph">
+<p>A key consideration for groups crafting potential engagement pathways is <em>how someone unfamiliar with the project might start using it</em> and, over time, gain seniority in the project to the point of becoming a core contributor.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_what_alternatives_to_your_project_already_exist">What alternatives to your project already exist?</h5>
+<div class="paragraph">
+<p>You can tell a lot about a project by assessing who that project competes with, or what other projects people use to accomplish the same (or similar) tasks.
+Consider asking:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If your project doesn&#8217;t have any competition, why is that the case?</p>
+</li>
+<li>
+<p>Is it in an area of emerging technology?</p>
+</li>
+<li>
+<p>Are people using similar projects to do work they could accomplish with your project—just in a different way?</p>
+</li>
+<li>
+<p>If other projects do the same job, but have no clear leader, how are they approaching the problem differently than you are?</p>
+</li>
+<li>
+<p>If your project has open source competitors, is joining them (rather than trying to compete with them)an option? If not, why not?</p>
+</li>
+<li>
+<p>If a competitor is an incumbent in the market, what can you tell about them and their customers?</p>
+</li>
+<li>
+<p>Who are your competitor&#8217;s customers? What do they have in common?</p>
+</li>
+<li>
+<p>What are people&#8217;s motivations for using a competing project?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Analyzing your competition can help you begin answering a number of key questions early in a project&#8217;s goal-setting process, and answering these questions will help when your community begins prioritizing features and deciding how to contact potential users.
+Perhaps, for example, you can piggy-back on existing gatherings between people already interested in a competitor&#8217;s technology and spread your message there.
+Or if you&#8217;re an upstart disruptor, your goals and messaging may be anchored to your competition: "cheaper than," "an open source alternative to," "simpler and faster than."
+If you&#8217;re in a new market and your project is involved in a "land grab," you&#8217;ll need to focus on spreading your message fast—which means a higher marketing budget or more aggressive community plan, and more focus on defining the problems you solve for potential users.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_can_you_work_closely_with_adjacent_projects">Can you work closely with adjacent projects?</h5>
+<div class="paragraph">
+<p>If your software is frequently consumed <em>with</em> or is particularly useful to users <em>of</em> another project, then you may see opportunities for growing awareness of your project in its early stages and better understanding your users' needs.
+For example, Ceph can manage storage for OpenStack or Kubernetes; for Ceph, then, OpenStack and Kubernetes are adjacent communities.
+Catering to adjacent projects to find an audience may affect your technology roadmap, the events you target, the effort you put into specific integration projects, and so on.
+An adjacent project provides you with a potentially friendly audience who have the same problems your technology solves, so you can engage in some joint market research or UX testing, or coordinate joint events to meet and engage with potential users.
+This is also connected to understanding your competition; the communities important to them will also be important to you.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_what_are_your_goals_for_the_project">What are your goals for the project?</h5>
+<div class="paragraph">
+<p>The existential question for every open source project is: "Why does this project exist?"
+Specifically, for a project released by or driven by a vendor, that question becomes: "What do we want to achieve by investing in this project?"</p>
+</div>
+<div class="paragraph">
+<p>Surprisingly, many projects have difficulty answering this question.</p>
+</div>
+<div class="paragraph">
+<p>As a vendor, ask: Why did you open source this piece of software in the first place?
+Are you trying to grow a market, promote a standard, disrupt a competitor, or increase demand for another product in your portfolio?
+Each of these requires a different message and different set of investments.</p>
+</div>
+<div class="paragraph">
+<p>Understanding the reasons for open sourcing your project will help you clarify the investment required to achieve your goal remain aligned across engineering, product, and sales teams down the road.
+In the absence of a strong common vision for the project&#8217;s goals, you may find yourself under-funding the open source project, in part because  of perceptions that it competes with products you build on top of it.
+A good open source product strategy provides clarity on which markets you are targeting, the market segmentation between product and project, and the role that the project plays in your entire business strategy and product portfolio. Clarifying these things will pay dividends in future discussions concerning the technical roadmap, or the relative prioritization of community promotion versus sales lead generation.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_who_are_your_key_stakeholders">Who are your key stakeholders?</h5>
+<div class="paragraph">
+<p>A small number of people who will care deeply about your project, and can represent a group of people or interests which affect the project.
+These people are your stakeholders.</p>
+</div>
+<div class="paragraph">
+<p>In the case of vendor-sponsored projects, this group typically includes an engineering lead, product management, product marketing, and a representative of the field (field engineer, sales).
+You may also want to include in this group someone from your content services or support organizations and someone from product security.
+This is the group of people you will brief to prepare a stakeholder review, and you should gather them once every six to 12 months to check in on the state of the project and ensure alignment on the goals and the required investments to achieve those goals.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_results">Results</h5>
+<div class="paragraph">
+<p>Answers to these seven questions can furnish a single-page document that forms a baseline, a frame of reference, for any project planning conversations.
+After running this exercise, your team or community should share some understanding of the problems your project solves, and for whom.
+You will be able to communicate the value of your project in language that makes sense in your potential users' frame of reference.
+You will understand how your project fits into a market, and what you want to achieve with it there.
+Finally, you will have identified the key group inside your organization who should be aligned on your current status and future strategy.</p>
+</div>
+<div class="paragraph">
+<p>Combining the answers to these seven questions, next steps for your project should become obvious to all involved—and your community will be ready to help your project succeed in achieving its goals.</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_conclusion">2.1.5. Conclusion</h4>
+<div class="paragraph">
+<p>This chapter covered the basics of what an open source community is and why different types of people and organizations participate in them.
+Then it discussed making the decision to start a new open source community, and finished with the process for setting your new project&#8217;s goals.</p>
 </div>
 </div>
 </div>
@@ -2000,7 +2295,7 @@ To understand how researchers benchmark community activity and analyse the outpu
 </div>
 </div>
 <div class="sect3">
-<h4 id="_conclusion">3.1.10. Conclusion</h4>
+<h4 id="_conclusion_2">3.1.10. Conclusion</h4>
 <div class="paragraph">
 <p>The most effective way to achieve communication in open source projects is to show others kindness and courtesy, and to assume good intent upon first contact with people you&#8217;ve never met.
 Though this chapter contains any number of helpful best practices for effective communication, simply acting with graciousness to other people is the most important step one can take to communicate well.
@@ -2687,7 +2982,7 @@ Is it learning for learning&#8217;s sake? Is it learning for specific skills nee
 </div>
 </div>
 <div class="sect3">
-<h4 id="_conclusion_2">4.1.5. Conclusion</h4>
+<h4 id="_conclusion_3">4.1.5. Conclusion</h4>
 <div class="paragraph">
 <p>As noted earlier, motivations for many things are multi-faceted and contributing to open source software is no exception. However, here are three takeaways that you may find useful.</p>
 </div>
@@ -3204,7 +3499,7 @@ Nulla non leo pellentesque.</p>
 This chapter outlines seven of the most common questions communities can ask themselves as they work to articulate a project&#8217;s goal.</p>
 </div>
 <div class="sect4">
-<h5 id="_what_is_the_project">What is the project?</h5>
+<h5 id="_what_is_the_project_2">What is the project?</h5>
 <div class="paragraph">
 <p>This should be a very basic question.
 But its answers typically aren&#8217;t.
@@ -3225,7 +3520,7 @@ A better explanation might involve describing Istio in terms of an application d
 </div>
 </div>
 <div class="sect4">
-<h5 id="_who_are_the_projects_users">Who are the project&#8217;s users?</h5>
+<h5 id="_who_are_the_projects_users_2">Who are the project&#8217;s users?</h5>
 <div class="paragraph">
 <p>Many open source projects do not clearly understand who uses their projects and what those users do with the project&#8217;s tools.
 Consider using the concept of "personas" to characterize archetypal groups of key users, and be sure to think in terms of "jobs to be done."</p>
@@ -3266,7 +3561,7 @@ Those adopting an open source project inside a company can be valuable influence
 </div>
 </div>
 <div class="sect4">
-<h5 id="_how_do_you_engage_with_your_user_base_today">How do you engage with your user base today?</h5>
+<h5 id="_how_do_you_engage_with_your_user_base_today_2">How do you engage with your user base today?</h5>
 <div class="paragraph">
 <p>Once people are turning up to your project, engagement is key to growing the project&#8217;s user base and community.
 You can engage with users in multiple ways, each requiring different degrees of effort and resulting in differing outcomes.</p>
@@ -3313,7 +3608,7 @@ And high-touch activities are great for building relationships with key communit
 </div>
 </div>
 <div class="sect4">
-<h5 id="_what_alternatives_to_your_project_already_exist">What alternatives to your project already exist?</h5>
+<h5 id="_what_alternatives_to_your_project_already_exist_2">What alternatives to your project already exist?</h5>
 <div class="paragraph">
 <p>You can tell a lot about a project by assessing who that project competes with, or what other projects people use to accomplish the same (or similar) tasks.
 Consider asking:</p>
@@ -3354,7 +3649,7 @@ If you&#8217;re in a new market and your project is involved in a "land grab," y
 </div>
 </div>
 <div class="sect4">
-<h5 id="_can_you_work_closely_with_adjacent_projects">Can you work closely with adjacent projects?</h5>
+<h5 id="_can_you_work_closely_with_adjacent_projects_2">Can you work closely with adjacent projects?</h5>
 <div class="paragraph">
 <p>If your software is frequently consumed <em>with</em> or is particularly useful to users <em>of</em> another project, then you may see opportunities for growing awareness of your project in its early stages and better understanding your users' needs.
 For example, Ceph can manage storage for OpenStack or Kubernetes; for Ceph, then, OpenStack and Kubernetes are adjacent communities.
@@ -3364,7 +3659,7 @@ This is also connected to understanding your competition; the communities import
 </div>
 </div>
 <div class="sect4">
-<h5 id="_what_are_your_goals_for_the_project">What are your goals for the project?</h5>
+<h5 id="_what_are_your_goals_for_the_project_2">What are your goals for the project?</h5>
 <div class="paragraph">
 <p>The existential question for every open source project is: "Why does this project exist?"
 Specifically, for a project released by or driven by a vendor, that question becomes: "What do we want to achieve by investing in this project?"</p>
@@ -3384,7 +3679,7 @@ A good open source product strategy provides clarity on which markets you are ta
 </div>
 </div>
 <div class="sect4">
-<h5 id="_who_are_your_key_stakeholders">Who are your key stakeholders?</h5>
+<h5 id="_who_are_your_key_stakeholders_2">Who are your key stakeholders?</h5>
 <div class="paragraph">
 <p>A small number of people who will care deeply about your project, and can represent a group of people or interests which affect the project.
 These people are your stakeholders.</p>
@@ -3396,7 +3691,7 @@ This is the group of people you will brief to prepare a stakeholder review, and 
 </div>
 </div>
 <div class="sect4">
-<h5 id="_conclusion_3">Conclusion</h5>
+<h5 id="_conclusion_4">Conclusion</h5>
 <div class="paragraph">
 <p>Answers to these seven questions can furnish a single-page document that forms a baseline, a frame of reference, for any project planning conversations.
 After running this exercise, your team or community should share some understanding of the problems your project solves, and for whom.
@@ -3633,51 +3928,65 @@ But they might work with experienced community members on planning that event, t
 <div class="sect3">
 <h4 id="_introduction_12">5.5.1. Introduction</h4>
 <div class="paragraph">
-<p>Mentorship means different things to people.
-The interpretations vary based on the individual, situation, context, culture, and more.
-For example, to some, mentorship is a formal activity with a schedule and agenda.
-To others, mentorship is an informal process amongst peers&#8201;&#8212;&#8201;it can even be a one time conversation.
-If you ask people their definition of mentorship, you will most likely get wide-ranging responses.</p>
-</div>
-<div class="paragraph">
-<p>That is what makes mentorship important and powerful, it is both universal and personal. Universal in that it has potential to be a positive experience and personal because how it occurs (and is implemented) varies by the individual and relationship.</p>
-</div>
-<div class="paragraph">
-<p>Therefore, one way of thinking of mentorship is the following: mentorship is an action, experience, and opportunity to share what you can, when you can, how you can.</p>
+<p>This chapter discusses mentorship, a concept important to open source maintainers interested in creating sustainable projects and communities.
+It examines what mentoring is, why it&#8217;s important, and how you might begin cultivating a culture of mentorship in your open source community.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_broadly_why_is_mentorship_important">5.5.2. Broadly, why is mentorship important?</h4>
+<h4 id="_what_is_mentorship">5.5.2. What is mentorship?</h4>
 <div class="paragraph">
-<p>Mentorship is important. It helps you, it helps others, it helps the community, and it helps the project.</p>
+<p>Mentorship means different things to different people, depending on their situation, context, culture, and more.
+To some, for example, mentorship is a formal activity involving a schedule and agenda.
+To others, mentorship is an informal process among peers; it can even be a one-time conversation.
+If you ask people to define "mentorship," you will most likely receive wide-ranging responses.</p>
+</div>
+<div class="paragraph">
+<p>That is what makes mentorship such an important and powerful concept: it is both universal and personal.
+It&#8217;s universal insofar as it has potential to be a positive experience for anyone, yet personal insofar as it occurs differently for every individual and in every relationship.</p>
+</div>
+<div class="paragraph">
+<p>Therefore, one way of thinking of mentorship is the following:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Mentorship is an act, experience, and opportunity to share what you can, when you can, how you can.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Mentorship is important.
+It helps you, it helps others, it helps the community, and it helps the open source project.</p>
 </div>
 <div class="sect4">
 <h5 id="_it_helps_you">It helps you</h5>
 <div class="paragraph">
-<p>The help you give has valuable and lasting benefits.</p>
+<p>Mentoring can be a personally rewarding experience.
+The help and guidance you offer can have valuable, lasting benefits.
+For example:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>experience the positive emotions of giving back</p>
+<p>Experience the positive emotions of giving back.</p>
 </li>
 <li>
-<p>learn more about yourself</p>
+<p>Learn more about yourself.</p>
 </li>
 <li>
-<p>find knowledge gaps in your own thinking</p>
+<p>Find knowledge gaps in your own thinking.</p>
 </li>
 <li>
-<p>learn something new</p>
+<p>Learn something new.</p>
 </li>
 <li>
-<p>expand your world view</p>
+<p>Expand your world view.</p>
 </li>
 <li>
-<p>make a new friend, ally, supporter</p>
+<p>Make a new friend, ally, or supporter.</p>
 </li>
 <li>
-<p>and more</p>
+<p>And more.</p>
 </li>
 </ul>
 </div>
@@ -3685,16 +3994,16 @@ If you ask people their definition of mentorship, you will most likely get wide-
 <div class="sect4">
 <h5 id="_it_helps_others">It helps others</h5>
 <div class="paragraph">
-<p>Mentorship helps folks navigating the different stages/circumstances in their life.</p>
-</div>
-<div class="paragraph">
-<p>Whether it is with a specific project/initiative or as they start, grow and advance in their education/career or generally picking up new skillsets, mentorship has the potential for positive impact (big and small, yet valuable).</p>
+<p>Mentorship helps contributors navigating different stages of their careers or different life circumstances.
+Mentorship has the potential for positive impact (big and small, yet valuable just the same), whether it occurs among people in a specific project of initiative, in general as people get started with the project, and as people grow and advance in their educations and careers.</p>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_it_helps_community">It helps community</h5>
+<h5 id="_it_helps_the_community">It helps the community</h5>
 <div class="paragraph">
-<p>It starts with helping one person, who in turn helps someone else and the positive ripple effect continues. It can even be similar to a boomerang of help that returns to you.</p>
+<p>Mentoriship has a cumulative effect on community coherence and identity.
+It might begin between two people, when one person mentors another. But that person may mentor someone else in turn—and the positive ripple effect continues.
+It might even become a sort of "boomerang of help" that returns to you when you need a helping hand or some advice.</p>
 </div>
 <div class="paragraph">
 <p>At scale, it helps contribute towards more inclusive, collaborative, helpful, and innovative communities.</p>
@@ -3703,15 +4012,15 @@ If you ask people their definition of mentorship, you will most likely get wide-
 <div class="sect4">
 <h5 id="_it_helps_the_project">It helps the project</h5>
 <div class="paragraph">
-<p>Mentorship in open source projects is important and valuable.
-In the sections below are additional details on its context and benefits.</p>
+<p>Creating a culture of mentorship—or even a sopecific mentoring program—is important and valuable to the long-term health of an open source project.
+The rest of this chapter will discuss those benefits specifically.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_different_formsstyles_of_mentorship">5.5.3. Different forms/styles of mentorship</h4>
+<h4 id="_forms_and_styles_of_mentorship">5.5.3. Forms and styles of mentorship</h4>
 <div class="paragraph">
-<p>As mentioned earlier, one can think of mentorship as an action, experience, and opportunity to share what you can, when you can, how you can.</p>
+<p>Recall that mentorship is an act, experience, and opportunity to share what you can, when you can, how you can.</p>
 </div>
 <div class="paragraph">
 <p>In an open source project, this can manifest in various ways.
@@ -3724,64 +4033,65 @@ The kinds of questions being asked and the responses can also influence how ment
 <p>Another thing to keep in mind is how people mentor and the different roles they assume.
 Below are some type of styles (not an exhaustive list, there are plenty).</p>
 </div>
-<div class="paragraph">
-<p>Educator</p>
-</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Educator</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
-<p>Teach and inform on concepts, ideas, and more</p>
+<p>Teach and inform on concepts, ideas, and more.</p>
 </li>
 <li>
-<p>Help explain and clarify material</p>
+<p>Help explain and clarify material.</p>
 </li>
 <li>
-<p>Share knowledge and experiences</p>
+<p>Share knowledge and experiences.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Encourager</p>
-</div>
+</dd>
+<dt class="hdlist1">Encourager</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
-<p>Provide encouragement</p>
+<p>Provide encouragement.</p>
 </li>
 <li>
-<p>Remind them of their progress, accomplishments</p>
+<p>Remind them of their progress, accomplishments.</p>
 </li>
 <li>
-<p>Fuel potential to keep doing great work</p>
+<p>Fuel potential to keep doing great work.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Listener</p>
-</div>
+</dd>
+<dt class="hdlist1">Listener</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
-<p>Instead of solely providing answers and guidance, actively listen</p>
+<p>Instead of solely providing answers and guidance, actively listen.</p>
 </li>
 <li>
-<p>Radiate solidarity and acknowledge that folks are being heard</p>
+<p>Radiate solidarity and acknowledge that folks are being heard.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Finder/Researcher</p>
-</div>
+</dd>
+<dt class="hdlist1">Finder/Researcher</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
-<p>Discover questions/resources/people that can provide insights</p>
+<p>Discover questions/resources/people that can provide insights.</p>
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Connector</p>
-</div>
+</dd>
+<dt class="hdlist1">Connector</dt>
+<dd>
 <div class="ulist">
 <ul>
 <li>
@@ -3789,6 +4099,9 @@ Below are some type of styles (not an exhaustive list, there are plenty).</p>
 Introduce people to each other</p>
 </li>
 </ul>
+</div>
+</dd>
+</dl>
 </div>
 <div class="paragraph">
 <p>In summary, it is beneficial to acknowledge that mentorship can go beyond traditionally providing guidance.
@@ -3808,7 +4121,7 @@ It&#8217;s at the center of how to take a project from "three people who know an
 </div>
 <div class="paragraph">
 <p>Self-sustainability is an important focus for a mentoring program.
-And don&#8217;t think I went from "mentoring people" to "a mentoring program" by accident.
+And don&#8217;t think anyone goes from "mentoring people" to "a mentoring program" by accident.
 Here&#8217;s the argument:</p>
 </div>
 <div class="olist arabic">
@@ -3823,7 +4136,7 @@ Here&#8217;s the argument:</p>
 <p>If we can agree new people having lackluster or negative interactions with existing project members is likely to drive the new people away; and</p>
 </li>
 <li>
-<p>If we can agree that having a person (mentor, friend) for new people to turn to is a way to prevent the driving-away and especially prevent silent segfaults (people just disappearing with no explanation);</p>
+<p>If we can agree that having a person (mentor, friend) for new people to turn to is a way to prevent the driving-away and especially prevent <em>silent segfaults</em> (people just disappearing with no explanation);</p>
 </li>
 <li>
 <p>Then we can see that doing mentoring with even a tiny bit of repeatable process support is going to yield better, more satisfying results than an ad-hoc process.</p>
@@ -3831,7 +4144,7 @@ Here&#8217;s the argument:</p>
 </ol>
 </div>
 <div class="paragraph">
-<p>Once you agree that an even a lightweight program is better than an ad-hoc process, we&#8217;re going in the right direction.
+<p>Once you agree that even a lightweight program is better than an ad-hoc process, we&#8217;re going in the right direction.
 With this in mind, here are a few absolute must-have elements to include in your mentoring program.</p>
 </div>
 <div class="sect4">
@@ -3844,10 +4157,8 @@ With this in mind, here are a few absolute must-have elements to include in your
 This gives time to work out the kinks in processes, and to attract more mentors for when you make the program more prominent.</p>
 </div>
 <div class="paragraph">
-<p>When you have a process you have tried and tested once or twice, put up a "Mentoring" section on your project website and include links to all the elements of your mentoring program.</p>
-</div>
-<div class="paragraph">
-<p>Make sure people who have even the slightest inkling of getting involved in the project can look ahead and see how they are going to be taken care of as a new contributor.</p>
+<p>When you have a process you have tried and tested once or twice, put up a "Mentoring" section on your project website and include links to all the elements of your mentoring program.
+Make sure people who have even the slightest inkling of getting involved in the project can look ahead and see how they are going to be taken care of as a new contributor.</p>
 </div>
 <div class="paragraph">
 <p>After each full mentoring period (refer to time commitment, below), conduct a retrospective to learn from the mentoring period and improve the process iteratively.</p>
@@ -3862,7 +4173,8 @@ This gives time to work out the kinks in processes, and to attract more mentors 
 <p>Even people who are very experienced at mentoring benefit from having guidelines for how to mentor and work with mentoring subjects (mentees), mentoring ethics, and so forth.</p>
 </div>
 <div class="paragraph">
-<p>I&#8217;m excited about this project I learned about recently, <a href="https://www.mentorship.guide/">an upstream guide to mentoring itself</a>.You can use materials such as from that project to create the elements your mentoring program needs.</p>
+<p>As a deeper reference when creating a mentoring program, there is <a href="https://www.mentorship.guide/">an upstream guide to mentoring itself</a>.
+You can use materials from that project to create the elements your mentoring program needs.</p>
 </div>
 <div class="paragraph">
 <p>Mentors have a special role of trust—the project trusts them to represent the community, and the mentees (mentoring subjects) trust the mentor to lead them down the right path.
@@ -3872,21 +4184,27 @@ Such a Code of Conduct needs to be visible up front and prominent for everyone l
 <div class="paragraph">
 <p>Not having a Code of Conduct for your mentors, or making it hard to find, is a warning signal to potential new contributors that this project should be avoided.</p>
 </div>
+<div class="paragraph">
+<p>If your project already has a Code of Conduct, make sure it is sufficient to cover the mentoring program, and make sure all participants are aware of its existence.</p>
+</div>
 </div>
 <div class="sect4">
 <h5 id="_mentors_make_mentors">Mentors make mentors</h5>
 <div class="paragraph">
-<p>I&#8217;ve been thinking about this one a lot since <a href="https://events19.linuxfoundation.org/events/open-source-summit-europe-2019/program/schedule/">I gave a talk about it at Open Source Summit Europe in October</a>.</p>
+<p>It&#8217;s one thing to have a few mentors and to start a mentoring program.
+But to make it sustainable, the mentoring program needs to doing more than attracting mentors, it needs to be creating new mentors.</p>
 </div>
 <div class="paragraph">
-<p>The key idea is that new mentors are made of people who have had positive mentoring experiences that also taught them "how to be a mentor."
-Your mentors should be thinking overall and in specific instances, How can I help this person be successful at mentoring other contributors?</p>
+<p>The core idea is to make sure that your mentors are also teaching explicitly and by example "how to be a mentor."
+Your mentors should be thinking overall and in specific instances, How can I help this person be successful at mentoring other contributors?
+That way new mentors are made of people who have had positive experiences as mentees and are also encouraged in their own mentoring activities beyond.</p>
 </div>
 <div class="paragraph">
-<p>A new contributor who is mentored well can immediately turn around and offer similar mentoring lessons to other contributors, new and existing alike.</p>
+<p>A new contributor who is mentored well can immediately turn around and offer similar mentoring lessons to other contributors, new and existing alike.
+Even the same day.</p>
 </div>
 <div class="paragraph">
-<p>Even if you are just answering a question for a new contributor, how you answer that question is where mentoring comes in.
+<p>Whenever you are answering a question for a new contributor, how you answer that question is where mentoring comes in.
 You can answer in such a way that this new contributor feels empowered to share their new-found knowledge.
 If they take in the lesson of not just what was conveyed but how it was conveyed, they carry this simple lesson of mentoring forward with their own interactions across the project.</p>
 </div>
@@ -3923,7 +4241,7 @@ And so forth.</p>
 <div class="sect4">
 <h5 id="_named_person_or_group_who_leads_the_mentoring_program">Named person or group who leads the mentoring program</h5>
 <div class="paragraph">
-<p>For everything from people being stuck through to disappearing mentors to Code of Conduct violations, there needs to be a clear and obvious person or persons to contact.</p>
+<p>For everything from people being stuck, through to disappearing mentors, to Code of Conduct violations, there needs to be a clear and obvious person or persons to contact.</p>
 </div>
 <div class="paragraph">
 <p>This contact information and its purpose should be prominent on your mentoring program webpages.</p>
@@ -3944,8 +4262,8 @@ It can also help with any sensitive matters that arise.</p>
 Make a reasonable schedule, perhaps one that is tied to your release schedule or other rhythms such as specific conferences or events you organize around.</p>
 </div>
 <div class="paragraph">
-<p>In my experience so far, the six-month commitment seemed to work well.
-It was enough time to get to know each other, talk through how I can help as a mentor/be helped as a mentee, and then some months in the middle for the mentees to actually get feedback on real activities.</p>
+<p>For some projects' experience, the six-month commitment seems to work well.
+It is enough time to get to know each other, talk through how to help as a mentor/be helped as a mentee, and then some months in the middle for the mentees to actually get feedback on real activities.</p>
 </div>
 <div class="paragraph">
 <p>Especially if you are starting out, you want to attract mentors.
@@ -3960,39 +4278,53 @@ Be clear on what participants are getting into, and your mentoring program can b
 <div class="sect3">
 <h4 id="_mentoring_new_community_managers">5.5.5. Mentoring new community managers</h4>
 <div class="paragraph">
+<p>This section was informed by a meeting of community managers, talking about their experiences around mentoring and new community managers.</p>
+</div>
+<div class="paragraph">
 <p>In the early days of open source, projects did not have community managers.
 Collaboration among developers was a given, and if you were lucky, some people in your community enjoyed tasks other than software development, like tending to infrastructure, organizing events, or leading a marketing team.
 As open source has matured, there are many more projects created from within large companies, and these things are no longer a given.
 Increasingly, people inside those companies are designated the Community Manager or Community Architect, and are tasked with ensuring that projects run well as collaborative, multi-vendor efforts.</p>
 </div>
 <div class="paragraph">
-<p>Much has been written here about what a community manager may or may not do—but if one thing is certain, it is that projects evolve, and the role of community manager evolves with them.
-In the life of a project, a time may come when the original community manager is moving on—to a different job, a different role in the project, or just taking a back seat because of life.
- During these transition periods, a new community manager may emerge in the project.
- During this period, it can be tempting, as the outgoing community manager, to jump in and start helping the new community person come up to speed.
- The risk, however, is that you deprive the new person of an opportunity to make the role their own.
- They will certainly have a different conception of the most important jobs to be done, and a different skill set to bring to bear on the project.
-As a mentor, it is important to strike a balance between being a resource, sharing relevant history, and saying how things have been done.</p>
+<p>Much has been written here about what a community manager may or may not do—but if one thing is certain, it is that projects evolve, and the role of community manager evolves with them.</p>
 </div>
 <div class="paragraph">
-<p>Recently, my colleagues and I had a discussion about mentoring new community managers.
-What is the best way for more experienced community managers successfully mentor newer community managers?
+<p>In the life of a project, a time may come when the original community manager is moving on—to a different job, a different role in the project, or just taking a back seat because of life.</p>
+</div>
+<div class="paragraph">
+<p>During these transition periods, a new community manager may emerge in the project.</p>
+</div>
+<div class="paragraph">
+<p>During this period, it can be tempting, as the outgoing community manager, to jump in and start helping the new community person come up to speed.
+The risk, however, is that you deprive the new person of an opportunity to make the role their own.
+They will certainly have a different conception of the most important jobs to be done, and a different skill set to bring to bear on the project.</p>
+</div>
+<div class="paragraph">
+<p>As a mentor, it is important to strike a balance between being a resource, sharing relevant history, and saying how things have been done.</p>
+</div>
+<div class="paragraph">
+<p>What is the best way for more experienced community managers successfully mentor newer community managers?
 How can you help them to be successful, allowing them the very valuable space to try new things, even if they will potentially fail along the way?
 How do you balance scoping the role, while allowing them to define the role in the way that they see fit?</p>
 </div>
 <div class="sect4">
 <h5 id="_chart_the_waters">Chart the waters</h5>
 <div class="paragraph">
-<p>One of the things that is most useful when you are coming into a new role is a list of the people with whom you will be working.
-If there are stakeholders who might be able to help you, or people you will work with who have concerns about community goals, this information will enable a new person to come into the role and avoid any pitfalls or faux-pas.
-As the outgoing community manager, one of the most valuable things you can do for the new community manager is to introduce them to people who you have worked with, to smooth the transition, and ensure that they don&#8217;t have to spend minutes explaining who they are and why they are turning up in places where they are not expected.</p>
+<p>One of the things that is most useful when you are coming into a new role is a list of the people with whom you will be working.</p>
+</div>
+<div class="paragraph">
+<p>If there are stakeholders who might be able to help you, or people you will work with who have concerns about community goals, this information will enable a new person to come into the role and avoid any pitfalls or faux-pas.</p>
+</div>
+<div class="paragraph">
+<p>As the outgoing community manager, one of the most valuable things you can do for the new community manager is to introduce them to people who you have worked with, to smooth the transition, and ensure that they don&#8217;t have to spend minutes explaining who they are and why they are turning up in places where they are not expected.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_give_room_to_fail">Give room to fail</h5>
 <div class="paragraph">
 <p>A common theme among people who have had bad mentorship experiences is the omnipresent micro-manager.
-One colleague described an experience where they took on a community role from someone who was stretched too thin.
+One community manager described an experience where they took on a community role from someone who was stretched too thin.
 However, everything that they did in the role resulted in email correcting them and telling them how they should have done the task differently.
 As a result, they drifted away from taking on the role.
 One question more than any can make a person in a new role feel small and inadequate: "Why didn&#8217;t you just…?"</p>
@@ -4002,29 +4334,41 @@ One question more than any can make a person in a new role feel small and inadeq
 There can be a few reasons for that.
 Maybe they don&#8217;t know how to do it the way it was done in the past.
 There may be reasons which led to you doing things the way you did, but they&#8217;re unaware of the history.
-It&#8217;s also possible that they bring a different skill set and perspective to the role, and their way is just as valid and just as good.
-Whatever the reason, avoid asking your mentee "why didn&#8217;t you…?"</p>
+It&#8217;s also possible that they bring a different skill set and perspective to the role, and their way is just as valid and just as good.</p>
+</div>
+<div class="paragraph">
+<p>Whatever the reason, avoid asking your mentee "why didn&#8217;t you…?"</p>
 </div>
 <div class="paragraph">
 <p>You have to give the new person in the role the freedom to do things differently.
-Even if they make mistakes, it is important that they feel ownership over the role.
-As a mentor, one of the hardest things is to watch someone struggle to do something which you have done in the past.
+Even if they make mistakes, it is important that they feel ownership over the role.</p>
+</div>
+<div class="paragraph">
+<p>As a mentor, one of the hardest things is to watch someone struggle to do something which you have done in the past.
 That does not mean that you should completely abandon your new community manager.
-Instead of telling them what to do, ensure that you have good documentation for tasks they will need to do in the role, and point them at the documentation.
-This gives them guided experience, will show up any places where documentation is lacking, and will also give them the freedom to tweak things along the way.</p>
+Instead of telling them what to do, ensure that you have good documentation for tasks they will need to do in the role, and point them at the documentation.</p>
+</div>
+<div class="paragraph">
+<p>This gives them guided experience, while showing up any places where documentation is lacking and also giving them the freedom to tweak things along the way.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_help_them_with_visibility">Help them with visibility</h5>
 <div class="paragraph">
 <p>Ironically for the most public-facing people in a project, people in community roles can see their careers suffer for lack of visibility.
-More than one person I spoke to has mentioned seeing colleagues have their career suffer because their management chain was unaware of the work they were doing, or did not understand its value.
-As the experienced community manager, one of the best gifts you can offer a junior community person is being a credible cheerleader for their work.</p>
+More than one person spoken to mentioned seeing colleagues have their career suffer because their management chain was unaware of the work they were doing, or did not understand its value.</p>
 </div>
 <div class="paragraph">
-<p>New community managers can get stretched thin, or can focus their efforts on tasks that do not provide a significant impact on the community.
-As a mentor, you have an opportunity to help them channel their efforts on aspects of the role that provide value to the sponsoring company, in addition to benefiting the community.
-You may also have the ability to communicate their successes in a way that will help their management chain understand the value that they bring to the project.</p>
+<p>As the experienced community manager, one of the best gifts you can offer a junior community person is being a credible cheerleader for their work.</p>
+</div>
+<div class="paragraph">
+<p>New community managers can get stretched thin, or can focus their efforts on tasks that do not provide a significant impact on the community.</p>
+</div>
+<div class="paragraph">
+<p>As a mentor, you have an opportunity to help them channel their efforts on aspects of the role that provide value to the sponsoring company, in addition to benefiting the community.</p>
+</div>
+<div class="paragraph">
+<p>You may also have the ability to communicate their successes in a way that will help their management chain understand the value that they bring to the project.</p>
 </div>
 </div>
 <div class="sect4">
@@ -4034,21 +4378,22 @@ You may also have the ability to communicate their successes in a way that will 
 As the experienced person, you can help them be effective and successful, give them confidence in their ability to execute in a new role, and increase the amount of community knowledge in your company and in the industry.</p>
 </div>
 <div class="paragraph">
-<p>What would the first 30 days of a mentorship program look like? You might try to:</p>
+<p>What would the first 30 days of a mentorship program for a new community manager look like?
+You might try to:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Maintain a weekly one-on-one call so that they can ask you for advice and help as they feel the need</p>
+<p>Maintain a weekly one-on-one call so that they can ask you for advice and help as they feel the need.</p>
 </li>
 <li>
-<p>Organize introduction meetings with five stakeholders across different functional areas of the project, to help them chart the waters of the project</p>
+<p>Organize introduction meetings with five stakeholders across different functional areas of the project, to help them chart the waters of the project.</p>
 </li>
 <li>
-<p>Identify three recurring tasks they will take over, and arm them with documentation on how you managed the activity</p>
+<p>Identify three recurring tasks they will take over, and arm them with documentation on how you managed the activity.</p>
 </li>
 <li>
-<p>Help them identify two high-value, high-visibility projects to deliver in their first month, and communicate their work when they are delivered</p>
+<p>Help them identify two high-value, high-visibility projects to deliver in their first month, and communicate their work when they are delivered.</p>
 </li>
 </ul>
 </div>
@@ -4058,6 +4403,14 @@ As the experienced person, you can help them be effective and successful, give t
 <div class="paragraph">
 <p>If you have done your job well, your mentee will be well on their way to making the job their own.</p>
 </div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_conclusion_5">5.5.6. Conclusion</h4>
+<div class="paragraph">
+<p>This chapter discussed what mentoring is, why it is vitally important to your open source project, and how it helps you and others.
+Then it described why and how to make a mentoring program for your community.
+Finally, the chapter concludes with why and how to mentor a new community manager who is taking a role you already are familiar with.</p>
 </div>
 </div>
 </div>

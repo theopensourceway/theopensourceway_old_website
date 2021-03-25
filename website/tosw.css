@@ -1,0 +1,64 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14pt;
+}
+div.body {
+  max-width: 1180px;
+  padding: 10px;
+  margin: 0 auto;
+}
+h1 { font-weight: 600; }
+p.lead { font-size: 18pt; }
+
+div.logo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+div.logo img {
+  width: 100%;
+}
+
+div.tiles {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px -10px;
+}
+div.tile3 {
+  flex: 0 0 380px;
+  padding: 10px;
+}
+div.tile3ex {
+  flex: 1 0 380px;
+  padding: 10px;
+}
+a.tilelink {
+  display: block;
+  padding: 10px;
+  background: #786721;
+  color: white;
+background: #decd87;
+color: black;
+background: #312f5e;
+color: white;
+border: solid 1px white;
+  text-decoration: none;
+}
+a.tilelink:hover {
+  box-shadow: 0 0 4px #786721;
+}
+a.tilelink img {
+  padding-right: 10px;
+}
+
+div.fullblue {
+  background: #1a5fb4;
+  padding: 20px 0;
+background: #decd87;
+background: #786721;
+background: #393c2e;
+color: #ffffff;
+}
+div.bookbanner {
+  max-width: 900px;
+  margin: 0 auto;
+}

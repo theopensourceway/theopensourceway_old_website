@@ -31,10 +31,10 @@
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-width="3440"
+     inkscape:window-height="1376"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata2122">
@@ -157,25 +157,25 @@
          id="tspan2866">Leslie Hawthorn • Lisa Caywood • Paula Dickerson • Ray Paik • Shaun McCance</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="50.513721"
        y="65.376083"
        id="text2960"><tspan
          sodipodi:role="line"
-         id="tspan2958"
          x="50.513721"
          y="65.376083"
-         style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">A guidebook about something or another</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan2964">A guidebook for open source community</tspan><tspan
          sodipodi:role="line"
          x="50.513721"
          y="70.667747"
-         style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-         id="tspan2962">written by and for the people who do that</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan103">management best practices, written by</tspan><tspan
          sodipodi:role="line"
          x="50.513721"
-         y="75.959404"
-         style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583;-inkscape-font-specification:'Open Sans';font-family:'Open Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
-         id="tspan2964">sort of thing.</tspan></text>
+         y="75.959412"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan105">practitioners of all levels</tspan></text>
     <rect
        style="fill:#decd87;stroke-width:0.529;fill-opacity:1"
        id="rect1513"

@@ -62,3 +62,11 @@ div.bookbanner {
   max-width: 900px;
   margin: 0 auto;
 }
+div.footer {
+    max-width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    background: white;
+    font-size: 10pt;
+}    
+    

@@ -1,103 +1,42 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <title>The Open Source Way</title>
     <meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/ptkb-base.css" />
-    <link rel="stylesheet" href="css/ptkb-site-sample.css" />
-    <link rel="stylesheet" href="misc/pygments-html.css" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/osw.css">
   </head>
 
   <body>
-    <div id="everything">
-<!-- Navigation buttons -->
-      <div id="header">
-        <h1><a href="https://theopensourceway.org"><span class="textalt">The
-        Open Source Way</span></a></h1>
-        <p></p>
-	<ul id="nav">
-          <li class="active"><a href="/">Home</a></li>
-	  <li><a href="https://github.com/theopensourceway/guidebook">Guide</a></li>
-	  <li><a href="https://lists.theopensourceway.org/archives/list/contrib@theopensourceway.org/">Contrib forum</a></li>
-          <li><a href="/wiki/">Old wiki</a></li>
-          <li><a href="https://opensource.com">Opensource.com</a></li>
-        </ul>
-        <div class="clear"></div>
-      </div>
-
-      <p class="lead">The <strong>open source way</strong> is a way of
-	thinking about <strong>how people collaborate within a community</strong>
+    <div class="body">
+      <div class="logo"><a href="https://theopensourceway.org"><img src="media/images/osw-logo-lightbg.svg" alt="The Open Source Way"></a></div>
+      <p class="lead">The <em>open source way</em> is a way of
+	thinking about <em>how people collaborate within a community</em>
 	to achieve common goals and interests.</p>
-
-      <div class="aside" style="width: 500px;">
-        <a href="https://theopensourceway.org/wiki/File:Barnraising_TOSW.jpg"><img src="https://www.theopensourceway.org/w/images/d/d3/Barnraising_TOSW.jpg"
-        alt="A community working on raising a barn together." /></a>
-        <p class="caption">The open source way is similar to a barnraising.</p>
+    </div>
+    <div class="fullblue">
+      <div class="bookbanner">
+	<div class="tiles">
+          <div class="tile3"><img src="media/images/bookcover.svg"></div>
+          <div class="tile3ex">
+            <p class="lead" style="margin-top: 0">Version 2.0 of the guidebook is available now</p>
+            <p><a href="the_open_source_way-guidebook-2.0.html" class="tilelink">Read the guidebook online</a></p>
+            <p><a href="the_open_source_way-guidebook-2.0.pdf" class="tilelink">Download the guidebook as a PDF</a></p>
+          </div>
+	</div>
       </div>
-      <p>
-	The open source way is a practice, and this is
-	it's <a href="https://www.theopensourceway.org/wiki/Communities_of_practice"><strong>community
-	of practice</strong></a>. In this community, we teach and
-	learn the practice of collaborating in open community.
-      </p>
-      <h2 class="sublead">The Open Source Way 2.0 guidebook is here!</h2>
-      <p>
-	<b>Check out the 2.0 release now in <a href="https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html">HTML</a> or <a href="https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.pdf">PDF</a></b>
-      </p>
-      <p>
-	If you would like to learn more, participate, or contribute, visit us where we are <a href="https://lists.theopensourceway.org/archives/list/contrib@theopensourceway.org/">discussing the guide</a> and <a href="https://github.com/theopensourceway/guidebook">working on the guide</a>.
-      </p>
-      
-<!--      
-      <p>
-	On this website you will find:
-      </p>
-      <ul>
-	<li><a href="https://www.theopensourceway.org/wiki/Introduction">Handbook</a> (Edition 1, 2009 from version 0.2.2 for Red Hat) for how to create and nurture
-	communities of contributors: <a href="https://www.theopensourceway.org/wiki/The_Open_Source_Way:Creating_and_nurturing_communities_of_contributors">wiki</a> (most
-	up-to-date), <a href="https://www.theopensourceway.org/book">Multi-page
-	HTML</a>, <a href="https://www.theopensourceway.org/book/single-page">Single-page
-	HTML</a>, <a href="https://www.theopensourceway.org/book/The_Open_Source_Way.pdf">PDF</a>,
-	and <a href="https://www.theopensourceway.org/book/The_Open_Source_Way.epub">Epub</a>. <em>(This edition of the book has not been updated to latest content from the wiki.)</em>
-	</li>
-	<li><a href="https://theopensourceway.org/mailman/listinfo/metrics-wg">Metrics working group</a> are people interested
-	in the how, why, and why of gathering and analyzing metrics
-	about open communities. <em>This working group has sunsetted, activities have moved elsewhere, in particular to <a href="httpss://chaoss.community/">Project CHAOSS</a>.</em>
-	<li><a href="https://fedorahosted.org/mailman/listinfo/tosw">Main mailing list</a> is for general community
-	discussions about the practice and the project.</li>
-	<li><strong>Tools</strong> such
-	as <a href="https://www.theopensourceway.org/wiki/Category:Checklist">checklists</a>
-	and <a href="https://www.theopensourceway.org/wiki/Category:Curriculum">curriculum</a>.</li>
-	<li><a href="https://www.theopensourceway.org/wiki/Books_you_should_read">Recommended books</a>.</li>
-	<li><a href="https://www.theopensourceway.org/wiki/Great_stories_to_tell">Great --
-  	stories</a> to tell</li>  	
-	<li><a href="https://www.theopensourceway.org/wiki/Data_and_references">Source
-	materials and data</a> for reference.</li>
-	<li><a href="https://www.theopensourceway.org/wiki/Using_git_repository">Source code</a> for everything in the project
-	not in the wiki.</li>
-	<li><a href="https://www.theopensourceway.org/wiki/Contribution_policy">Our contribution policy</a> is clear and more
-	  useful than any <a href="https://opensource.com/law/11/7/trouble-harmony-part-1">CLA</a>.</li>
-	<li><a href=""></a> </li>
-      </ul>
- Commenting out until we decide on adding another mailing list or what to use for 'support'/answering questions
-      <p>
-	If you have any questions that
-	our <a href="https://www.theopensourceway.org/wiki/Category:Documentation">documentation</a>
-	doesn't answer, please ask on the <a href="https://fedorahosted.org/mailman/listinfo/tosw">project mailing list</a>.
-      </p>
-      -->
-      <ul id="footer">
-        <li>&copy; 2020 <a href="https://www.redhat.com/">Red Hat</a>,
-        <a href="https://github.com/theopensourceway/guidebook/graphs/contributors">The
-        Open Source Way contributors</a>, and <a href="https://github.com/theopensourceway/guidebook/blob/master/CONTRIBUTING.md">others</a></li>
-        <li><a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li>
-	<li><a href="https://github.com/theopensourceway/guidebook/blob/master/CODE_OF_CONDUCT.md">Project Code of Conduct</a></li>
-	      <li><a href="https://github.com/theopensourceway/theopensourceway_old_website">Website source</a></li>
-      </ul>
-
-    </div><!-- /#everything -->
+    </div>
+    
+    <div class="tiles">
+      <div class="tile3"><a href="https://github.com/theopensourceway/guidebook" class="tilelink">GitHub</a></div>
+      <div class="tile3"><a href="https://lists.theopensourceway.org/archives/list/contrib@theopensourceway.org/" class="tilelink">Mailing list</a></div>
+      <div class="tile3"><a href="https://github.com/theopensourceway/guidebook/blob/main/CONTRIBUTING.md" class="tilelink">Contrib guide</a></div>
+      <div class="tile3"><a href="https://github.com/theopensourceway/guidebook/blob/main/CODE_OF_CONDUCT.md" class="tilelink">Code of conduct</a></div>
+    </div>
+    <div class="footer">
+      <p>Copyright 2021 <a href="https://github.com/theopensourceway/guidebook/blob/main/CONTRIBUTORS.adoc">Open Source Way contributors</a> &nbsp; &nbsp; <a href="https://github.com/theopensourceway/theopensourceway_old_website/blob/main/website/index.html">Edit this page on GitHub</a>
+    </div>
   </body>
-  <!-- vim: set ts=2 sw=2 sta et: -->
 </html>

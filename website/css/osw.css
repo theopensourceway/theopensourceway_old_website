@@ -2,13 +2,29 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14pt;
 }
-div.body {
-  max-width: 1180px;
+h1 { font-weight: 600; }
+p.lead { font-size: 18pt; }
+div.content {
+  max-width: 1060px;
   padding: 10px;
   margin: 0 auto;
 }
-h1 { font-weight: 600; }
-p.lead { font-size: 18pt; }
+div#mainlinks {
+  background: #393c2e;
+  color: white;
+  padding: 20px 0;
+}
+div#mainsublinks {
+  background: #f3f3f3;
+  padding: 20px 0;
+}
+div.footer {
+  background: white;
+  font-size: 10pt;
+}
+div.footer > div.content {
+  max-width: 960px;
+}
 
 div.logo {
   max-width: 800px;
@@ -23,50 +39,51 @@ div.tiles {
   flex-flow: row wrap;
   margin: 10px -10px;
 }
+
+div.tile2 {
+  flex: 0 0 520px;
+  padding: 10px;
+}
+div.tile2ex {
+  flex: 1 0 520px;
+  padding: 10px;
+}
 div.tile3 {
-  flex: 0 0 380px;
+  flex: 0 0 340px;
   padding: 10px;
 }
 div.tile3ex {
-  flex: 1 0 380px;
+  flex: 1 0 340px;
   padding: 10px;
 }
+
 a.tilelink {
   display: block;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
-  background: #786721;
-  color: white;
-background: #decd87;
-color: black;
-background: #312f5e;
-color: white;
-border: solid 1px white;
+  background: white;
+  color: black;
   text-decoration: none;
 }
 a.tilelink:hover {
-  box-shadow: 0 0 4px #786721;
+  box-shadow: 0 2px 4px #ccc;
 }
-a.tilelink img {
-  padding-right: 10px;
+span.tiletitle {
+  font-size: 16pt;
 }
-
-div.fullblue {
-  background: #1a5fb4;
-  padding: 20px 0;
-background: #decd87;
-background: #786721;
-background: #393c2e;
-color: #ffffff;
+span.tiledesc {
+  margin-top: 6px;
+  color: #666;
+}
+a.mainlink {
+  display: block;
+  padding: 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
 }
 div.bookbanner {
   max-width: 900px;
   margin: 0 auto;
 }
-div.footer {
-    max-width: 100%;
-    border: solid 2px black;
-    padding: 5px;
-    background: white;
-    font-size: 10pt;
-}    
-    
